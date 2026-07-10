@@ -1,0 +1,90 @@
+{
+  "id": "FL1003",
+  "airline": {
+    "code": "U2",
+    "name": "easyJet",
+    "logo": "https://images.kiwi.com/airlines/128/U2.png"
+  },
+  "flightNumber": "U2 3241",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "LHR",
+    "city": "London",
+    "country": "United Kingdom",
+    "airportName": "London Heathrow Airport"
+  },
+  "departureDateTime": "2026-08-12T07:20:00+02:00",
+  "arrivalDateTime": "2026-08-12T09:55:00+01:00",
+  "durationMinutes": 155,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1003-S1",
+      "flightNumber": "U2 3241",
+      "airlineCode": "U2",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom",
+        "airportName": "London Heathrow Airport"
+      },
+      "departureDateTime": "2026-08-12T07:20:00+02:00",
+      "arrivalDateTime": "2026-08-12T09:55:00+01:00",
+      "durationMinutes": 155,
+      "aircraft": "Airbus A319",
+      "terminalDeparture": "1",
+      "gateDeparture": "B15"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1003-LIGHT",
+      "name": "Economy Light",
+      "price": 135.45,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 2
+    },
+    {
+      "fareId": "FL1003-CLASSIC",
+      "name": "Economy Classic",
+      "price": 176.08,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 22
+    },
+    {
+      "fareId": "FL1003-FLEX",
+      "name": "Economy Flex",
+      "price": 230.26,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 4
+    }
+  ]
+}

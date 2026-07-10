@@ -1,0 +1,90 @@
+{
+  "id": "FL1005",
+  "airline": {
+    "code": "FR",
+    "name": "Ryanair",
+    "logo": "https://images.kiwi.com/airlines/128/FR.png"
+  },
+  "flightNumber": "FR 8821",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "BCN",
+    "city": "Barcelona",
+    "country": "Spain",
+    "airportName": "Barcelona-El Prat Airport"
+  },
+  "departureDateTime": "2026-08-12T05:55:00+02:00",
+  "arrivalDateTime": "2026-08-12T08:20:00+02:00",
+  "durationMinutes": 145,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1005-S1",
+      "flightNumber": "FR 8821",
+      "airlineCode": "FR",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "BCN",
+        "city": "Barcelona",
+        "country": "Spain",
+        "airportName": "Barcelona-El Prat Airport"
+      },
+      "departureDateTime": "2026-08-12T05:55:00+02:00",
+      "arrivalDateTime": "2026-08-12T08:20:00+02:00",
+      "durationMinutes": 145,
+      "aircraft": "Boeing 737-800",
+      "terminalDeparture": "1",
+      "gateDeparture": "B28"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1005-LIGHT",
+      "name": "Economy Light",
+      "price": 123.35,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    },
+    {
+      "fareId": "FL1005-CLASSIC",
+      "name": "Economy Classic",
+      "price": 160.35,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 11
+    },
+    {
+      "fareId": "FL1005-FLEX",
+      "name": "Economy Flex",
+      "price": 209.69,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    }
+  ]
+}

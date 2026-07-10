@@ -1,0 +1,120 @@
+{
+  "id": "FL1028",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates",
+    "logo": "https://images.kiwi.com/airlines/128/EK.png"
+  },
+  "flightNumber": "EK 128 / EK 420",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "SYD",
+    "city": "Sydney",
+    "country": "Australia",
+    "airportName": "Sydney Kingsford Smith Airport"
+  },
+  "departureDateTime": "2026-08-12T21:15:00+02:00",
+  "arrivalDateTime": "2026-08-13T19:15:00+10:00",
+  "durationMinutes": 1320,
+  "stops": 1,
+  "segments": [
+    {
+      "segmentId": "FL1028-S1",
+      "flightNumber": "EK 128",
+      "airlineCode": "EK",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "airportName": "Dubai International Airport"
+      },
+      "departureDateTime": "2026-08-12T21:15:00+02:00",
+      "arrivalDateTime": "2026-08-13T02:45:00+04:00",
+      "durationMinutes": 330,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "2",
+      "gateDeparture": "E29"
+    },
+    {
+      "segmentId": "FL1028-S2",
+      "flightNumber": "EK 420",
+      "airlineCode": "EK",
+      "origin": {
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "airportName": "Dubai International Airport"
+      },
+      "destination": {
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia",
+        "airportName": "Sydney Kingsford Smith Airport"
+      },
+      "departureDateTime": "2026-08-13T05:00:00+04:00",
+      "arrivalDateTime": "2026-08-13T19:15:00+10:00",
+      "durationMinutes": 855,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "1",
+      "gateDeparture": "B15"
+    }
+  ],
+  "layovers": [
+    {
+      "airportCode": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "durationMinutes": 135
+    }
+  ],
+  "fares": [
+    {
+      "fareId": "FL1028-LIGHT",
+      "name": "Economy Light",
+      "price": 758.55,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 2
+    },
+    {
+      "fareId": "FL1028-CLASSIC",
+      "name": "Economy Classic",
+      "price": 986.12,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 23
+    },
+    {
+      "fareId": "FL1028-FLEX",
+      "name": "Economy Flex",
+      "price": 1289.53,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 9
+    }
+  ]
+}

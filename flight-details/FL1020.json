@@ -1,0 +1,90 @@
+{
+  "id": "FL1020",
+  "airline": {
+    "code": "LH",
+    "name": "Lufthansa",
+    "logo": "https://images.kiwi.com/airlines/128/LH.png"
+  },
+  "flightNumber": "LH 3346",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "MUC",
+    "city": "Munich",
+    "country": "Germany",
+    "airportName": "Munich Airport"
+  },
+  "departureDateTime": "2026-08-12T17:45:00+02:00",
+  "arrivalDateTime": "2026-08-12T18:50:00+02:00",
+  "durationMinutes": 65,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1020-S1",
+      "flightNumber": "LH 3346",
+      "airlineCode": "LH",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "MUC",
+        "city": "Munich",
+        "country": "Germany",
+        "airportName": "Munich Airport"
+      },
+      "departureDateTime": "2026-08-12T17:45:00+02:00",
+      "arrivalDateTime": "2026-08-12T18:50:00+02:00",
+      "durationMinutes": 65,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "3",
+      "gateDeparture": "A8"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1020-LIGHT",
+      "name": "Economy Light",
+      "price": 93.01,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 19
+    },
+    {
+      "fareId": "FL1020-CLASSIC",
+      "name": "Economy Classic",
+      "price": 120.91,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 29
+    },
+    {
+      "fareId": "FL1020-FLEX",
+      "name": "Economy Flex",
+      "price": 158.12,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 5
+    }
+  ]
+}

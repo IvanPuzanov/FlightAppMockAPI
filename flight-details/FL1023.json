@@ -1,0 +1,90 @@
+{
+  "id": "FL1023",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates",
+    "logo": "https://images.kiwi.com/airlines/128/EK.png"
+  },
+  "flightNumber": "EK 129",
+  "status": "scheduled",
+  "origin": {
+    "code": "DXB",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "airportName": "Dubai International Airport"
+  },
+  "destination": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "departureDateTime": "2026-08-14T09:20:00+04:00",
+  "arrivalDateTime": "2026-08-14T14:55:00+02:00",
+  "durationMinutes": 335,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1023-S1",
+      "flightNumber": "EK 129",
+      "airlineCode": "EK",
+      "origin": {
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "airportName": "Dubai International Airport"
+      },
+      "destination": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "departureDateTime": "2026-08-14T09:20:00+04:00",
+      "arrivalDateTime": "2026-08-14T14:55:00+02:00",
+      "durationMinutes": 335,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "3",
+      "gateDeparture": "C33"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1023-LIGHT",
+      "name": "Economy Light",
+      "price": 381.76,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    },
+    {
+      "fareId": "FL1023-CLASSIC",
+      "name": "Economy Classic",
+      "price": 496.29,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 16
+    },
+    {
+      "fareId": "FL1023-FLEX",
+      "name": "Economy Flex",
+      "price": 648.99,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 3
+    }
+  ]
+}

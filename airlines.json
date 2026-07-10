@@ -1,0 +1,92 @@
+[
+  {
+    "code": "OS",
+    "name": "Austrian Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/OS.png"
+  },
+  {
+    "code": "LH",
+    "name": "Lufthansa",
+    "logo": "https://images.kiwi.com/airlines/128/LH.png"
+  },
+  {
+    "code": "LX",
+    "name": "Swiss International Air Lines",
+    "logo": "https://images.kiwi.com/airlines/128/LX.png"
+  },
+  {
+    "code": "KL",
+    "name": "KLM Royal Dutch Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/KL.png"
+  },
+  {
+    "code": "AF",
+    "name": "Air France",
+    "logo": "https://images.kiwi.com/airlines/128/AF.png"
+  },
+  {
+    "code": "BA",
+    "name": "British Airways",
+    "logo": "https://images.kiwi.com/airlines/128/BA.png"
+  },
+  {
+    "code": "U2",
+    "name": "easyJet",
+    "logo": "https://images.kiwi.com/airlines/128/U2.png"
+  },
+  {
+    "code": "FR",
+    "name": "Ryanair",
+    "logo": "https://images.kiwi.com/airlines/128/FR.png"
+  },
+  {
+    "code": "W6",
+    "name": "Wizz Air",
+    "logo": "https://images.kiwi.com/airlines/128/W6.png"
+  },
+  {
+    "code": "TK",
+    "name": "Turkish Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/TK.png"
+  },
+  {
+    "code": "EK",
+    "name": "Emirates",
+    "logo": "https://images.kiwi.com/airlines/128/EK.png"
+  },
+  {
+    "code": "QR",
+    "name": "Qatar Airways",
+    "logo": "https://images.kiwi.com/airlines/128/QR.png"
+  },
+  {
+    "code": "SU",
+    "name": "Aeroflot",
+    "logo": "https://images.kiwi.com/airlines/128/SU.png"
+  },
+  {
+    "code": "AZ",
+    "name": "ITA Airways",
+    "logo": "https://images.kiwi.com/airlines/128/AZ.png"
+  },
+  {
+    "code": "SK",
+    "name": "SAS Scandinavian Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/SK.png"
+  },
+  {
+    "code": "IB",
+    "name": "Iberia",
+    "logo": "https://images.kiwi.com/airlines/128/IB.png"
+  },
+  {
+    "code": "LO",
+    "name": "LOT Polish Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/LO.png"
+  },
+  {
+    "code": "A3",
+    "name": "Aegean Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/A3.png"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "id": "FL1029",
+  "airline": {
+    "code": "QR",
+    "name": "Qatar Airways",
+    "logo": "https://images.kiwi.com/airlines/128/QR.png"
+  },
+  "flightNumber": "QR 184 / QR 940",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "BKK",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "airportName": "Suvarnabhumi Airport"
+  },
+  "departureDateTime": "2026-08-12T14:40:00+02:00",
+  "arrivalDateTime": "2026-08-13T06:10:00+07:00",
+  "durationMinutes": 930,
+  "stops": 1,
+  "segments": [
+    {
+      "segmentId": "FL1029-S1",
+      "flightNumber": "QR 184",
+      "airlineCode": "QR",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "DOH",
+        "city": "Doha",
+        "country": "Qatar",
+        "airportName": "Hamad International Airport"
+      },
+      "departureDateTime": "2026-08-12T14:40:00+02:00",
+      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
+      "durationMinutes": 290,
+      "aircraft": "Airbus A350",
+      "terminalDeparture": "1",
+      "gateDeparture": "E15"
+    },
+    {
+      "segmentId": "FL1029-S2",
+      "flightNumber": "QR 940",
+      "airlineCode": "QR",
+      "origin": {
+        "code": "DOH",
+        "city": "Doha",
+        "country": "Qatar",
+        "airportName": "Hamad International Airport"
+      },
+      "destination": {
+        "code": "BKK",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "airportName": "Suvarnabhumi Airport"
+      },
+      "departureDateTime": "2026-08-12T23:55:00+03:00",
+      "arrivalDateTime": "2026-08-13T06:10:00+07:00",
+      "durationMinutes": 375,
+      "aircraft": "Airbus A350",
+      "terminalDeparture": "1",
+      "gateDeparture": "A4"
+    }
+  ],
+  "layovers": [
+    {
+      "airportCode": "DOH",
+      "city": "Doha",
+      "country": "Qatar",
+      "durationMinutes": 265
+    }
+  ],
+  "fares": [
+    {
+      "fareId": "FL1029-LIGHT",
+      "name": "Economy Light",
+      "price": 550.65,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 3
+    },
+    {
+      "fareId": "FL1029-CLASSIC",
+      "name": "Economy Classic",
+      "price": 715.85,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 15
+    },
+    {
+      "fareId": "FL1029-FLEX",
+      "name": "Economy Flex",
+      "price": 936.1,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 2
+    }
+  ]
+}

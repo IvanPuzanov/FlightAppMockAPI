@@ -1,0 +1,90 @@
+{
+  "id": "FL1021",
+  "airline": {
+    "code": "FR",
+    "name": "Ryanair",
+    "logo": "https://images.kiwi.com/airlines/128/FR.png"
+  },
+  "flightNumber": "FR 3312",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "MXP",
+    "city": "Milan",
+    "country": "Italy",
+    "airportName": "Milan Malpensa Airport"
+  },
+  "departureDateTime": "2026-08-12T20:15:00+02:00",
+  "arrivalDateTime": "2026-08-12T21:35:00+02:00",
+  "durationMinutes": 80,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1021-S1",
+      "flightNumber": "FR 3312",
+      "airlineCode": "FR",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "MXP",
+        "city": "Milan",
+        "country": "Italy",
+        "airportName": "Milan Malpensa Airport"
+      },
+      "departureDateTime": "2026-08-12T20:15:00+02:00",
+      "arrivalDateTime": "2026-08-12T21:35:00+02:00",
+      "durationMinutes": 80,
+      "aircraft": "Boeing 737-800",
+      "terminalDeparture": "3",
+      "gateDeparture": "C8"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1021-LIGHT",
+      "name": "Economy Light",
+      "price": 85.73,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 7
+    },
+    {
+      "fareId": "FL1021-CLASSIC",
+      "name": "Economy Classic",
+      "price": 111.45,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 19
+    },
+    {
+      "fareId": "FL1021-FLEX",
+      "name": "Economy Flex",
+      "price": 145.74,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 1
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "FL1011",
+  "airline": {
+    "code": "KL",
+    "name": "KLM Royal Dutch Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/KL.png"
+  },
+  "flightNumber": "KL 1358",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "AMS",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "airportName": "Amsterdam Schiphol Airport"
+  },
+  "departureDateTime": "2026-08-12T11:45:00+02:00",
+  "arrivalDateTime": "2026-08-12T13:40:00+02:00",
+  "durationMinutes": 115,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1011-S1",
+      "flightNumber": "KL 1358",
+      "airlineCode": "KL",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "AMS",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "airportName": "Amsterdam Schiphol Airport"
+      },
+      "departureDateTime": "2026-08-12T11:45:00+02:00",
+      "arrivalDateTime": "2026-08-12T13:40:00+02:00",
+      "durationMinutes": 115,
+      "aircraft": "Boeing 737-800",
+      "terminalDeparture": "2",
+      "gateDeparture": "B18"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1011-LIGHT",
+      "name": "Economy Light",
+      "price": 121.31,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 4
+    },
+    {
+      "fareId": "FL1011-CLASSIC",
+      "name": "Economy Classic",
+      "price": 157.7,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 24
+    },
+    {
+      "fareId": "FL1011-FLEX",
+      "name": "Economy Flex",
+      "price": 206.23,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 3
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "FL1006",
+  "airline": {
+    "code": "W6",
+    "name": "Wizz Air",
+    "logo": "https://images.kiwi.com/airlines/128/W6.png"
+  },
+  "flightNumber": "W6 2411",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "BUD",
+    "city": "Budapest",
+    "country": "Hungary",
+    "airportName": "Budapest Ferenc Liszt International Airport"
+  },
+  "departureDateTime": "2026-08-12T18:30:00+02:00",
+  "arrivalDateTime": "2026-08-12T19:20:00+02:00",
+  "durationMinutes": 50,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1006-S1",
+      "flightNumber": "W6 2411",
+      "airlineCode": "W6",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "BUD",
+        "city": "Budapest",
+        "country": "Hungary",
+        "airportName": "Budapest Ferenc Liszt International Airport"
+      },
+      "departureDateTime": "2026-08-12T18:30:00+02:00",
+      "arrivalDateTime": "2026-08-12T19:20:00+02:00",
+      "durationMinutes": 50,
+      "aircraft": "Airbus A321neo",
+      "terminalDeparture": "1",
+      "gateDeparture": "A25"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1006-LIGHT",
+      "name": "Economy Light",
+      "price": 61.36,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 13
+    },
+    {
+      "fareId": "FL1006-CLASSIC",
+      "name": "Economy Classic",
+      "price": 79.77,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 24
+    },
+    {
+      "fareId": "FL1006-FLEX",
+      "name": "Economy Flex",
+      "price": 104.31,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 5
+    }
+  ]
+}

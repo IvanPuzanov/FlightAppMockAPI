@@ -1,0 +1,90 @@
+{
+  "id": "FL1010",
+  "airline": {
+    "code": "LX",
+    "name": "Swiss International Air Lines",
+    "logo": "https://images.kiwi.com/airlines/128/LX.png"
+  },
+  "flightNumber": "LX 552",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "ZRH",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "airportName": "Zurich Airport"
+  },
+  "departureDateTime": "2026-08-12T08:00:00+02:00",
+  "arrivalDateTime": "2026-08-12T09:20:00+02:00",
+  "durationMinutes": 80,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1010-S1",
+      "flightNumber": "LX 552",
+      "airlineCode": "LX",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "ZRH",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "airportName": "Zurich Airport"
+      },
+      "departureDateTime": "2026-08-12T08:00:00+02:00",
+      "arrivalDateTime": "2026-08-12T09:20:00+02:00",
+      "durationMinutes": 80,
+      "aircraft": "Airbus A220",
+      "terminalDeparture": "1",
+      "gateDeparture": "D18"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1010-LIGHT",
+      "name": "Economy Light",
+      "price": 92.13,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 13
+    },
+    {
+      "fareId": "FL1010-CLASSIC",
+      "name": "Economy Classic",
+      "price": 119.77,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 10
+    },
+    {
+      "fareId": "FL1010-FLEX",
+      "name": "Economy Flex",
+      "price": 156.62,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "FL1009",
+  "airline": {
+    "code": "QR",
+    "name": "Qatar Airways",
+    "logo": "https://images.kiwi.com/airlines/128/QR.png"
+  },
+  "flightNumber": "QR 184",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "DOH",
+    "city": "Doha",
+    "country": "Qatar",
+    "airportName": "Hamad International Airport"
+  },
+  "departureDateTime": "2026-08-12T14:40:00+02:00",
+  "arrivalDateTime": "2026-08-12T19:30:00+03:00",
+  "durationMinutes": 290,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1009-S1",
+      "flightNumber": "QR 184",
+      "airlineCode": "QR",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "DOH",
+        "city": "Doha",
+        "country": "Qatar",
+        "airportName": "Hamad International Airport"
+      },
+      "departureDateTime": "2026-08-12T14:40:00+02:00",
+      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
+      "durationMinutes": 290,
+      "aircraft": "Airbus A350",
+      "terminalDeparture": "3",
+      "gateDeparture": "A3"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1009-LIGHT",
+      "name": "Economy Light",
+      "price": 345.5,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 11
+    },
+    {
+      "fareId": "FL1009-CLASSIC",
+      "name": "Economy Classic",
+      "price": 449.15,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 7
+    },
+    {
+      "fareId": "FL1009-FLEX",
+      "name": "Economy Flex",
+      "price": 587.35,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 4
+    }
+  ]
+}

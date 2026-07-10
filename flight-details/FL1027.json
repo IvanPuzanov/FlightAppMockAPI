@@ -1,0 +1,120 @@
+{
+  "id": "FL1027",
+  "airline": {
+    "code": "TK",
+    "name": "Turkish Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/TK.png"
+  },
+  "flightNumber": "TK 1052 / TK 64",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "BKK",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "airportName": "Suvarnabhumi Airport"
+  },
+  "departureDateTime": "2026-08-12T10:05:00+02:00",
+  "arrivalDateTime": "2026-08-13T01:35:00+07:00",
+  "durationMinutes": 930,
+  "stops": 1,
+  "segments": [
+    {
+      "segmentId": "FL1027-S1",
+      "flightNumber": "TK 1052",
+      "airlineCode": "TK",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "airportName": "Istanbul Airport"
+      },
+      "departureDateTime": "2026-08-12T10:05:00+02:00",
+      "arrivalDateTime": "2026-08-12T12:55:00+03:00",
+      "durationMinutes": 170,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "3",
+      "gateDeparture": "E28"
+    },
+    {
+      "segmentId": "FL1027-S2",
+      "flightNumber": "TK 64",
+      "airlineCode": "TK",
+      "origin": {
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "airportName": "Istanbul Airport"
+      },
+      "destination": {
+        "code": "BKK",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "airportName": "Suvarnabhumi Airport"
+      },
+      "departureDateTime": "2026-08-12T16:05:00+03:00",
+      "arrivalDateTime": "2026-08-13T01:35:00+07:00",
+      "durationMinutes": 570,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "1",
+      "gateDeparture": "E13"
+    }
+  ],
+  "layovers": [
+    {
+      "airportCode": "IST",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "durationMinutes": 190
+    }
+  ],
+  "fares": [
+    {
+      "fareId": "FL1027-LIGHT",
+      "name": "Economy Light",
+      "price": 570.01,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 14
+    },
+    {
+      "fareId": "FL1027-CLASSIC",
+      "name": "Economy Classic",
+      "price": 741.01,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 26
+    },
+    {
+      "fareId": "FL1027-FLEX",
+      "name": "Economy Flex",
+      "price": 969.02,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    }
+  ]
+}

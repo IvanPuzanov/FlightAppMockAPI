@@ -1,0 +1,90 @@
+{
+  "id": "FL1002",
+  "airline": {
+    "code": "LH",
+    "name": "Lufthansa",
+    "logo": "https://images.kiwi.com/airlines/128/LH.png"
+  },
+  "flightNumber": "LH 1104",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "FRA",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "airportName": "Frankfurt Airport"
+  },
+  "departureDateTime": "2026-08-12T09:15:00+02:00",
+  "arrivalDateTime": "2026-08-12T10:40:00+02:00",
+  "durationMinutes": 85,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1002-S1",
+      "flightNumber": "LH 1104",
+      "airlineCode": "LH",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "FRA",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "airportName": "Frankfurt Airport"
+      },
+      "departureDateTime": "2026-08-12T09:15:00+02:00",
+      "arrivalDateTime": "2026-08-12T10:40:00+02:00",
+      "durationMinutes": 85,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "3",
+      "gateDeparture": "A35"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1002-LIGHT",
+      "name": "Economy Light",
+      "price": 80.22,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 15
+    },
+    {
+      "fareId": "FL1002-CLASSIC",
+      "name": "Economy Classic",
+      "price": 104.29,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    },
+    {
+      "fareId": "FL1002-FLEX",
+      "name": "Economy Flex",
+      "price": 136.37,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 1
+    }
+  ]
+}

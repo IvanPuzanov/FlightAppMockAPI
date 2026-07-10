@@ -1,0 +1,120 @@
+{
+  "id": "FL1026",
+  "airline": {
+    "code": "LH",
+    "name": "Lufthansa",
+    "logo": "https://images.kiwi.com/airlines/128/LH.png"
+  },
+  "flightNumber": "LH 1104 / LH 400",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "JFK",
+    "city": "New York",
+    "country": "United States",
+    "airportName": "John F. Kennedy International Airport"
+  },
+  "departureDateTime": "2026-08-12T09:15:00+02:00",
+  "arrivalDateTime": "2026-08-12T21:40:00-04:00",
+  "durationMinutes": 745,
+  "stops": 1,
+  "segments": [
+    {
+      "segmentId": "FL1026-S1",
+      "flightNumber": "LH 1104",
+      "airlineCode": "LH",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "FRA",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "airportName": "Frankfurt Airport"
+      },
+      "departureDateTime": "2026-08-12T09:15:00+02:00",
+      "arrivalDateTime": "2026-08-12T10:40:00+02:00",
+      "durationMinutes": 85,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "3",
+      "gateDeparture": "D5"
+    },
+    {
+      "segmentId": "FL1026-S2",
+      "flightNumber": "LH 400",
+      "airlineCode": "LH",
+      "origin": {
+        "code": "FRA",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "airportName": "Frankfurt Airport"
+      },
+      "destination": {
+        "code": "JFK",
+        "city": "New York",
+        "country": "United States",
+        "airportName": "John F. Kennedy International Airport"
+      },
+      "departureDateTime": "2026-08-12T12:35:00+02:00",
+      "arrivalDateTime": "2026-08-12T21:40:00-04:00",
+      "durationMinutes": 545,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "3",
+      "gateDeparture": "B9"
+    }
+  ],
+  "layovers": [
+    {
+      "airportCode": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "durationMinutes": 115
+    }
+  ],
+  "fares": [
+    {
+      "fareId": "FL1026-LIGHT",
+      "name": "Economy Light",
+      "price": 466.13,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 19
+    },
+    {
+      "fareId": "FL1026-CLASSIC",
+      "name": "Economy Classic",
+      "price": 605.97,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 10
+    },
+    {
+      "fareId": "FL1026-FLEX",
+      "name": "Economy Flex",
+      "price": 792.42,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 5
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "FL1024",
+  "airline": {
+    "code": "BA",
+    "name": "British Airways",
+    "logo": "https://images.kiwi.com/airlines/128/BA.png"
+  },
+  "flightNumber": "BA 698",
+  "status": "scheduled",
+  "origin": {
+    "code": "LHR",
+    "city": "London",
+    "country": "United Kingdom",
+    "airportName": "London Heathrow Airport"
+  },
+  "destination": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "departureDateTime": "2026-08-15T16:00:00+01:00",
+  "arrivalDateTime": "2026-08-15T18:35:00+02:00",
+  "durationMinutes": 155,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1024-S1",
+      "flightNumber": "BA 698",
+      "airlineCode": "BA",
+      "origin": {
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom",
+        "airportName": "London Heathrow Airport"
+      },
+      "destination": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "departureDateTime": "2026-08-15T16:00:00+01:00",
+      "arrivalDateTime": "2026-08-15T18:35:00+02:00",
+      "durationMinutes": 155,
+      "aircraft": "Airbus A320",
+      "terminalDeparture": "3",
+      "gateDeparture": "E1"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1024-LIGHT",
+      "name": "Economy Light",
+      "price": 139.2,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 17
+    },
+    {
+      "fareId": "FL1024-CLASSIC",
+      "name": "Economy Classic",
+      "price": 180.96,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 5
+    },
+    {
+      "fareId": "FL1024-FLEX",
+      "name": "Economy Flex",
+      "price": 236.64,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 2
+    }
+  ]
+}

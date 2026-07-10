@@ -1,0 +1,90 @@
+{
+  "id": "FL1016",
+  "airline": {
+    "code": "LO",
+    "name": "LOT Polish Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/LO.png"
+  },
+  "flightNumber": "LO 235",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "WAW",
+    "city": "Warsaw",
+    "country": "Poland",
+    "airportName": "Warsaw Chopin Airport"
+  },
+  "departureDateTime": "2026-08-12T19:05:00+02:00",
+  "arrivalDateTime": "2026-08-12T20:45:00+02:00",
+  "durationMinutes": 100,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1016-S1",
+      "flightNumber": "LO 235",
+      "airlineCode": "LO",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "WAW",
+        "city": "Warsaw",
+        "country": "Poland",
+        "airportName": "Warsaw Chopin Airport"
+      },
+      "departureDateTime": "2026-08-12T19:05:00+02:00",
+      "arrivalDateTime": "2026-08-12T20:45:00+02:00",
+      "durationMinutes": 100,
+      "aircraft": "Embraer E195",
+      "terminalDeparture": "1",
+      "gateDeparture": "B36"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1016-LIGHT",
+      "name": "Economy Light",
+      "price": 106.55,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 20
+    },
+    {
+      "fareId": "FL1016-CLASSIC",
+      "name": "Economy Classic",
+      "price": 138.52,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 18
+    },
+    {
+      "fareId": "FL1016-FLEX",
+      "name": "Economy Flex",
+      "price": 181.13,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 10
+    }
+  ]
+}

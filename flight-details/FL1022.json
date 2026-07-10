@@ -1,0 +1,90 @@
+{
+  "id": "FL1022",
+  "airline": {
+    "code": "W6",
+    "name": "Wizz Air",
+    "logo": "https://images.kiwi.com/airlines/128/W6.png"
+  },
+  "flightNumber": "W6 3007",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "PRG",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "airportName": "Vaclav Havel Airport Prague"
+  },
+  "departureDateTime": "2026-08-12T08:35:00+02:00",
+  "arrivalDateTime": "2026-08-12T09:15:00+02:00",
+  "durationMinutes": 40,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1022-S1",
+      "flightNumber": "W6 3007",
+      "airlineCode": "W6",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "PRG",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "airportName": "Vaclav Havel Airport Prague"
+      },
+      "departureDateTime": "2026-08-12T08:35:00+02:00",
+      "arrivalDateTime": "2026-08-12T09:15:00+02:00",
+      "durationMinutes": 40,
+      "aircraft": "Airbus A321neo",
+      "terminalDeparture": "3",
+      "gateDeparture": "F17"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1022-LIGHT",
+      "name": "Economy Light",
+      "price": 90.87,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 7
+    },
+    {
+      "fareId": "FL1022-CLASSIC",
+      "name": "Economy Classic",
+      "price": 118.13,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 21
+    },
+    {
+      "fareId": "FL1022-FLEX",
+      "name": "Economy Flex",
+      "price": 154.48,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 2
+    }
+  ]
+}

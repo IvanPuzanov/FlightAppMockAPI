@@ -1,0 +1,90 @@
+{
+  "id": "FL1017",
+  "airline": {
+    "code": "A3",
+    "name": "Aegean Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/A3.png"
+  },
+  "flightNumber": "A3 848",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "ATH",
+    "city": "Athens",
+    "country": "Greece",
+    "airportName": "Athens International Airport"
+  },
+  "departureDateTime": "2026-08-12T15:30:00+02:00",
+  "arrivalDateTime": "2026-08-12T17:10:00+03:00",
+  "durationMinutes": 100,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1017-S1",
+      "flightNumber": "A3 848",
+      "airlineCode": "A3",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "ATH",
+        "city": "Athens",
+        "country": "Greece",
+        "airportName": "Athens International Airport"
+      },
+      "departureDateTime": "2026-08-12T15:30:00+02:00",
+      "arrivalDateTime": "2026-08-12T17:10:00+03:00",
+      "durationMinutes": 100,
+      "aircraft": "Airbus A320",
+      "terminalDeparture": "2",
+      "gateDeparture": "C15"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1017-LIGHT",
+      "name": "Economy Light",
+      "price": 124.88,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    },
+    {
+      "fareId": "FL1017-CLASSIC",
+      "name": "Economy Classic",
+      "price": 162.34,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 21
+    },
+    {
+      "fareId": "FL1017-FLEX",
+      "name": "Economy Flex",
+      "price": 212.3,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 8
+    }
+  ]
+}

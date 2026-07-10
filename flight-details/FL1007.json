@@ -1,0 +1,90 @@
+{
+  "id": "FL1007",
+  "airline": {
+    "code": "TK",
+    "name": "Turkish Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/TK.png"
+  },
+  "flightNumber": "TK 1052",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "IST",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "airportName": "Istanbul Airport"
+  },
+  "departureDateTime": "2026-08-12T10:05:00+02:00",
+  "arrivalDateTime": "2026-08-12T12:55:00+03:00",
+  "durationMinutes": 170,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1007-S1",
+      "flightNumber": "TK 1052",
+      "airlineCode": "TK",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "airportName": "Istanbul Airport"
+      },
+      "departureDateTime": "2026-08-12T10:05:00+02:00",
+      "arrivalDateTime": "2026-08-12T12:55:00+03:00",
+      "durationMinutes": 170,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "1",
+      "gateDeparture": "F30"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1007-LIGHT",
+      "name": "Economy Light",
+      "price": 144.94,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 14
+    },
+    {
+      "fareId": "FL1007-CLASSIC",
+      "name": "Economy Classic",
+      "price": 188.42,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 7
+    },
+    {
+      "fareId": "FL1007-FLEX",
+      "name": "Economy Flex",
+      "price": 246.4,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 9
+    }
+  ]
+}

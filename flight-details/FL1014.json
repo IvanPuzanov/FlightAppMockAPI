@@ -1,0 +1,90 @@
+{
+  "id": "FL1014",
+  "airline": {
+    "code": "SK",
+    "name": "SAS Scandinavian Airlines",
+    "logo": "https://images.kiwi.com/airlines/128/SK.png"
+  },
+  "flightNumber": "SK 1671",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "CPH",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "airportName": "Copenhagen Airport"
+  },
+  "departureDateTime": "2026-08-12T12:15:00+02:00",
+  "arrivalDateTime": "2026-08-12T14:20:00+02:00",
+  "durationMinutes": 125,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1014-S1",
+      "flightNumber": "SK 1671",
+      "airlineCode": "SK",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "CPH",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "airportName": "Copenhagen Airport"
+      },
+      "departureDateTime": "2026-08-12T12:15:00+02:00",
+      "arrivalDateTime": "2026-08-12T14:20:00+02:00",
+      "durationMinutes": 125,
+      "aircraft": "Airbus A320neo",
+      "terminalDeparture": "2",
+      "gateDeparture": "D18"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1014-LIGHT",
+      "name": "Economy Light",
+      "price": 101.39,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 20
+    },
+    {
+      "fareId": "FL1014-CLASSIC",
+      "name": "Economy Classic",
+      "price": 131.81,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 27
+    },
+    {
+      "fareId": "FL1014-FLEX",
+      "name": "Economy Flex",
+      "price": 172.36,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 6
+    }
+  ]
+}

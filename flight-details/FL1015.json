@@ -1,0 +1,90 @@
+{
+  "id": "FL1015",
+  "airline": {
+    "code": "IB",
+    "name": "Iberia",
+    "logo": "https://images.kiwi.com/airlines/128/IB.png"
+  },
+  "flightNumber": "IB 3241",
+  "status": "scheduled",
+  "origin": {
+    "code": "VIE",
+    "city": "Vienna",
+    "country": "Austria",
+    "airportName": "Vienna International Airport"
+  },
+  "destination": {
+    "code": "MAD",
+    "city": "Madrid",
+    "country": "Spain",
+    "airportName": "Adolfo Suarez Madrid-Barajas Airport"
+  },
+  "departureDateTime": "2026-08-12T09:40:00+02:00",
+  "arrivalDateTime": "2026-08-12T12:20:00+02:00",
+  "durationMinutes": 160,
+  "stops": 0,
+  "segments": [
+    {
+      "segmentId": "FL1015-S1",
+      "flightNumber": "IB 3241",
+      "airlineCode": "IB",
+      "origin": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria",
+        "airportName": "Vienna International Airport"
+      },
+      "destination": {
+        "code": "MAD",
+        "city": "Madrid",
+        "country": "Spain",
+        "airportName": "Adolfo Suarez Madrid-Barajas Airport"
+      },
+      "departureDateTime": "2026-08-12T09:40:00+02:00",
+      "arrivalDateTime": "2026-08-12T12:20:00+02:00",
+      "durationMinutes": 160,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "1",
+      "gateDeparture": "F32"
+    }
+  ],
+  "layovers": [],
+  "fares": [
+    {
+      "fareId": "FL1015-LIGHT",
+      "name": "Economy Light",
+      "price": 133.82,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": false,
+      "checkedBaggageKg": 0,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 16
+    },
+    {
+      "fareId": "FL1015-CLASSIC",
+      "name": "Economy Classic",
+      "price": 173.97,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": false,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 9
+    },
+    {
+      "fareId": "FL1015-FLEX",
+      "name": "Economy Flex",
+      "price": 227.49,
+      "currency": "EUR",
+      "cabinClass": "economy",
+      "refundable": true,
+      "changeable": true,
+      "checkedBaggageKg": 23,
+      "cabinBaggageKg": 8,
+      "seatsAvailable": 5
+    }
+  ]
+}
