@@ -6,7 +6,12 @@
     "name": "Vienna International Airport",
     "tz": "+02:00",
     "latitude": 48.1103,
-    "longitude": 16.5697
+    "longitude": 16.5697,
+    "flightIds": [
+      "FL1023",
+      "FL1024",
+      "FL1025"
+    ]
   },
   {
     "code": "FRA",
@@ -15,7 +20,11 @@
     "name": "Frankfurt Airport",
     "tz": "+02:00",
     "latitude": 50.0379,
-    "longitude": 8.5622
+    "longitude": 8.5622,
+    "flightIds": [
+      "FL1001",
+      "FL1002"
+    ]
   },
   {
     "code": "MUC",
@@ -24,7 +33,11 @@
     "name": "Munich Airport",
     "tz": "+02:00",
     "latitude": 48.3538,
-    "longitude": 11.7861
+    "longitude": 11.7861,
+    "flightIds": [
+      "FL1019",
+      "FL1020"
+    ]
   },
   {
     "code": "ZRH",
@@ -33,7 +46,10 @@
     "name": "Zurich Airport",
     "tz": "+02:00",
     "latitude": 47.4647,
-    "longitude": 8.5492
+    "longitude": 8.5492,
+    "flightIds": [
+      "FL1010"
+    ]
   },
   {
     "code": "AMS",
@@ -42,7 +58,10 @@
     "name": "Amsterdam Schiphol Airport",
     "tz": "+02:00",
     "latitude": 52.3105,
-    "longitude": 4.7683
+    "longitude": 4.7683,
+    "flightIds": [
+      "FL1011"
+    ]
   },
   {
     "code": "CDG",
@@ -51,7 +70,10 @@
     "name": "Charles de Gaulle Airport",
     "tz": "+02:00",
     "latitude": 49.0097,
-    "longitude": 2.5479
+    "longitude": 2.5479,
+    "flightIds": [
+      "FL1012"
+    ]
   },
   {
     "code": "LHR",
@@ -60,7 +82,11 @@
     "name": "London Heathrow Airport",
     "tz": "+01:00",
     "latitude": 51.47,
-    "longitude": -0.4543
+    "longitude": -0.4543,
+    "flightIds": [
+      "FL1003",
+      "FL1004"
+    ]
   },
   {
     "code": "BCN",
@@ -69,7 +95,10 @@
     "name": "Barcelona-El Prat Airport",
     "tz": "+02:00",
     "latitude": 41.2974,
-    "longitude": 2.0833
+    "longitude": 2.0833,
+    "flightIds": [
+      "FL1005"
+    ]
   },
   {
     "code": "MAD",
@@ -78,7 +107,10 @@
     "name": "Adolfo Suarez Madrid-Barajas Airport",
     "tz": "+02:00",
     "latitude": 40.4983,
-    "longitude": -3.5676
+    "longitude": -3.5676,
+    "flightIds": [
+      "FL1015"
+    ]
   },
   {
     "code": "FCO",
@@ -87,7 +119,10 @@
     "name": "Leonardo da Vinci-Fiumicino Airport",
     "tz": "+02:00",
     "latitude": 41.8003,
-    "longitude": 12.2389
+    "longitude": 12.2389,
+    "flightIds": [
+      "FL1013"
+    ]
   },
   {
     "code": "IST",
@@ -96,7 +131,10 @@
     "name": "Istanbul Airport",
     "tz": "+03:00",
     "latitude": 41.2753,
-    "longitude": 28.7519
+    "longitude": 28.7519,
+    "flightIds": [
+      "FL1007"
+    ]
   },
   {
     "code": "DXB",
@@ -105,7 +143,10 @@
     "name": "Dubai International Airport",
     "tz": "+04:00",
     "latitude": 25.2532,
-    "longitude": 55.3657
+    "longitude": 55.3657,
+    "flightIds": [
+      "FL1008"
+    ]
   },
   {
     "code": "DOH",
@@ -114,7 +155,10 @@
     "name": "Hamad International Airport",
     "tz": "+03:00",
     "latitude": 25.2731,
-    "longitude": 51.6081
+    "longitude": 51.6081,
+    "flightIds": [
+      "FL1009"
+    ]
   },
   {
     "code": "PRG",
@@ -123,7 +167,10 @@
     "name": "Vaclav Havel Airport Prague",
     "tz": "+02:00",
     "latitude": 50.1008,
-    "longitude": 14.2632
+    "longitude": 14.2632,
+    "flightIds": [
+      "FL1022"
+    ]
   },
   {
     "code": "BUD",
@@ -132,7 +179,10 @@
     "name": "Budapest Ferenc Liszt International Airport",
     "tz": "+02:00",
     "latitude": 47.4298,
-    "longitude": 19.2611
+    "longitude": 19.2611,
+    "flightIds": [
+      "FL1006"
+    ]
   },
   {
     "code": "WAW",
@@ -141,7 +191,10 @@
     "name": "Warsaw Chopin Airport",
     "tz": "+02:00",
     "latitude": 52.1657,
-    "longitude": 20.9671
+    "longitude": 20.9671,
+    "flightIds": [
+      "FL1016"
+    ]
   },
   {
     "code": "ATH",
@@ -150,7 +203,10 @@
     "name": "Athens International Airport",
     "tz": "+03:00",
     "latitude": 37.9364,
-    "longitude": 23.9445
+    "longitude": 23.9445,
+    "flightIds": [
+      "FL1017"
+    ]
   },
   {
     "code": "CPH",
@@ -159,7 +215,10 @@
     "name": "Copenhagen Airport",
     "tz": "+02:00",
     "latitude": 55.618,
-    "longitude": 12.656
+    "longitude": 12.656,
+    "flightIds": [
+      "FL1014"
+    ]
   },
   {
     "code": "SVO",
@@ -168,7 +227,10 @@
     "name": "Sheremetyevo International Airport",
     "tz": "+03:00",
     "latitude": 55.9736,
-    "longitude": 37.4125
+    "longitude": 37.4125,
+    "flightIds": [
+      "FL1018"
+    ]
   },
   {
     "code": "MXP",
@@ -177,7 +239,10 @@
     "name": "Milan Malpensa Airport",
     "tz": "+02:00",
     "latitude": 45.6306,
-    "longitude": 8.7281
+    "longitude": 8.7281,
+    "flightIds": [
+      "FL1021"
+    ]
   },
   {
     "code": "JFK",
@@ -186,7 +251,10 @@
     "name": "John F. Kennedy International Airport",
     "tz": "-04:00",
     "latitude": 40.6413,
-    "longitude": -73.7781
+    "longitude": -73.7781,
+    "flightIds": [
+      "FL1026"
+    ]
   },
   {
     "code": "BKK",
@@ -195,7 +263,11 @@
     "name": "Suvarnabhumi Airport",
     "tz": "+07:00",
     "latitude": 13.69,
-    "longitude": 100.7501
+    "longitude": 100.7501,
+    "flightIds": [
+      "FL1027",
+      "FL1029"
+    ]
   },
   {
     "code": "SYD",
@@ -204,6 +276,9 @@
     "name": "Sydney Kingsford Smith Airport",
     "tz": "+10:00",
     "latitude": -33.9399,
-    "longitude": 151.1753
+    "longitude": 151.1753,
+    "flightIds": [
+      "FL1028"
+    ]
   }
 ]

@@ -8,7 +8,7 @@ This repository acts as a lightweight stand-in for a backend: the app can load f
 
 | Path | Description |
 |---|---|
-| [`airports.json`](airports.json) | Airports with IATA code, city, country, timezone, and coordinates |
+| [`airports.json`](airports.json) | Airports with IATA code, city, country, timezone, coordinates, and inbound `flightIds` (only airports that appear as a flight destination) |
 | [`airlines.json`](airlines.json) | Airlines with IATA code, name, and logo URL |
 | [`flights.json`](flights.json) | Flight list items (route, schedule, price, cabin class) |
 | [`flight-details/`](flight-details) | Per-flight detail payloads (`FL1001.json` … `FL1029.json`) |
