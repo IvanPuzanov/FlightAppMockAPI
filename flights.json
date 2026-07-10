@@ -121,7 +121,7 @@
     "price": 132.02,
     "currency": "EUR",
     "cabinClass": "economy",
-    "status": "scheduled",
+    "status": "boarding",
     "progress": null,
     "currentPosition": null,
     "altitudeFt": null,
@@ -153,7 +153,7 @@
     "price": 123.35,
     "currency": "EUR",
     "cabinClass": "economy",
-    "status": "scheduled",
+    "status": "boarding",
     "progress": null,
     "currentPosition": null,
     "altitudeFt": null,
@@ -514,11 +514,14 @@
     "price": 106.55,
     "currency": "EUR",
     "cabinClass": "economy",
-    "status": "departed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "status": "in_air",
+    "progress": 0.15,
+    "currentPosition": {
+      "lat": 48.7186,
+      "lon": 17.2293
+    },
+    "altitudeFt": 18000,
+    "speedKmh": 580
   },
   {
     "id": "FL1017",
@@ -680,11 +683,14 @@
     "price": 85.73,
     "currency": "EUR",
     "cabinClass": "economy",
-    "status": "departed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "status": "in_air",
+    "progress": 0.05,
+    "currentPosition": {
+      "lat": 47.9863,
+      "lon": 16.1776
+    },
+    "altitudeFt": 12000,
+    "speedKmh": 580
   },
   {
     "id": "FL1022",
@@ -849,7 +855,7 @@
     "price": 466.13,
     "currency": "EUR",
     "cabinClass": "economy",
-    "status": "scheduled",
+    "status": "boarding",
     "progress": null,
     "currentPosition": null,
     "altitudeFt": null,
