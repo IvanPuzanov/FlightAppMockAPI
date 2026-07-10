@@ -1,12 +1,13 @@
 [
   {
-    "code": "VIE",
+    "iata": "VIE",
+    "name": "Vienna International Airport",
     "city": "Vienna",
     "country": "Austria",
-    "name": "Vienna International Airport",
-    "tz": "+02:00",
     "latitude": 48.1103,
     "longitude": 16.5697,
+    "id": 1,
+    "tz": "+02:00",
     "flightIds": [
       "FL1023",
       "FL1024",
@@ -14,269 +15,291 @@
     ]
   },
   {
-    "code": "FRA",
+    "iata": "FRA",
+    "name": "Frankfurt Airport",
     "city": "Frankfurt",
     "country": "Germany",
-    "name": "Frankfurt Airport",
-    "tz": "+02:00",
     "latitude": 50.0379,
     "longitude": 8.5622,
+    "id": 2,
+    "tz": "+02:00",
     "flightIds": [
       "FL1001",
       "FL1002"
     ]
   },
   {
-    "code": "MUC",
+    "iata": "MUC",
+    "name": "Munich Airport",
     "city": "Munich",
     "country": "Germany",
-    "name": "Munich Airport",
-    "tz": "+02:00",
     "latitude": 48.3538,
     "longitude": 11.7861,
+    "id": 3,
+    "tz": "+02:00",
     "flightIds": [
       "FL1019",
       "FL1020"
     ]
   },
   {
-    "code": "ZRH",
+    "iata": "ZRH",
+    "name": "Zurich Airport",
     "city": "Zurich",
     "country": "Switzerland",
-    "name": "Zurich Airport",
-    "tz": "+02:00",
     "latitude": 47.4647,
     "longitude": 8.5492,
+    "id": 4,
+    "tz": "+02:00",
     "flightIds": [
       "FL1010"
     ]
   },
   {
-    "code": "AMS",
+    "iata": "AMS",
+    "name": "Amsterdam Schiphol Airport",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "name": "Amsterdam Schiphol Airport",
-    "tz": "+02:00",
     "latitude": 52.3105,
     "longitude": 4.7683,
+    "id": 5,
+    "tz": "+02:00",
     "flightIds": [
       "FL1011"
     ]
   },
   {
-    "code": "CDG",
+    "iata": "CDG",
+    "name": "Charles de Gaulle Airport",
     "city": "Paris",
     "country": "France",
-    "name": "Charles de Gaulle Airport",
-    "tz": "+02:00",
     "latitude": 49.0097,
     "longitude": 2.5479,
+    "id": 6,
+    "tz": "+02:00",
     "flightIds": [
       "FL1012"
     ]
   },
   {
-    "code": "LHR",
+    "iata": "LHR",
+    "name": "London Heathrow Airport",
     "city": "London",
     "country": "United Kingdom",
-    "name": "London Heathrow Airport",
-    "tz": "+01:00",
     "latitude": 51.47,
     "longitude": -0.4543,
+    "id": 7,
+    "tz": "+01:00",
     "flightIds": [
       "FL1003",
       "FL1004"
     ]
   },
   {
-    "code": "BCN",
+    "iata": "BCN",
+    "name": "Barcelona-El Prat Airport",
     "city": "Barcelona",
     "country": "Spain",
-    "name": "Barcelona-El Prat Airport",
-    "tz": "+02:00",
     "latitude": 41.2974,
     "longitude": 2.0833,
+    "id": 8,
+    "tz": "+02:00",
     "flightIds": [
       "FL1005"
     ]
   },
   {
-    "code": "MAD",
+    "iata": "MAD",
+    "name": "Adolfo Suarez Madrid-Barajas Airport",
     "city": "Madrid",
     "country": "Spain",
-    "name": "Adolfo Suarez Madrid-Barajas Airport",
-    "tz": "+02:00",
     "latitude": 40.4983,
     "longitude": -3.5676,
+    "id": 9,
+    "tz": "+02:00",
     "flightIds": [
       "FL1015"
     ]
   },
   {
-    "code": "FCO",
+    "iata": "FCO",
+    "name": "Leonardo da Vinci-Fiumicino Airport",
     "city": "Rome",
     "country": "Italy",
-    "name": "Leonardo da Vinci-Fiumicino Airport",
-    "tz": "+02:00",
     "latitude": 41.8003,
     "longitude": 12.2389,
+    "id": 10,
+    "tz": "+02:00",
     "flightIds": [
       "FL1013"
     ]
   },
   {
-    "code": "IST",
+    "iata": "IST",
+    "name": "Istanbul Airport",
     "city": "Istanbul",
     "country": "Turkey",
-    "name": "Istanbul Airport",
-    "tz": "+03:00",
     "latitude": 41.2753,
     "longitude": 28.7519,
+    "id": 11,
+    "tz": "+03:00",
     "flightIds": [
       "FL1007"
     ]
   },
   {
-    "code": "DXB",
+    "iata": "DXB",
+    "name": "Dubai International Airport",
     "city": "Dubai",
     "country": "United Arab Emirates",
-    "name": "Dubai International Airport",
-    "tz": "+04:00",
     "latitude": 25.2532,
     "longitude": 55.3657,
+    "id": 12,
+    "tz": "+04:00",
     "flightIds": [
       "FL1008"
     ]
   },
   {
-    "code": "DOH",
+    "iata": "DOH",
+    "name": "Hamad International Airport",
     "city": "Doha",
     "country": "Qatar",
-    "name": "Hamad International Airport",
-    "tz": "+03:00",
     "latitude": 25.2731,
     "longitude": 51.6081,
+    "id": 13,
+    "tz": "+03:00",
     "flightIds": [
       "FL1009"
     ]
   },
   {
-    "code": "PRG",
+    "iata": "PRG",
+    "name": "Vaclav Havel Airport Prague",
     "city": "Prague",
     "country": "Czech Republic",
-    "name": "Vaclav Havel Airport Prague",
-    "tz": "+02:00",
     "latitude": 50.1008,
     "longitude": 14.2632,
+    "id": 14,
+    "tz": "+02:00",
     "flightIds": [
       "FL1022"
     ]
   },
   {
-    "code": "BUD",
+    "iata": "BUD",
+    "name": "Budapest Ferenc Liszt International Airport",
     "city": "Budapest",
     "country": "Hungary",
-    "name": "Budapest Ferenc Liszt International Airport",
-    "tz": "+02:00",
     "latitude": 47.4298,
     "longitude": 19.2611,
+    "id": 15,
+    "tz": "+02:00",
     "flightIds": [
       "FL1006"
     ]
   },
   {
-    "code": "WAW",
+    "iata": "WAW",
+    "name": "Warsaw Chopin Airport",
     "city": "Warsaw",
     "country": "Poland",
-    "name": "Warsaw Chopin Airport",
-    "tz": "+02:00",
     "latitude": 52.1657,
     "longitude": 20.9671,
+    "id": 16,
+    "tz": "+02:00",
     "flightIds": [
       "FL1016"
     ]
   },
   {
-    "code": "ATH",
+    "iata": "ATH",
+    "name": "Athens International Airport",
     "city": "Athens",
     "country": "Greece",
-    "name": "Athens International Airport",
-    "tz": "+03:00",
     "latitude": 37.9364,
     "longitude": 23.9445,
+    "id": 17,
+    "tz": "+03:00",
     "flightIds": [
       "FL1017"
     ]
   },
   {
-    "code": "CPH",
+    "iata": "CPH",
+    "name": "Copenhagen Airport",
     "city": "Copenhagen",
     "country": "Denmark",
-    "name": "Copenhagen Airport",
-    "tz": "+02:00",
     "latitude": 55.618,
     "longitude": 12.656,
+    "id": 18,
+    "tz": "+02:00",
     "flightIds": [
       "FL1014"
     ]
   },
   {
-    "code": "SVO",
+    "iata": "SVO",
+    "name": "Sheremetyevo International Airport",
     "city": "Moscow",
     "country": "Russia",
-    "name": "Sheremetyevo International Airport",
-    "tz": "+03:00",
     "latitude": 55.9736,
     "longitude": 37.4125,
+    "id": 19,
+    "tz": "+03:00",
     "flightIds": [
       "FL1018"
     ]
   },
   {
-    "code": "MXP",
+    "iata": "MXP",
+    "name": "Milan Malpensa Airport",
     "city": "Milan",
     "country": "Italy",
-    "name": "Milan Malpensa Airport",
-    "tz": "+02:00",
     "latitude": 45.6306,
     "longitude": 8.7281,
+    "id": 20,
+    "tz": "+02:00",
     "flightIds": [
       "FL1021"
     ]
   },
   {
-    "code": "JFK",
+    "iata": "JFK",
+    "name": "John F. Kennedy International Airport",
     "city": "New York",
     "country": "United States",
-    "name": "John F. Kennedy International Airport",
-    "tz": "-04:00",
     "latitude": 40.6413,
     "longitude": -73.7781,
+    "id": 21,
+    "tz": "-04:00",
     "flightIds": [
       "FL1026"
     ]
   },
   {
-    "code": "BKK",
+    "iata": "BKK",
+    "name": "Suvarnabhumi Airport",
     "city": "Bangkok",
     "country": "Thailand",
-    "name": "Suvarnabhumi Airport",
-    "tz": "+07:00",
     "latitude": 13.69,
     "longitude": 100.7501,
+    "id": 22,
+    "tz": "+07:00",
     "flightIds": [
       "FL1027",
       "FL1029"
     ]
   },
   {
-    "code": "SYD",
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith Airport",
     "city": "Sydney",
     "country": "Australia",
-    "name": "Sydney Kingsford Smith Airport",
-    "tz": "+10:00",
     "latitude": -33.9399,
     "longitude": 151.1753,
+    "id": 23,
+    "tz": "+10:00",
     "flightIds": [
       "FL1028"
     ]
