@@ -18,10 +18,8 @@
     "country": "Australia",
     "airportName": "Sydney Kingsford Smith Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "21:15",
-  "arrivalDate": "2026-08-13",
-  "arrivalTime": "19:15",
+  "departureDateTime": "2026-08-12T21:15:00+02:00",
+  "arrivalDateTime": "2026-08-13T19:15:00+10:00",
   "durationMinutes": 1320,
   "stops": 1,
   "price": 758.55,
@@ -46,10 +44,8 @@
         "country": "United Arab Emirates",
         "airportName": "Dubai International Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "21:15",
-      "arrivalDate": "2026-08-13",
-      "arrivalTime": "02:45",
+      "departureDateTime": "2026-08-12T21:15:00+02:00",
+      "arrivalDateTime": "2026-08-13T02:45:00+04:00",
       "durationMinutes": 330,
       "aircraft": "Boeing 777-300ER",
       "terminalDeparture": "2",
@@ -74,10 +70,8 @@
         "country": "Australia",
         "airportName": "Sydney Kingsford Smith Airport"
       },
-      "departureDate": "2026-08-13",
-      "departureTime": "05:00",
-      "arrivalDate": "2026-08-13",
-      "arrivalTime": "19:15",
+      "departureDateTime": "2026-08-13T05:00:00+04:00",
+      "arrivalDateTime": "2026-08-13T19:15:00+10:00",
       "durationMinutes": 855,
       "aircraft": "Boeing 777-300ER",
       "terminalDeparture": "1",
@@ -96,7 +90,6 @@
       "durationMinutes": 135
     }
   ],
-  "status": "recommended",
   "fare": {
     "id": "FL1028-LIGHT",
     "name": "Economy Light",
@@ -182,5 +175,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "recommended"
 }

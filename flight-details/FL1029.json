@@ -18,10 +18,8 @@
     "country": "Thailand",
     "airportName": "Suvarnabhumi Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "14:40",
-  "arrivalDate": "2026-08-13",
-  "arrivalTime": "06:10",
+  "departureDateTime": "2026-08-12T14:40:00+02:00",
+  "arrivalDateTime": "2026-08-13T06:10:00+07:00",
   "durationMinutes": 930,
   "stops": 1,
   "price": 550.65,
@@ -46,10 +44,8 @@
         "country": "Qatar",
         "airportName": "Hamad International Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "14:40",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "19:30",
+      "departureDateTime": "2026-08-12T14:40:00+02:00",
+      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
       "durationMinutes": 290,
       "aircraft": "Airbus A350",
       "terminalDeparture": "1",
@@ -74,10 +70,8 @@
         "country": "Thailand",
         "airportName": "Suvarnabhumi Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "23:55",
-      "arrivalDate": "2026-08-13",
-      "arrivalTime": "06:10",
+      "departureDateTime": "2026-08-12T23:55:00+03:00",
+      "arrivalDateTime": "2026-08-13T06:10:00+07:00",
       "durationMinutes": 375,
       "aircraft": "Airbus A350",
       "terminalDeparture": "1",
@@ -96,7 +90,6 @@
       "durationMinutes": 265
     }
   ],
-  "status": "best_price",
   "fare": {
     "id": "FL1029-LIGHT",
     "name": "Economy Light",
@@ -182,5 +175,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "best_price"
 }

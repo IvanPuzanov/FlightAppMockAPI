@@ -18,10 +18,8 @@
     "country": "Czech Republic",
     "airportName": "Vaclav Havel Airport Prague"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "08:35",
-  "arrivalDate": "2026-08-12",
-  "arrivalTime": "09:15",
+  "departureDateTime": "2026-08-12T08:35:00+02:00",
+  "arrivalDateTime": "2026-08-12T09:15:00+02:00",
   "durationMinutes": 40,
   "stops": 0,
   "price": 90.87,
@@ -46,10 +44,8 @@
         "country": "Czech Republic",
         "airportName": "Vaclav Havel Airport Prague"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "08:35",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "09:15",
+      "departureDateTime": "2026-08-12T08:35:00+02:00",
+      "arrivalDateTime": "2026-08-12T09:15:00+02:00",
       "durationMinutes": 40,
       "aircraft": "Airbus A321neo",
       "terminalDeparture": "3",
@@ -57,7 +53,6 @@
     }
   ],
   "layovers": [],
-  "status": "fastest",
   "fare": {
     "id": "FL1022-LIGHT",
     "name": "Economy Light",
@@ -143,5 +138,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "fastest"
 }

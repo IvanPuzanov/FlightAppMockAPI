@@ -18,10 +18,8 @@
     "country": "Germany",
     "airportName": "Frankfurt Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "09:15",
-  "arrivalDate": "2026-08-12",
-  "arrivalTime": "10:40",
+  "departureDateTime": "2026-08-12T09:15:00+02:00",
+  "arrivalDateTime": "2026-08-12T10:40:00+02:00",
   "durationMinutes": 85,
   "stops": 0,
   "price": 80.22,
@@ -46,10 +44,8 @@
         "country": "Germany",
         "airportName": "Frankfurt Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "09:15",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "10:40",
+      "departureDateTime": "2026-08-12T09:15:00+02:00",
+      "arrivalDateTime": "2026-08-12T10:40:00+02:00",
       "durationMinutes": 85,
       "aircraft": "Airbus A321",
       "terminalDeparture": "3",
@@ -57,7 +53,6 @@
     }
   ],
   "layovers": [],
-  "status": "best_price",
   "fare": {
     "id": "FL1002-LIGHT",
     "name": "Economy Light",
@@ -143,5 +138,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "best_price"
 }

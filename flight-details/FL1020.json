@@ -18,10 +18,8 @@
     "country": "Germany",
     "airportName": "Munich Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "17:45",
-  "arrivalDate": "2026-08-12",
-  "arrivalTime": "18:50",
+  "departureDateTime": "2026-08-12T17:45:00+02:00",
+  "arrivalDateTime": "2026-08-12T18:50:00+02:00",
   "durationMinutes": 65,
   "stops": 0,
   "price": 93.01,
@@ -46,10 +44,8 @@
         "country": "Germany",
         "airportName": "Munich Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "17:45",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "18:50",
+      "departureDateTime": "2026-08-12T17:45:00+02:00",
+      "arrivalDateTime": "2026-08-12T18:50:00+02:00",
       "durationMinutes": 65,
       "aircraft": "Airbus A321",
       "terminalDeparture": "3",
@@ -57,7 +53,6 @@
     }
   ],
   "layovers": [],
-  "status": "recommended",
   "fare": {
     "id": "FL1020-LIGHT",
     "name": "Economy Light",
@@ -143,5 +138,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "recommended"
 }

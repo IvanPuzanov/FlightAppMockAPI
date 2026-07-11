@@ -10,8 +10,8 @@ This repository acts as a lightweight stand-in for a backend: the app can load f
 |---|---|
 | [`airports.json`](airports.json) | Airports with `id`, `iata`, name, city, country, `latitude`/`longitude`, timezone, and inbound `flightIds` (only airports that appear as a flight destination) |
 | [`airlines.json`](airlines.json) | Airlines with IATA code, name, and logo URL |
-| [`flights.json`](flights.json) | Flight list items: airline, origin/destination airports, local departure/arrival times, price, layovers, and optional selling `status` (`recommended`, `fastest`, `best_price`) |
-| [`flight-details/`](flight-details) | Per-flight detail payloads: route, schedule, segments, layovers, selected `fare` (baggage, cancellation, changes, amenities), `fareOptions`, optional selling `status` |
+| [`flights.json`](flights.json) | Flight list items: airline, airports, ISO-8601 schedule, price, stops, layovers, optional selling `status` |
+| [`flight-details/`](flight-details) | Per-flight details: route, ISO-8601 schedule, segments, layovers, selected `fare`, `fareOptions`, optional selling `status` |
 
 ## Dataset
 

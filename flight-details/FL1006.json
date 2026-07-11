@@ -18,10 +18,8 @@
     "country": "Hungary",
     "airportName": "Budapest Ferenc Liszt International Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "18:30",
-  "arrivalDate": "2026-08-12",
-  "arrivalTime": "19:20",
+  "departureDateTime": "2026-08-12T18:30:00+02:00",
+  "arrivalDateTime": "2026-08-12T19:20:00+02:00",
   "durationMinutes": 50,
   "stops": 0,
   "price": 61.36,
@@ -46,10 +44,8 @@
         "country": "Hungary",
         "airportName": "Budapest Ferenc Liszt International Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "18:30",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "19:20",
+      "departureDateTime": "2026-08-12T18:30:00+02:00",
+      "arrivalDateTime": "2026-08-12T19:20:00+02:00",
       "durationMinutes": 50,
       "aircraft": "Airbus A321neo",
       "terminalDeparture": "1",
@@ -57,7 +53,6 @@
     }
   ],
   "layovers": [],
-  "status": "best_price",
   "fare": {
     "id": "FL1006-LIGHT",
     "name": "Economy Light",
@@ -143,5 +138,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "best_price"
 }

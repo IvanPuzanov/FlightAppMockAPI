@@ -18,10 +18,8 @@
     "country": "United Kingdom",
     "airportName": "London Heathrow Airport"
   },
-  "departureDate": "2026-08-12",
-  "departureTime": "07:20",
-  "arrivalDate": "2026-08-12",
-  "arrivalTime": "09:55",
+  "departureDateTime": "2026-08-12T07:20:00+02:00",
+  "arrivalDateTime": "2026-08-12T09:55:00+01:00",
   "durationMinutes": 155,
   "stops": 0,
   "price": 135.45,
@@ -46,10 +44,8 @@
         "country": "United Kingdom",
         "airportName": "London Heathrow Airport"
       },
-      "departureDate": "2026-08-12",
-      "departureTime": "07:20",
-      "arrivalDate": "2026-08-12",
-      "arrivalTime": "09:55",
+      "departureDateTime": "2026-08-12T07:20:00+02:00",
+      "arrivalDateTime": "2026-08-12T09:55:00+01:00",
       "durationMinutes": 155,
       "aircraft": "Airbus A319",
       "terminalDeparture": "1",
@@ -57,7 +53,6 @@
     }
   ],
   "layovers": [],
-  "status": "recommended",
   "fare": {
     "id": "FL1003-LIGHT",
     "name": "Economy Light",
@@ -143,5 +138,6 @@
         "priorityBoarding": true
       }
     }
-  ]
+  ],
+  "status": "recommended"
 }
