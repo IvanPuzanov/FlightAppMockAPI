@@ -18,7 +18,7 @@
     },
     "departureDateTime": "2026-08-12T06:35:00+02:00",
     "arrivalDateTime": "2026-08-12T08:00:00+02:00",
-    "price": 106.4,
+    "price": 106,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
@@ -43,36 +43,36 @@
     },
     "departureDateTime": "2026-08-12T09:15:00+02:00",
     "arrivalDateTime": "2026-08-12T10:40:00+02:00",
-    "price": 80.22,
+    "price": 80,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "best_price"
   },
   {
     "id": "FL1003",
     "airline": {
-      "code": "U2",
-      "name": "easyJet",
-      "logo": "https://images.kiwi.com/airlines/128/U2.png"
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "https://images.kiwi.com/airlines/128/BA.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "LHR",
       "city": "London",
       "country": "United Kingdom"
     },
-    "departureDateTime": "2026-08-12T07:20:00+02:00",
-    "arrivalDateTime": "2026-08-12T09:55:00+01:00",
-    "price": 135.45,
+    "destination": {
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    "departureDateTime": "2026-08-12T07:20:00+01:00",
+    "arrivalDateTime": "2026-08-12T09:35:00+02:00",
+    "price": 136,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "recommended"
   },
   {
     "id": "FL1004",
@@ -82,47 +82,46 @@
       "logo": "https://images.kiwi.com/airlines/128/BA.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "LHR",
       "city": "London",
       "country": "United Kingdom"
     },
-    "departureDateTime": "2026-08-12T13:10:00+02:00",
-    "arrivalDateTime": "2026-08-12T15:45:00+01:00",
-    "price": 132.02,
+    "destination": {
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    },
+    "departureDateTime": "2026-08-12T13:10:00+01:00",
+    "arrivalDateTime": "2026-08-12T15:20:00+02:00",
+    "price": 132,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "recommended"
+    "status": "best_price"
   },
   {
     "id": "FL1005",
     "airline": {
-      "code": "FR",
-      "name": "Ryanair",
-      "logo": "https://images.kiwi.com/airlines/128/FR.png"
+      "code": "IB",
+      "name": "Iberia",
+      "logo": "https://images.kiwi.com/airlines/128/IB.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "BCN",
       "city": "Barcelona",
       "country": "Spain"
     },
+    "destination": {
+      "iata": "MAD",
+      "city": "Madrid",
+      "country": "Spain"
+    },
     "departureDateTime": "2026-08-12T05:55:00+02:00",
-    "arrivalDateTime": "2026-08-12T08:20:00+02:00",
-    "price": 123.35,
+    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
+    "price": 124,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1006",
@@ -132,22 +131,22 @@
       "logo": "https://images.kiwi.com/airlines/128/W6.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "BUD",
       "city": "Budapest",
       "country": "Hungary"
     },
+    "destination": {
+      "iata": "PRG",
+      "city": "Prague",
+      "country": "Czech Republic"
+    },
     "departureDateTime": "2026-08-12T18:30:00+02:00",
-    "arrivalDateTime": "2026-08-12T19:20:00+02:00",
-    "price": 61.36,
+    "arrivalDateTime": "2026-08-12T19:40:00+02:00",
+    "price": 62,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "best_price"
   },
   {
     "id": "FL1007",
@@ -157,22 +156,21 @@
       "logo": "https://images.kiwi.com/airlines/128/TK.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "IST",
       "city": "Istanbul",
       "country": "Turkey"
     },
-    "departureDateTime": "2026-08-12T10:05:00+02:00",
-    "arrivalDateTime": "2026-08-12T12:55:00+03:00",
-    "price": 144.94,
+    "destination": {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
+    },
+    "departureDateTime": "2026-08-12T10:05:00+03:00",
+    "arrivalDateTime": "2026-08-12T11:35:00+03:00",
+    "price": 145,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1008",
@@ -182,22 +180,22 @@
       "logo": "https://images.kiwi.com/airlines/128/EK.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "DXB",
       "city": "Dubai",
       "country": "United Arab Emirates"
     },
-    "departureDateTime": "2026-08-12T21:15:00+02:00",
-    "arrivalDateTime": "2026-08-13T02:45:00+04:00",
-    "price": 395.06,
+    "destination": {
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    "departureDateTime": "2026-08-12T09:20:00+04:00",
+    "arrivalDateTime": "2026-08-12T13:55:00+01:00",
+    "price": 395,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "best_price"
+    "status": "recommended"
   },
   {
     "id": "FL1009",
@@ -207,22 +205,21 @@
       "logo": "https://images.kiwi.com/airlines/128/QR.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "DOH",
       "city": "Doha",
       "country": "Qatar"
     },
-    "departureDateTime": "2026-08-12T14:40:00+02:00",
-    "arrivalDateTime": "2026-08-12T19:30:00+03:00",
-    "price": 345.5,
+    "destination": {
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    "departureDateTime": "2026-08-12T14:40:00+03:00",
+    "arrivalDateTime": "2026-08-12T20:40:00+02:00",
+    "price": 346,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "fastest"
+    "layovers": []
   },
   {
     "id": "FL1010",
@@ -232,22 +229,21 @@
       "logo": "https://images.kiwi.com/airlines/128/LX.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "ZRH",
       "city": "Zurich",
       "country": "Switzerland"
     },
+    "destination": {
+      "iata": "MXP",
+      "city": "Milan",
+      "country": "Italy"
+    },
     "departureDateTime": "2026-08-12T08:00:00+02:00",
-    "arrivalDateTime": "2026-08-12T09:20:00+02:00",
-    "price": 92.13,
+    "arrivalDateTime": "2026-08-12T08:55:00+02:00",
+    "price": 92,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1011",
@@ -257,22 +253,21 @@
       "logo": "https://images.kiwi.com/airlines/128/KL.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "AMS",
       "city": "Amsterdam",
       "country": "Netherlands"
     },
+    "destination": {
+      "iata": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark"
+    },
     "departureDateTime": "2026-08-12T11:45:00+02:00",
-    "arrivalDateTime": "2026-08-12T13:40:00+02:00",
-    "price": 121.31,
+    "arrivalDateTime": "2026-08-12T13:05:00+02:00",
+    "price": 122,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1012",
@@ -282,22 +277,21 @@
       "logo": "https://images.kiwi.com/airlines/128/AF.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "CDG",
       "city": "Paris",
       "country": "France"
     },
+    "destination": {
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
+    },
     "departureDateTime": "2026-08-12T16:20:00+02:00",
-    "arrivalDateTime": "2026-08-12T18:35:00+02:00",
-    "price": 110.78,
+    "arrivalDateTime": "2026-08-12T18:30:00+02:00",
+    "price": 111,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1013",
@@ -307,22 +301,21 @@
       "logo": "https://images.kiwi.com/airlines/128/AZ.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "FCO",
       "city": "Rome",
       "country": "Italy"
     },
+    "destination": {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
+    },
     "departureDateTime": "2026-08-12T07:50:00+02:00",
-    "arrivalDateTime": "2026-08-12T09:25:00+02:00",
-    "price": 115.95,
+    "arrivalDateTime": "2026-08-12T11:15:00+03:00",
+    "price": 116,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1014",
@@ -332,22 +325,21 @@
       "logo": "https://images.kiwi.com/airlines/128/SK.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "CPH",
       "city": "Copenhagen",
       "country": "Denmark"
     },
+    "destination": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
     "departureDateTime": "2026-08-12T12:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T14:20:00+02:00",
-    "price": 101.39,
+    "arrivalDateTime": "2026-08-12T13:45:00+02:00",
+    "price": 102,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1015",
@@ -357,22 +349,21 @@
       "logo": "https://images.kiwi.com/airlines/128/IB.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "MAD",
       "city": "Madrid",
       "country": "Spain"
     },
+    "destination": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
     "departureDateTime": "2026-08-12T09:40:00+02:00",
-    "arrivalDateTime": "2026-08-12T12:20:00+02:00",
-    "price": 133.82,
+    "arrivalDateTime": "2026-08-12T10:55:00+02:00",
+    "price": 134,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1016",
@@ -382,22 +373,21 @@
       "logo": "https://images.kiwi.com/airlines/128/LO.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "WAW",
       "city": "Warsaw",
       "country": "Poland"
     },
+    "destination": {
+      "iata": "BUD",
+      "city": "Budapest",
+      "country": "Hungary"
+    },
     "departureDateTime": "2026-08-12T19:05:00+02:00",
-    "arrivalDateTime": "2026-08-12T20:45:00+02:00",
-    "price": 106.55,
+    "arrivalDateTime": "2026-08-12T20:15:00+02:00",
+    "price": 106,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1017",
@@ -407,22 +397,21 @@
       "logo": "https://images.kiwi.com/airlines/128/A3.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "ATH",
       "city": "Athens",
       "country": "Greece"
     },
-    "departureDateTime": "2026-08-12T15:30:00+02:00",
-    "arrivalDateTime": "2026-08-12T17:10:00+03:00",
-    "price": 124.88,
+    "destination": {
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "departureDateTime": "2026-08-12T15:30:00+03:00",
+    "arrivalDateTime": "2026-08-12T16:55:00+02:00",
+    "price": 125,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1018",
@@ -432,47 +421,46 @@
       "logo": "https://images.kiwi.com/airlines/128/SU.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "SVO",
       "city": "Moscow",
       "country": "Russia"
     },
-    "departureDateTime": "2026-08-12T13:50:00+02:00",
-    "arrivalDateTime": "2026-08-12T16:35:00+03:00",
-    "price": 126.85,
+    "destination": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    "departureDateTime": "2026-08-12T13:50:00+03:00",
+    "arrivalDateTime": "2026-08-12T17:20:00+03:00",
+    "price": 127,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1019",
     "airline": {
-      "code": "OS",
-      "name": "Austrian Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/OS.png"
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "MUC",
       "city": "Munich",
       "country": "Germany"
     },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
     "departureDateTime": "2026-08-12T06:10:00+02:00",
-    "arrivalDateTime": "2026-08-12T07:15:00+02:00",
-    "price": 81.0,
+    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
+    "price": 81,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "best_price"
   },
   {
     "id": "FL1020",
@@ -482,22 +470,22 @@
       "logo": "https://images.kiwi.com/airlines/128/LH.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "MUC",
       "city": "Munich",
       "country": "Germany"
     },
+    "destination": {
+      "iata": "ZRH",
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
     "departureDateTime": "2026-08-12T17:45:00+02:00",
-    "arrivalDateTime": "2026-08-12T18:50:00+02:00",
-    "price": 93.01,
+    "arrivalDateTime": "2026-08-12T18:35:00+02:00",
+    "price": 93,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "recommended"
   },
   {
     "id": "FL1021",
@@ -507,22 +495,21 @@
       "logo": "https://images.kiwi.com/airlines/128/FR.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "MXP",
       "city": "Milan",
       "country": "Italy"
     },
+    "destination": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
     "departureDateTime": "2026-08-12T20:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T21:35:00+02:00",
-    "price": 85.73,
+    "arrivalDateTime": "2026-08-12T21:45:00+02:00",
+    "price": 86,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "fastest"
+    "layovers": []
   },
   {
     "id": "FL1022",
@@ -532,22 +519,22 @@
       "logo": "https://images.kiwi.com/airlines/128/W6.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
-    },
-    "destination": {
       "iata": "PRG",
       "city": "Prague",
       "country": "Czech Republic"
     },
+    "destination": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
     "departureDateTime": "2026-08-12T08:35:00+02:00",
-    "arrivalDateTime": "2026-08-12T09:15:00+02:00",
-    "price": 90.87,
+    "arrivalDateTime": "2026-08-12T09:50:00+02:00",
+    "price": 91,
     "currency": "EUR",
     "stops": 0,
     "layovers": [],
-    "status": "regular"
+    "status": "fastest"
   },
   {
     "id": "FL1023",
@@ -562,17 +549,16 @@
       "country": "United Arab Emirates"
     },
     "destination": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
     },
     "departureDateTime": "2026-08-14T09:20:00+04:00",
-    "arrivalDateTime": "2026-08-14T14:55:00+02:00",
-    "price": 381.76,
+    "arrivalDateTime": "2026-08-14T13:05:00+03:00",
+    "price": 382,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1024",
@@ -587,17 +573,16 @@
       "country": "United Kingdom"
     },
     "destination": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "JFK",
+      "city": "New York",
+      "country": "United States"
     },
     "departureDateTime": "2026-08-15T16:00:00+01:00",
-    "arrivalDateTime": "2026-08-15T18:35:00+02:00",
-    "price": 139.2,
+    "arrivalDateTime": "2026-08-15T19:10:00-04:00",
+    "price": 420,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "fastest"
+    "layovers": []
   },
   {
     "id": "FL1025",
@@ -612,17 +597,16 @@
       "country": "Turkey"
     },
     "destination": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
     },
     "departureDateTime": "2026-08-15T15:20:00+03:00",
-    "arrivalDateTime": "2026-08-15T18:05:00+02:00",
-    "price": 123.06,
+    "arrivalDateTime": "2026-08-15T17:45:00+02:00",
+    "price": 123,
     "currency": "EUR",
     "stops": 0,
-    "layovers": [],
-    "status": "regular"
+    "layovers": []
   },
   {
     "id": "FL1026",
@@ -632,9 +616,9 @@
       "logo": "https://images.kiwi.com/airlines/128/LH.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
     },
     "destination": {
       "iata": "JFK",
@@ -642,8 +626,8 @@
       "country": "United States"
     },
     "departureDateTime": "2026-08-12T09:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T21:40:00-04:00",
-    "price": 466.13,
+    "arrivalDateTime": "2026-08-12T15:40:00-04:00",
+    "price": 466,
     "currency": "EUR",
     "stops": 1,
     "layovers": [
@@ -658,11 +642,10 @@
           "name": "Lufthansa",
           "logo": "https://images.kiwi.com/airlines/128/LH.png"
         },
-        "durationMinutes": 115,
+        "durationMinutes": 145,
         "departureDateTime": "2026-08-12T12:35:00+02:00"
       }
-    ],
-    "status": "regular"
+    ]
   },
   {
     "id": "FL1027",
@@ -672,9 +655,9 @@
       "logo": "https://images.kiwi.com/airlines/128/TK.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
     },
     "destination": {
       "iata": "BKK",
@@ -682,8 +665,8 @@
       "country": "Thailand"
     },
     "departureDateTime": "2026-08-12T10:05:00+02:00",
-    "arrivalDateTime": "2026-08-13T01:35:00+07:00",
-    "price": 570.01,
+    "arrivalDateTime": "2026-08-13T05:35:00+07:00",
+    "price": 570,
     "currency": "EUR",
     "stops": 1,
     "layovers": [
@@ -698,11 +681,11 @@
           "name": "Turkish Airlines",
           "logo": "https://images.kiwi.com/airlines/128/TK.png"
         },
-        "durationMinutes": 190,
+        "durationMinutes": 110,
         "departureDateTime": "2026-08-12T16:05:00+03:00"
       }
     ],
-    "status": "regular"
+    "status": "recommended"
   },
   {
     "id": "FL1028",
@@ -712,18 +695,18 @@
       "logo": "https://images.kiwi.com/airlines/128/EK.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
     },
     "destination": {
       "iata": "SYD",
       "city": "Sydney",
       "country": "Australia"
     },
-    "departureDateTime": "2026-08-12T21:15:00+02:00",
-    "arrivalDateTime": "2026-08-13T19:15:00+10:00",
-    "price": 758.55,
+    "departureDateTime": "2026-08-12T21:15:00+01:00",
+    "arrivalDateTime": "2026-08-14T01:15:00+10:00",
+    "price": 758,
     "currency": "EUR",
     "stops": 1,
     "layovers": [
@@ -738,11 +721,11 @@
           "name": "Emirates",
           "logo": "https://images.kiwi.com/airlines/128/EK.png"
         },
-        "durationMinutes": 135,
+        "durationMinutes": -110,
         "departureDateTime": "2026-08-13T05:00:00+04:00"
       }
     ],
-    "status": "regular"
+    "status": "recommended"
   },
   {
     "id": "FL1029",
@@ -752,9 +735,9 @@
       "logo": "https://images.kiwi.com/airlines/128/QR.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
     },
     "destination": {
       "iata": "BKK",
@@ -762,8 +745,8 @@
       "country": "Thailand"
     },
     "departureDateTime": "2026-08-12T14:40:00+02:00",
-    "arrivalDateTime": "2026-08-13T06:10:00+07:00",
-    "price": 550.65,
+    "arrivalDateTime": "2026-08-13T10:15:00+07:00",
+    "price": 551,
     "currency": "EUR",
     "stops": 1,
     "layovers": [
@@ -778,10 +761,10 @@
           "name": "Qatar Airways",
           "logo": "https://images.kiwi.com/airlines/128/QR.png"
         },
-        "durationMinutes": 265,
+        "durationMinutes": 135,
         "departureDateTime": "2026-08-12T23:55:00+03:00"
       }
     ],
-    "status": "regular"
+    "status": "best_price"
   }
 ]

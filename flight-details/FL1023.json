@@ -5,7 +5,7 @@
     "name": "Emirates",
     "logo": "https://images.kiwi.com/airlines/128/EK.png"
   },
-  "flightNumber": "EK 129",
+  "flightNumber": "EK 121",
   "origin": {
     "iata": "DXB",
     "city": "Dubai",
@@ -13,21 +13,21 @@
     "airportName": "Dubai International Airport"
   },
   "destination": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "IST",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "airportName": "Istanbul Airport"
   },
   "departureDateTime": "2026-08-14T09:20:00+04:00",
-  "arrivalDateTime": "2026-08-14T14:55:00+02:00",
-  "durationMinutes": 335,
+  "arrivalDateTime": "2026-08-14T13:05:00+03:00",
+  "durationMinutes": 285,
   "stops": 0,
-  "price": 381.76,
+  "price": 382,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1023-S1",
-      "flightNumber": "EK 129",
+      "flightNumber": "EK 121",
       "airline": {
         "code": "EK",
         "name": "Emirates"
@@ -39,17 +39,17 @@
         "airportName": "Dubai International Airport"
       },
       "destination": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "IST",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "airportName": "Istanbul Airport"
       },
       "departureDateTime": "2026-08-14T09:20:00+04:00",
-      "arrivalDateTime": "2026-08-14T14:55:00+02:00",
-      "durationMinutes": 335,
+      "arrivalDateTime": "2026-08-14T13:05:00+03:00",
+      "durationMinutes": 285,
       "aircraft": "Boeing 777-300ER",
-      "terminalDeparture": "3",
-      "gateDeparture": "C33"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1023-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 381.76,
+    "price": 382,
     "currency": "EUR",
-    "seatsAvailable": 6,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1023-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 496.29,
+      "price": 497,
       "currency": "EUR",
-      "seatsAvailable": 16,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -114,7 +114,7 @@
       "id": "FL1023-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 648.99,
+      "price": 649,
       "currency": "EUR",
       "seatsAvailable": 3,
       "baggage": {
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

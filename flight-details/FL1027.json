@@ -5,12 +5,12 @@
     "name": "Turkish Airlines",
     "logo": "https://images.kiwi.com/airlines/128/TK.png"
   },
-  "flightNumber": "TK 1052 / TK 64",
+  "flightNumber": "TK 1820 / TK 64",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "CDG",
+    "city": "Paris",
+    "country": "France",
+    "airportName": "Charles de Gaulle Airport"
   },
   "destination": {
     "iata": "BKK",
@@ -19,24 +19,24 @@
     "airportName": "Suvarnabhumi Airport"
   },
   "departureDateTime": "2026-08-12T10:05:00+02:00",
-  "arrivalDateTime": "2026-08-13T01:35:00+07:00",
-  "durationMinutes": 930,
+  "arrivalDateTime": "2026-08-13T05:35:00+07:00",
+  "durationMinutes": 870,
   "stops": 1,
-  "price": 570.01,
+  "price": 570,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1027-S1",
-      "flightNumber": "TK 1052",
+      "flightNumber": "TK 1820",
       "airline": {
         "code": "TK",
         "name": "Turkish Airlines"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "CDG",
+        "city": "Paris",
+        "country": "France",
+        "airportName": "Charles de Gaulle Airport"
       },
       "destination": {
         "iata": "IST",
@@ -45,11 +45,11 @@
         "airportName": "Istanbul Airport"
       },
       "departureDateTime": "2026-08-12T10:05:00+02:00",
-      "arrivalDateTime": "2026-08-12T12:55:00+03:00",
-      "durationMinutes": 170,
+      "arrivalDateTime": "2026-08-12T14:15:00+03:00",
+      "durationMinutes": 190,
       "aircraft": "Airbus A321",
-      "terminalDeparture": "3",
-      "gateDeparture": "E28"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     },
     {
       "segmentId": "FL1027-S2",
@@ -71,11 +71,11 @@
         "airportName": "Suvarnabhumi Airport"
       },
       "departureDateTime": "2026-08-12T16:05:00+03:00",
-      "arrivalDateTime": "2026-08-13T01:35:00+07:00",
+      "arrivalDateTime": "2026-08-13T05:35:00+07:00",
       "durationMinutes": 570,
       "aircraft": "Airbus A321",
-      "terminalDeparture": "1",
-      "gateDeparture": "E13"
+      "terminalDeparture": "2",
+      "gateDeparture": "B9"
     }
   ],
   "layovers": [
@@ -90,7 +90,7 @@
         "name": "Turkish Airlines",
         "logo": "https://images.kiwi.com/airlines/128/TK.png"
       },
-      "durationMinutes": 190,
+      "durationMinutes": 110,
       "departureDateTime": "2026-08-12T16:05:00+03:00"
     }
   ],
@@ -98,9 +98,9 @@
     "id": "FL1027-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 570.01,
+    "price": 570,
     "currency": "EUR",
-    "seatsAvailable": 14,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -127,9 +127,9 @@
       "id": "FL1027-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 741.01,
+      "price": 741,
       "currency": "EUR",
-      "seatsAvailable": 26,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -139,11 +139,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -155,9 +155,9 @@
       "id": "FL1027-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 969.02,
+      "price": 969,
       "currency": "EUR",
-      "seatsAvailable": 6,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -167,11 +167,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

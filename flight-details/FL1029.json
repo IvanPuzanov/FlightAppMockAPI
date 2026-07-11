@@ -5,12 +5,12 @@
     "name": "Qatar Airways",
     "logo": "https://images.kiwi.com/airlines/128/QR.png"
   },
-  "flightNumber": "QR 184 / QR 940",
+  "flightNumber": "QR 936 / QR 940",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "AMS",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "airportName": "Amsterdam Schiphol Airport"
   },
   "destination": {
     "iata": "BKK",
@@ -19,24 +19,24 @@
     "airportName": "Suvarnabhumi Airport"
   },
   "departureDateTime": "2026-08-12T14:40:00+02:00",
-  "arrivalDateTime": "2026-08-13T06:10:00+07:00",
-  "durationMinutes": 930,
+  "arrivalDateTime": "2026-08-13T10:15:00+07:00",
+  "durationMinutes": 875,
   "stops": 1,
-  "price": 550.65,
+  "price": 551,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1029-S1",
-      "flightNumber": "QR 184",
+      "flightNumber": "QR 936",
       "airline": {
         "code": "QR",
         "name": "Qatar Airways"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "AMS",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "airportName": "Amsterdam Schiphol Airport"
       },
       "destination": {
         "iata": "DOH",
@@ -45,11 +45,11 @@
         "airportName": "Hamad International Airport"
       },
       "departureDateTime": "2026-08-12T14:40:00+02:00",
-      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
-      "durationMinutes": 290,
-      "aircraft": "Airbus A350",
+      "arrivalDateTime": "2026-08-12T21:40:00+03:00",
+      "durationMinutes": 360,
+      "aircraft": "Boeing 777-300ER",
       "terminalDeparture": "1",
-      "gateDeparture": "E15"
+      "gateDeparture": "A2"
     },
     {
       "segmentId": "FL1029-S2",
@@ -71,11 +71,11 @@
         "airportName": "Suvarnabhumi Airport"
       },
       "departureDateTime": "2026-08-12T23:55:00+03:00",
-      "arrivalDateTime": "2026-08-13T06:10:00+07:00",
-      "durationMinutes": 375,
-      "aircraft": "Airbus A350",
-      "terminalDeparture": "1",
-      "gateDeparture": "A4"
+      "arrivalDateTime": "2026-08-13T10:15:00+07:00",
+      "durationMinutes": 380,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "2",
+      "gateDeparture": "B9"
     }
   ],
   "layovers": [
@@ -90,7 +90,7 @@
         "name": "Qatar Airways",
         "logo": "https://images.kiwi.com/airlines/128/QR.png"
       },
-      "durationMinutes": 265,
+      "durationMinutes": 135,
       "departureDateTime": "2026-08-12T23:55:00+03:00"
     }
   ],
@@ -98,9 +98,9 @@
     "id": "FL1029-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 550.65,
+    "price": 551,
     "currency": "EUR",
-    "seatsAvailable": 3,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -127,9 +127,9 @@
       "id": "FL1029-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 715.85,
+      "price": 716,
       "currency": "EUR",
-      "seatsAvailable": 15,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -139,11 +139,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -155,9 +155,9 @@
       "id": "FL1029-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 936.1,
+      "price": 937,
       "currency": "EUR",
-      "seatsAvailable": 2,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -167,11 +167,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

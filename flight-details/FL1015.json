@@ -5,51 +5,51 @@
     "name": "Iberia",
     "logo": "https://images.kiwi.com/airlines/128/IB.png"
   },
-  "flightNumber": "IB 3241",
+  "flightNumber": "IB 3165",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "MAD",
     "city": "Madrid",
     "country": "Spain",
     "airportName": "Adolfo Suarez Madrid-Barajas Airport"
   },
+  "destination": {
+    "iata": "BCN",
+    "city": "Barcelona",
+    "country": "Spain",
+    "airportName": "Barcelona-El Prat Airport"
+  },
   "departureDateTime": "2026-08-12T09:40:00+02:00",
-  "arrivalDateTime": "2026-08-12T12:20:00+02:00",
-  "durationMinutes": 160,
+  "arrivalDateTime": "2026-08-12T10:55:00+02:00",
+  "durationMinutes": 75,
   "stops": 0,
-  "price": 133.82,
+  "price": 134,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1015-S1",
-      "flightNumber": "IB 3241",
+      "flightNumber": "IB 3165",
       "airline": {
         "code": "IB",
         "name": "Iberia"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "MAD",
         "city": "Madrid",
         "country": "Spain",
         "airportName": "Adolfo Suarez Madrid-Barajas Airport"
       },
+      "destination": {
+        "iata": "BCN",
+        "city": "Barcelona",
+        "country": "Spain",
+        "airportName": "Barcelona-El Prat Airport"
+      },
       "departureDateTime": "2026-08-12T09:40:00+02:00",
-      "arrivalDateTime": "2026-08-12T12:20:00+02:00",
-      "durationMinutes": 160,
-      "aircraft": "Airbus A321",
+      "arrivalDateTime": "2026-08-12T10:55:00+02:00",
+      "durationMinutes": 75,
+      "aircraft": "Airbus A320",
       "terminalDeparture": "1",
-      "gateDeparture": "F32"
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1015-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 133.82,
+    "price": 134,
     "currency": "EUR",
-    "seatsAvailable": 16,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1015-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 173.97,
+      "price": 174,
       "currency": "EUR",
-      "seatsAvailable": 9,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1015-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 227.49,
+      "price": 228,
       "currency": "EUR",
-      "seatsAvailable": 5,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

@@ -5,51 +5,51 @@
     "name": "Wizz Air",
     "logo": "https://images.kiwi.com/airlines/128/W6.png"
   },
-  "flightNumber": "W6 2411",
+  "flightNumber": "W6 2201",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "BUD",
     "city": "Budapest",
     "country": "Hungary",
     "airportName": "Budapest Ferenc Liszt International Airport"
   },
+  "destination": {
+    "iata": "PRG",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "airportName": "Vaclav Havel Airport Prague"
+  },
   "departureDateTime": "2026-08-12T18:30:00+02:00",
-  "arrivalDateTime": "2026-08-12T19:20:00+02:00",
-  "durationMinutes": 50,
+  "arrivalDateTime": "2026-08-12T19:40:00+02:00",
+  "durationMinutes": 70,
   "stops": 0,
-  "price": 61.36,
+  "price": 62,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1006-S1",
-      "flightNumber": "W6 2411",
+      "flightNumber": "W6 2201",
       "airline": {
         "code": "W6",
         "name": "Wizz Air"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "BUD",
         "city": "Budapest",
         "country": "Hungary",
         "airportName": "Budapest Ferenc Liszt International Airport"
       },
+      "destination": {
+        "iata": "PRG",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "airportName": "Vaclav Havel Airport Prague"
+      },
       "departureDateTime": "2026-08-12T18:30:00+02:00",
-      "arrivalDateTime": "2026-08-12T19:20:00+02:00",
-      "durationMinutes": 50,
-      "aircraft": "Airbus A321neo",
+      "arrivalDateTime": "2026-08-12T19:40:00+02:00",
+      "durationMinutes": 70,
+      "aircraft": "Airbus A321",
       "terminalDeparture": "1",
-      "gateDeparture": "A25"
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1006-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 61.36,
+    "price": 62,
     "currency": "EUR",
-    "seatsAvailable": 13,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1006-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 79.77,
+      "price": 81,
       "currency": "EUR",
-      "seatsAvailable": 24,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1006-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 104.31,
+      "price": 105,
       "currency": "EUR",
-      "seatsAvailable": 5,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

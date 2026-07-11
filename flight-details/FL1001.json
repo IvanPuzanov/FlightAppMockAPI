@@ -22,7 +22,7 @@
   "arrivalDateTime": "2026-08-12T08:00:00+02:00",
   "durationMinutes": 85,
   "stops": 0,
-  "price": 106.4,
+  "price": 106,
   "currency": "EUR",
   "segments": [
     {
@@ -48,7 +48,7 @@
       "arrivalDateTime": "2026-08-12T08:00:00+02:00",
       "durationMinutes": 85,
       "aircraft": "Airbus A320",
-      "terminalDeparture": "3",
+      "terminalDeparture": "1",
       "gateDeparture": "A2"
     }
   ],
@@ -57,7 +57,7 @@
     "id": "FL1001-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 106.4,
+    "price": 106,
     "currency": "EUR",
     "seatsAvailable": 9,
     "baggage": {
@@ -86,7 +86,7 @@
       "id": "FL1001-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 138.32,
+      "price": 138,
       "currency": "EUR",
       "seatsAvailable": 12,
       "baggage": {
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,7 +114,7 @@
       "id": "FL1001-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 180.88,
+      "price": 180,
       "currency": "EUR",
       "seatsAvailable": 3,
       "baggage": {
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

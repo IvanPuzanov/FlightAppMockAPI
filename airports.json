@@ -1,45 +1,17 @@
 [
   {
-    "iata": "VIE",
-    "name": "Vienna International Airport",
-    "city": "Vienna",
-    "country": "Austria",
-    "latitude": 48.1103,
-    "longitude": 16.5697,
-    "id": 1,
-    "tz": "+02:00",
-    "flightIds": [
-      "FL1023",
-      "FL1024",
-      "FL1025"
-    ]
-  },
-  {
     "iata": "FRA",
     "name": "Frankfurt Airport",
     "city": "Frankfurt",
     "country": "Germany",
     "latitude": 50.0379,
     "longitude": 8.5622,
-    "id": 2,
+    "id": 1,
     "tz": "+02:00",
     "flightIds": [
       "FL1001",
-      "FL1002"
-    ]
-  },
-  {
-    "iata": "MUC",
-    "name": "Munich Airport",
-    "city": "Munich",
-    "country": "Germany",
-    "latitude": 48.3538,
-    "longitude": 11.7861,
-    "id": 3,
-    "tz": "+02:00",
-    "flightIds": [
-      "FL1019",
-      "FL1020"
+      "FL1002",
+      "FL1019"
     ]
   },
   {
@@ -49,10 +21,10 @@
     "country": "Switzerland",
     "latitude": 47.4647,
     "longitude": 8.5492,
-    "id": 4,
+    "id": 2,
     "tz": "+02:00",
     "flightIds": [
-      "FL1010"
+      "FL1020"
     ]
   },
   {
@@ -62,10 +34,11 @@
     "country": "Netherlands",
     "latitude": 52.3105,
     "longitude": 4.7683,
-    "id": 5,
+    "id": 3,
     "tz": "+02:00",
     "flightIds": [
-      "FL1011"
+      "FL1004",
+      "FL1025"
     ]
   },
   {
@@ -75,10 +48,11 @@
     "country": "France",
     "latitude": 49.0097,
     "longitude": 2.5479,
-    "id": 6,
+    "id": 4,
     "tz": "+02:00",
     "flightIds": [
-      "FL1012"
+      "FL1003",
+      "FL1009"
     ]
   },
   {
@@ -88,11 +62,10 @@
     "country": "United Kingdom",
     "latitude": 51.47,
     "longitude": -0.4543,
-    "id": 7,
+    "id": 5,
     "tz": "+01:00",
     "flightIds": [
-      "FL1003",
-      "FL1004"
+      "FL1008"
     ]
   },
   {
@@ -102,10 +75,11 @@
     "country": "Spain",
     "latitude": 41.2974,
     "longitude": 2.0833,
-    "id": 8,
+    "id": 6,
     "tz": "+02:00",
     "flightIds": [
-      "FL1005"
+      "FL1015",
+      "FL1021"
     ]
   },
   {
@@ -115,10 +89,10 @@
     "country": "Spain",
     "latitude": 40.4983,
     "longitude": -3.5676,
-    "id": 9,
+    "id": 7,
     "tz": "+02:00",
     "flightIds": [
-      "FL1015"
+      "FL1005"
     ]
   },
   {
@@ -128,10 +102,11 @@
     "country": "Italy",
     "latitude": 41.8003,
     "longitude": 12.2389,
-    "id": 10,
+    "id": 8,
     "tz": "+02:00",
     "flightIds": [
-      "FL1013"
+      "FL1012",
+      "FL1017"
     ]
   },
   {
@@ -141,36 +116,11 @@
     "country": "Turkey",
     "latitude": 41.2753,
     "longitude": 28.7519,
-    "id": 11,
+    "id": 9,
     "tz": "+03:00",
     "flightIds": [
-      "FL1007"
-    ]
-  },
-  {
-    "iata": "DXB",
-    "name": "Dubai International Airport",
-    "city": "Dubai",
-    "country": "United Arab Emirates",
-    "latitude": 25.2532,
-    "longitude": 55.3657,
-    "id": 12,
-    "tz": "+04:00",
-    "flightIds": [
-      "FL1008"
-    ]
-  },
-  {
-    "iata": "DOH",
-    "name": "Hamad International Airport",
-    "city": "Doha",
-    "country": "Qatar",
-    "latitude": 25.2731,
-    "longitude": 51.6081,
-    "id": 13,
-    "tz": "+03:00",
-    "flightIds": [
-      "FL1009"
+      "FL1018",
+      "FL1023"
     ]
   },
   {
@@ -180,10 +130,10 @@
     "country": "Czech Republic",
     "latitude": 50.1008,
     "longitude": 14.2632,
-    "id": 14,
+    "id": 10,
     "tz": "+02:00",
     "flightIds": [
-      "FL1022"
+      "FL1006"
     ]
   },
   {
@@ -193,10 +143,10 @@
     "country": "Hungary",
     "latitude": 47.4298,
     "longitude": 19.2611,
-    "id": 15,
+    "id": 11,
     "tz": "+02:00",
     "flightIds": [
-      "FL1006"
+      "FL1016"
     ]
   },
   {
@@ -206,10 +156,11 @@
     "country": "Poland",
     "latitude": 52.1657,
     "longitude": 20.9671,
-    "id": 16,
+    "id": 12,
     "tz": "+02:00",
     "flightIds": [
-      "FL1016"
+      "FL1014",
+      "FL1022"
     ]
   },
   {
@@ -219,10 +170,11 @@
     "country": "Greece",
     "latitude": 37.9364,
     "longitude": 23.9445,
-    "id": 17,
+    "id": 13,
     "tz": "+03:00",
     "flightIds": [
-      "FL1017"
+      "FL1007",
+      "FL1013"
     ]
   },
   {
@@ -232,23 +184,10 @@
     "country": "Denmark",
     "latitude": 55.618,
     "longitude": 12.656,
-    "id": 18,
+    "id": 14,
     "tz": "+02:00",
     "flightIds": [
-      "FL1014"
-    ]
-  },
-  {
-    "iata": "SVO",
-    "name": "Sheremetyevo International Airport",
-    "city": "Moscow",
-    "country": "Russia",
-    "latitude": 55.9736,
-    "longitude": 37.4125,
-    "id": 19,
-    "tz": "+03:00",
-    "flightIds": [
-      "FL1018"
+      "FL1011"
     ]
   },
   {
@@ -258,10 +197,10 @@
     "country": "Italy",
     "latitude": 45.6306,
     "longitude": 8.7281,
-    "id": 20,
+    "id": 15,
     "tz": "+02:00",
     "flightIds": [
-      "FL1021"
+      "FL1010"
     ]
   },
   {
@@ -271,9 +210,10 @@
     "country": "United States",
     "latitude": 40.6413,
     "longitude": -73.7781,
-    "id": 21,
+    "id": 16,
     "tz": "-04:00",
     "flightIds": [
+      "FL1024",
       "FL1026"
     ]
   },
@@ -284,7 +224,7 @@
     "country": "Thailand",
     "latitude": 13.69,
     "longitude": 100.7501,
-    "id": 22,
+    "id": 17,
     "tz": "+07:00",
     "flightIds": [
       "FL1027",
@@ -298,7 +238,7 @@
     "country": "Australia",
     "latitude": -33.9399,
     "longitude": 151.1753,
-    "id": 23,
+    "id": 18,
     "tz": "+10:00",
     "flightIds": [
       "FL1028"

@@ -5,51 +5,51 @@
     "name": "Lufthansa",
     "logo": "https://images.kiwi.com/airlines/128/LH.png"
   },
-  "flightNumber": "LH 3346",
+  "flightNumber": "LH 2366",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "MUC",
     "city": "Munich",
     "country": "Germany",
     "airportName": "Munich Airport"
   },
+  "destination": {
+    "iata": "ZRH",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "airportName": "Zurich Airport"
+  },
   "departureDateTime": "2026-08-12T17:45:00+02:00",
-  "arrivalDateTime": "2026-08-12T18:50:00+02:00",
-  "durationMinutes": 65,
+  "arrivalDateTime": "2026-08-12T18:35:00+02:00",
+  "durationMinutes": 50,
   "stops": 0,
-  "price": 93.01,
+  "price": 93,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1020-S1",
-      "flightNumber": "LH 3346",
+      "flightNumber": "LH 2366",
       "airline": {
         "code": "LH",
         "name": "Lufthansa"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "MUC",
         "city": "Munich",
         "country": "Germany",
         "airportName": "Munich Airport"
       },
+      "destination": {
+        "iata": "ZRH",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "airportName": "Zurich Airport"
+      },
       "departureDateTime": "2026-08-12T17:45:00+02:00",
-      "arrivalDateTime": "2026-08-12T18:50:00+02:00",
-      "durationMinutes": 65,
-      "aircraft": "Airbus A321",
-      "terminalDeparture": "3",
-      "gateDeparture": "A8"
+      "arrivalDateTime": "2026-08-12T18:35:00+02:00",
+      "durationMinutes": 50,
+      "aircraft": "Airbus A320",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1020-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 93.01,
+    "price": 93,
     "currency": "EUR",
-    "seatsAvailable": 19,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1020-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 120.91,
+      "price": 121,
       "currency": "EUR",
-      "seatsAvailable": 29,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1020-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 158.12,
+      "price": 158,
       "currency": "EUR",
-      "seatsAvailable": 5,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

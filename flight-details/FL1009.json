@@ -5,51 +5,51 @@
     "name": "Qatar Airways",
     "logo": "https://images.kiwi.com/airlines/128/QR.png"
   },
-  "flightNumber": "QR 184",
+  "flightNumber": "QR 39",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "DOH",
     "city": "Doha",
     "country": "Qatar",
     "airportName": "Hamad International Airport"
   },
-  "departureDateTime": "2026-08-12T14:40:00+02:00",
-  "arrivalDateTime": "2026-08-12T19:30:00+03:00",
-  "durationMinutes": 290,
+  "destination": {
+    "iata": "CDG",
+    "city": "Paris",
+    "country": "France",
+    "airportName": "Charles de Gaulle Airport"
+  },
+  "departureDateTime": "2026-08-12T14:40:00+03:00",
+  "arrivalDateTime": "2026-08-12T20:40:00+02:00",
+  "durationMinutes": 420,
   "stops": 0,
-  "price": 345.5,
+  "price": 346,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1009-S1",
-      "flightNumber": "QR 184",
+      "flightNumber": "QR 39",
       "airline": {
         "code": "QR",
         "name": "Qatar Airways"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "DOH",
         "city": "Doha",
         "country": "Qatar",
         "airportName": "Hamad International Airport"
       },
-      "departureDateTime": "2026-08-12T14:40:00+02:00",
-      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
-      "durationMinutes": 290,
-      "aircraft": "Airbus A350",
-      "terminalDeparture": "3",
-      "gateDeparture": "A3"
+      "destination": {
+        "iata": "CDG",
+        "city": "Paris",
+        "country": "France",
+        "airportName": "Charles de Gaulle Airport"
+      },
+      "departureDateTime": "2026-08-12T14:40:00+03:00",
+      "arrivalDateTime": "2026-08-12T20:40:00+02:00",
+      "durationMinutes": 420,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1009-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 345.5,
+    "price": 346,
     "currency": "EUR",
-    "seatsAvailable": 11,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1009-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 449.15,
+      "price": 450,
       "currency": "EUR",
-      "seatsAvailable": 7,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -114,9 +114,9 @@
       "id": "FL1009-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 587.35,
+      "price": 588,
       "currency": "EUR",
-      "seatsAvailable": 4,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

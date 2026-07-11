@@ -22,7 +22,7 @@
   "arrivalDateTime": "2026-08-12T10:40:00+02:00",
   "durationMinutes": 85,
   "stops": 0,
-  "price": 80.22,
+  "price": 80,
   "currency": "EUR",
   "segments": [
     {
@@ -48,8 +48,8 @@
       "arrivalDateTime": "2026-08-12T10:40:00+02:00",
       "durationMinutes": 85,
       "aircraft": "Airbus A321",
-      "terminalDeparture": "3",
-      "gateDeparture": "A35"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1002-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 80.22,
+    "price": 80,
     "currency": "EUR",
-    "seatsAvailable": 15,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1002-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 104.29,
+      "price": 104,
       "currency": "EUR",
-      "seatsAvailable": 6,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1002-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 136.37,
+      "price": 136,
       "currency": "EUR",
-      "seatsAvailable": 1,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

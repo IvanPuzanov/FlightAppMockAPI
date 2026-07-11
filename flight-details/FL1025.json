@@ -5,7 +5,7 @@
     "name": "Turkish Airlines",
     "logo": "https://images.kiwi.com/airlines/128/TK.png"
   },
-  "flightNumber": "TK 1053",
+  "flightNumber": "TK 1952",
   "origin": {
     "iata": "IST",
     "city": "Istanbul",
@@ -13,21 +13,21 @@
     "airportName": "Istanbul Airport"
   },
   "destination": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "AMS",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "airportName": "Amsterdam Schiphol Airport"
   },
   "departureDateTime": "2026-08-15T15:20:00+03:00",
-  "arrivalDateTime": "2026-08-15T18:05:00+02:00",
-  "durationMinutes": 165,
+  "arrivalDateTime": "2026-08-15T17:45:00+02:00",
+  "durationMinutes": 205,
   "stops": 0,
-  "price": 123.06,
+  "price": 123,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1025-S1",
-      "flightNumber": "TK 1053",
+      "flightNumber": "TK 1952",
       "airline": {
         "code": "TK",
         "name": "Turkish Airlines"
@@ -39,17 +39,17 @@
         "airportName": "Istanbul Airport"
       },
       "destination": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "AMS",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "airportName": "Amsterdam Schiphol Airport"
       },
       "departureDateTime": "2026-08-15T15:20:00+03:00",
-      "arrivalDateTime": "2026-08-15T18:05:00+02:00",
-      "durationMinutes": 165,
+      "arrivalDateTime": "2026-08-15T17:45:00+02:00",
+      "durationMinutes": 205,
       "aircraft": "Airbus A321",
-      "terminalDeparture": "2",
-      "gateDeparture": "C16"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1025-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 123.06,
+    "price": 123,
     "currency": "EUR",
-    "seatsAvailable": 20,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1025-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 159.98,
+      "price": 160,
       "currency": "EUR",
-      "seatsAvailable": 7,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,14 +98,14 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
-        "mealIncluded": false,
+        "mealIncluded": true,
         "seatSelectionIncluded": false,
         "priorityBoarding": false
       }
@@ -114,9 +114,9 @@
       "id": "FL1025-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 209.2,
+      "price": 209,
       "currency": "EUR",
-      "seatsAvailable": 2,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

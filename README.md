@@ -15,7 +15,7 @@ This repository acts as a lightweight stand-in for a backend: the app can load f
 
 ## Dataset
 
-- **23** airports
+- **18** airports (destinations with inbound flights)
 - **18** airlines
 - **29** flights (`FL1001`–`FL1029`)
 

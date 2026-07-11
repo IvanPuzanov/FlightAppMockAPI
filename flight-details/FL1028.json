@@ -5,12 +5,12 @@
     "name": "Emirates",
     "logo": "https://images.kiwi.com/airlines/128/EK.png"
   },
-  "flightNumber": "EK 128 / EK 420",
+  "flightNumber": "EK 2 / EK 420",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "LHR",
+    "city": "London",
+    "country": "United Kingdom",
+    "airportName": "London Heathrow Airport"
   },
   "destination": {
     "iata": "SYD",
@@ -18,25 +18,25 @@
     "country": "Australia",
     "airportName": "Sydney Kingsford Smith Airport"
   },
-  "departureDateTime": "2026-08-12T21:15:00+02:00",
-  "arrivalDateTime": "2026-08-13T19:15:00+10:00",
-  "durationMinutes": 1320,
+  "departureDateTime": "2026-08-12T21:15:00+01:00",
+  "arrivalDateTime": "2026-08-14T01:15:00+10:00",
+  "durationMinutes": 1140,
   "stops": 1,
-  "price": 758.55,
+  "price": 758,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1028-S1",
-      "flightNumber": "EK 128",
+      "flightNumber": "EK 2",
       "airline": {
         "code": "EK",
         "name": "Emirates"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "LHR",
+        "city": "London",
+        "country": "United Kingdom",
+        "airportName": "London Heathrow Airport"
       },
       "destination": {
         "iata": "DXB",
@@ -44,12 +44,12 @@
         "country": "United Arab Emirates",
         "airportName": "Dubai International Airport"
       },
-      "departureDateTime": "2026-08-12T21:15:00+02:00",
-      "arrivalDateTime": "2026-08-13T02:45:00+04:00",
-      "durationMinutes": 330,
+      "departureDateTime": "2026-08-12T21:15:00+01:00",
+      "arrivalDateTime": "2026-08-13T06:50:00+04:00",
+      "durationMinutes": 395,
       "aircraft": "Boeing 777-300ER",
-      "terminalDeparture": "2",
-      "gateDeparture": "E29"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     },
     {
       "segmentId": "FL1028-S2",
@@ -71,11 +71,11 @@
         "airportName": "Sydney Kingsford Smith Airport"
       },
       "departureDateTime": "2026-08-13T05:00:00+04:00",
-      "arrivalDateTime": "2026-08-13T19:15:00+10:00",
+      "arrivalDateTime": "2026-08-14T01:15:00+10:00",
       "durationMinutes": 855,
       "aircraft": "Boeing 777-300ER",
-      "terminalDeparture": "1",
-      "gateDeparture": "B15"
+      "terminalDeparture": "2",
+      "gateDeparture": "B9"
     }
   ],
   "layovers": [
@@ -90,7 +90,7 @@
         "name": "Emirates",
         "logo": "https://images.kiwi.com/airlines/128/EK.png"
       },
-      "durationMinutes": 135,
+      "durationMinutes": -110,
       "departureDateTime": "2026-08-13T05:00:00+04:00"
     }
   ],
@@ -98,9 +98,9 @@
     "id": "FL1028-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 758.55,
+    "price": 758,
     "currency": "EUR",
-    "seatsAvailable": 2,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -127,9 +127,9 @@
       "id": "FL1028-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 986.12,
+      "price": 985,
       "currency": "EUR",
-      "seatsAvailable": 23,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -139,11 +139,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -155,9 +155,9 @@
       "id": "FL1028-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 1289.53,
+      "price": 1289,
       "currency": "EUR",
-      "seatsAvailable": 9,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -167,11 +167,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

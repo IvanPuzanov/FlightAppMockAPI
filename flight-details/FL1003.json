@@ -1,55 +1,55 @@
 {
   "id": "FL1003",
   "airline": {
-    "code": "U2",
-    "name": "easyJet",
-    "logo": "https://images.kiwi.com/airlines/128/U2.png"
+    "code": "BA",
+    "name": "British Airways",
+    "logo": "https://images.kiwi.com/airlines/128/BA.png"
   },
-  "flightNumber": "U2 3241",
+  "flightNumber": "BA 304",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "LHR",
     "city": "London",
     "country": "United Kingdom",
     "airportName": "London Heathrow Airport"
   },
-  "departureDateTime": "2026-08-12T07:20:00+02:00",
-  "arrivalDateTime": "2026-08-12T09:55:00+01:00",
-  "durationMinutes": 155,
+  "destination": {
+    "iata": "CDG",
+    "city": "Paris",
+    "country": "France",
+    "airportName": "Charles de Gaulle Airport"
+  },
+  "departureDateTime": "2026-08-12T07:20:00+01:00",
+  "arrivalDateTime": "2026-08-12T09:35:00+02:00",
+  "durationMinutes": 75,
   "stops": 0,
-  "price": 135.45,
+  "price": 136,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1003-S1",
-      "flightNumber": "U2 3241",
+      "flightNumber": "BA 304",
       "airline": {
-        "code": "U2",
-        "name": "easyJet"
+        "code": "BA",
+        "name": "British Airways"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "LHR",
         "city": "London",
         "country": "United Kingdom",
         "airportName": "London Heathrow Airport"
       },
-      "departureDateTime": "2026-08-12T07:20:00+02:00",
-      "arrivalDateTime": "2026-08-12T09:55:00+01:00",
-      "durationMinutes": 155,
-      "aircraft": "Airbus A319",
+      "destination": {
+        "iata": "CDG",
+        "city": "Paris",
+        "country": "France",
+        "airportName": "Charles de Gaulle Airport"
+      },
+      "departureDateTime": "2026-08-12T07:20:00+01:00",
+      "arrivalDateTime": "2026-08-12T09:35:00+02:00",
+      "durationMinutes": 75,
+      "aircraft": "Airbus A320",
       "terminalDeparture": "1",
-      "gateDeparture": "B15"
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1003-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 135.45,
+    "price": 136,
     "currency": "EUR",
-    "seatsAvailable": 2,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1003-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 176.08,
+      "price": 177,
       "currency": "EUR",
-      "seatsAvailable": 22,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1003-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 230.26,
+      "price": 231,
       "currency": "EUR",
-      "seatsAvailable": 4,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

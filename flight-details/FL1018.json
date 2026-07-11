@@ -5,51 +5,51 @@
     "name": "Aeroflot",
     "logo": "https://images.kiwi.com/airlines/128/SU.png"
   },
-  "flightNumber": "SU 2116",
+  "flightNumber": "SU 2130",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "SVO",
     "city": "Moscow",
     "country": "Russia",
     "airportName": "Sheremetyevo International Airport"
   },
-  "departureDateTime": "2026-08-12T13:50:00+02:00",
-  "arrivalDateTime": "2026-08-12T16:35:00+03:00",
-  "durationMinutes": 165,
+  "destination": {
+    "iata": "IST",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "airportName": "Istanbul Airport"
+  },
+  "departureDateTime": "2026-08-12T13:50:00+03:00",
+  "arrivalDateTime": "2026-08-12T17:20:00+03:00",
+  "durationMinutes": 210,
   "stops": 0,
-  "price": 126.85,
+  "price": 127,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1018-S1",
-      "flightNumber": "SU 2116",
+      "flightNumber": "SU 2130",
       "airline": {
         "code": "SU",
         "name": "Aeroflot"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "SVO",
         "city": "Moscow",
         "country": "Russia",
         "airportName": "Sheremetyevo International Airport"
       },
-      "departureDateTime": "2026-08-12T13:50:00+02:00",
-      "arrivalDateTime": "2026-08-12T16:35:00+03:00",
-      "durationMinutes": 165,
-      "aircraft": "Airbus A320",
+      "destination": {
+        "iata": "IST",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "airportName": "Istanbul Airport"
+      },
+      "departureDateTime": "2026-08-12T13:50:00+03:00",
+      "arrivalDateTime": "2026-08-12T17:20:00+03:00",
+      "durationMinutes": 210,
+      "aircraft": "Airbus A321",
       "terminalDeparture": "1",
-      "gateDeparture": "A8"
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1018-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 126.85,
+    "price": 127,
     "currency": "EUR",
-    "seatsAvailable": 7,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1018-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 164.91,
+      "price": 165,
       "currency": "EUR",
-      "seatsAvailable": 30,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,14 +98,14 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
-        "mealIncluded": false,
+        "mealIncluded": true,
         "seatSelectionIncluded": false,
         "priorityBoarding": false
       }
@@ -114,9 +114,9 @@
       "id": "FL1018-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 215.64,
+      "price": 216,
       "currency": "EUR",
-      "seatsAvailable": 7,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

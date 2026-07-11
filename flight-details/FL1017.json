@@ -5,51 +5,51 @@
     "name": "Aegean Airlines",
     "logo": "https://images.kiwi.com/airlines/128/A3.png"
   },
-  "flightNumber": "A3 848",
+  "flightNumber": "A3 610",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "ATH",
     "city": "Athens",
     "country": "Greece",
     "airportName": "Athens International Airport"
   },
-  "departureDateTime": "2026-08-12T15:30:00+02:00",
-  "arrivalDateTime": "2026-08-12T17:10:00+03:00",
-  "durationMinutes": 100,
+  "destination": {
+    "iata": "FCO",
+    "city": "Rome",
+    "country": "Italy",
+    "airportName": "Leonardo da Vinci-Fiumicino Airport"
+  },
+  "departureDateTime": "2026-08-12T15:30:00+03:00",
+  "arrivalDateTime": "2026-08-12T16:55:00+02:00",
+  "durationMinutes": 145,
   "stops": 0,
-  "price": 124.88,
+  "price": 125,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1017-S1",
-      "flightNumber": "A3 848",
+      "flightNumber": "A3 610",
       "airline": {
         "code": "A3",
         "name": "Aegean Airlines"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "ATH",
         "city": "Athens",
         "country": "Greece",
         "airportName": "Athens International Airport"
       },
-      "departureDateTime": "2026-08-12T15:30:00+02:00",
-      "arrivalDateTime": "2026-08-12T17:10:00+03:00",
-      "durationMinutes": 100,
-      "aircraft": "Airbus A320",
-      "terminalDeparture": "2",
-      "gateDeparture": "C15"
+      "destination": {
+        "iata": "FCO",
+        "city": "Rome",
+        "country": "Italy",
+        "airportName": "Leonardo da Vinci-Fiumicino Airport"
+      },
+      "departureDateTime": "2026-08-12T15:30:00+03:00",
+      "arrivalDateTime": "2026-08-12T16:55:00+02:00",
+      "durationMinutes": 145,
+      "aircraft": "Airbus A321",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1017-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 124.88,
+    "price": 125,
     "currency": "EUR",
-    "seatsAvailable": 6,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1017-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 162.34,
+      "price": 162,
       "currency": "EUR",
-      "seatsAvailable": 21,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1017-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 212.3,
+      "price": 212,
       "currency": "EUR",
-      "seatsAvailable": 8,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

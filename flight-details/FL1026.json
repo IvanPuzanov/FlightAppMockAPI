@@ -5,12 +5,12 @@
     "name": "Lufthansa",
     "logo": "https://images.kiwi.com/airlines/128/LH.png"
   },
-  "flightNumber": "LH 1104 / LH 400",
+  "flightNumber": "LH 2200 / LH 400",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "MUC",
+    "city": "Munich",
+    "country": "Germany",
+    "airportName": "Munich Airport"
   },
   "destination": {
     "iata": "JFK",
@@ -19,24 +19,24 @@
     "airportName": "John F. Kennedy International Airport"
   },
   "departureDateTime": "2026-08-12T09:15:00+02:00",
-  "arrivalDateTime": "2026-08-12T21:40:00-04:00",
+  "arrivalDateTime": "2026-08-12T15:40:00-04:00",
   "durationMinutes": 745,
   "stops": 1,
-  "price": 466.13,
+  "price": 466,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1026-S1",
-      "flightNumber": "LH 1104",
+      "flightNumber": "LH 2200",
       "airline": {
         "code": "LH",
         "name": "Lufthansa"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "MUC",
+        "city": "Munich",
+        "country": "Germany",
+        "airportName": "Munich Airport"
       },
       "destination": {
         "iata": "FRA",
@@ -45,11 +45,11 @@
         "airportName": "Frankfurt Airport"
       },
       "departureDateTime": "2026-08-12T09:15:00+02:00",
-      "arrivalDateTime": "2026-08-12T10:40:00+02:00",
-      "durationMinutes": 85,
+      "arrivalDateTime": "2026-08-12T10:10:00+02:00",
+      "durationMinutes": 55,
       "aircraft": "Airbus A321",
-      "terminalDeparture": "3",
-      "gateDeparture": "D5"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     },
     {
       "segmentId": "FL1026-S2",
@@ -71,10 +71,10 @@
         "airportName": "John F. Kennedy International Airport"
       },
       "departureDateTime": "2026-08-12T12:35:00+02:00",
-      "arrivalDateTime": "2026-08-12T21:40:00-04:00",
+      "arrivalDateTime": "2026-08-12T15:40:00-04:00",
       "durationMinutes": 545,
-      "aircraft": "Airbus A321",
-      "terminalDeparture": "3",
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "2",
       "gateDeparture": "B9"
     }
   ],
@@ -90,7 +90,7 @@
         "name": "Lufthansa",
         "logo": "https://images.kiwi.com/airlines/128/LH.png"
       },
-      "durationMinutes": 115,
+      "durationMinutes": 145,
       "departureDateTime": "2026-08-12T12:35:00+02:00"
     }
   ],
@@ -98,9 +98,9 @@
     "id": "FL1026-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 466.13,
+    "price": 466,
     "currency": "EUR",
-    "seatsAvailable": 19,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -127,9 +127,9 @@
       "id": "FL1026-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 605.97,
+      "price": 606,
       "currency": "EUR",
-      "seatsAvailable": 10,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -139,11 +139,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -155,9 +155,9 @@
       "id": "FL1026-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 792.42,
+      "price": 792,
       "currency": "EUR",
-      "seatsAvailable": 5,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -167,11 +167,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

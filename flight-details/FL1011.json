@@ -5,51 +5,51 @@
     "name": "KLM Royal Dutch Airlines",
     "logo": "https://images.kiwi.com/airlines/128/KL.png"
   },
-  "flightNumber": "KL 1358",
+  "flightNumber": "KL 1128",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "AMS",
     "city": "Amsterdam",
     "country": "Netherlands",
     "airportName": "Amsterdam Schiphol Airport"
   },
+  "destination": {
+    "iata": "CPH",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "airportName": "Copenhagen Airport"
+  },
   "departureDateTime": "2026-08-12T11:45:00+02:00",
-  "arrivalDateTime": "2026-08-12T13:40:00+02:00",
-  "durationMinutes": 115,
+  "arrivalDateTime": "2026-08-12T13:05:00+02:00",
+  "durationMinutes": 80,
   "stops": 0,
-  "price": 121.31,
+  "price": 122,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1011-S1",
-      "flightNumber": "KL 1358",
+      "flightNumber": "KL 1128",
       "airline": {
         "code": "KL",
         "name": "KLM Royal Dutch Airlines"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "AMS",
         "city": "Amsterdam",
         "country": "Netherlands",
         "airportName": "Amsterdam Schiphol Airport"
       },
+      "destination": {
+        "iata": "CPH",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "airportName": "Copenhagen Airport"
+      },
       "departureDateTime": "2026-08-12T11:45:00+02:00",
-      "arrivalDateTime": "2026-08-12T13:40:00+02:00",
-      "durationMinutes": 115,
-      "aircraft": "Boeing 737-800",
-      "terminalDeparture": "2",
-      "gateDeparture": "B18"
+      "arrivalDateTime": "2026-08-12T13:05:00+02:00",
+      "durationMinutes": 80,
+      "aircraft": "Airbus A320",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1011-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 121.31,
+    "price": 122,
     "currency": "EUR",
-    "seatsAvailable": 4,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1011-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 157.7,
+      "price": 159,
       "currency": "EUR",
-      "seatsAvailable": 24,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,7 +114,7 @@
       "id": "FL1011-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 206.23,
+      "price": 207,
       "currency": "EUR",
       "seatsAvailable": 3,
       "baggage": {
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

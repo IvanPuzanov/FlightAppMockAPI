@@ -5,7 +5,7 @@
     "name": "British Airways",
     "logo": "https://images.kiwi.com/airlines/128/BA.png"
   },
-  "flightNumber": "BA 698",
+  "flightNumber": "BA 117",
   "origin": {
     "iata": "LHR",
     "city": "London",
@@ -13,21 +13,21 @@
     "airportName": "London Heathrow Airport"
   },
   "destination": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
+    "iata": "JFK",
+    "city": "New York",
+    "country": "United States",
+    "airportName": "John F. Kennedy International Airport"
   },
   "departureDateTime": "2026-08-15T16:00:00+01:00",
-  "arrivalDateTime": "2026-08-15T18:35:00+02:00",
-  "durationMinutes": 155,
+  "arrivalDateTime": "2026-08-15T19:10:00-04:00",
+  "durationMinutes": 490,
   "stops": 0,
-  "price": 139.2,
+  "price": 420,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1024-S1",
-      "flightNumber": "BA 698",
+      "flightNumber": "BA 117",
       "airline": {
         "code": "BA",
         "name": "British Airways"
@@ -39,17 +39,17 @@
         "airportName": "London Heathrow Airport"
       },
       "destination": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
+        "iata": "JFK",
+        "city": "New York",
+        "country": "United States",
+        "airportName": "John F. Kennedy International Airport"
       },
       "departureDateTime": "2026-08-15T16:00:00+01:00",
-      "arrivalDateTime": "2026-08-15T18:35:00+02:00",
-      "durationMinutes": 155,
-      "aircraft": "Airbus A320",
-      "terminalDeparture": "3",
-      "gateDeparture": "E1"
+      "arrivalDateTime": "2026-08-15T19:10:00-04:00",
+      "durationMinutes": 490,
+      "aircraft": "Boeing 777-300ER",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1024-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 139.2,
+    "price": 420,
     "currency": "EUR",
-    "seatsAvailable": 17,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1024-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 180.96,
+      "price": 546,
       "currency": "EUR",
-      "seatsAvailable": 5,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,14 +98,14 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
-        "mealIncluded": false,
+        "mealIncluded": true,
         "seatSelectionIncluded": false,
         "priorityBoarding": false
       }
@@ -114,9 +114,9 @@
       "id": "FL1024-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 236.64,
+      "price": 714,
       "currency": "EUR",
-      "seatsAvailable": 2,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

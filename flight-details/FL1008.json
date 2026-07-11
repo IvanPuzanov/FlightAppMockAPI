@@ -5,51 +5,51 @@
     "name": "Emirates",
     "logo": "https://images.kiwi.com/airlines/128/EK.png"
   },
-  "flightNumber": "EK 128",
+  "flightNumber": "EK 2",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "DXB",
     "city": "Dubai",
     "country": "United Arab Emirates",
     "airportName": "Dubai International Airport"
   },
-  "departureDateTime": "2026-08-12T21:15:00+02:00",
-  "arrivalDateTime": "2026-08-13T02:45:00+04:00",
-  "durationMinutes": 330,
+  "destination": {
+    "iata": "LHR",
+    "city": "London",
+    "country": "United Kingdom",
+    "airportName": "London Heathrow Airport"
+  },
+  "departureDateTime": "2026-08-12T09:20:00+04:00",
+  "arrivalDateTime": "2026-08-12T13:55:00+01:00",
+  "durationMinutes": 455,
   "stops": 0,
-  "price": 395.06,
+  "price": 395,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1008-S1",
-      "flightNumber": "EK 128",
+      "flightNumber": "EK 2",
       "airline": {
         "code": "EK",
         "name": "Emirates"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "DXB",
         "city": "Dubai",
         "country": "United Arab Emirates",
         "airportName": "Dubai International Airport"
       },
-      "departureDateTime": "2026-08-12T21:15:00+02:00",
-      "arrivalDateTime": "2026-08-13T02:45:00+04:00",
-      "durationMinutes": 330,
+      "destination": {
+        "iata": "LHR",
+        "city": "London",
+        "country": "United Kingdom",
+        "airportName": "London Heathrow Airport"
+      },
+      "departureDateTime": "2026-08-12T09:20:00+04:00",
+      "arrivalDateTime": "2026-08-12T13:55:00+01:00",
+      "durationMinutes": 455,
       "aircraft": "Boeing 777-300ER",
-      "terminalDeparture": "2",
-      "gateDeparture": "F40"
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1008-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 395.06,
+    "price": 395,
     "currency": "EUR",
-    "seatsAvailable": 13,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1008-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 513.58,
+      "price": 514,
       "currency": "EUR",
-      "seatsAvailable": 23,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": true,
@@ -114,9 +114,9 @@
       "id": "FL1008-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 671.6,
+      "price": 672,
       "currency": "EUR",
-      "seatsAvailable": 4,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

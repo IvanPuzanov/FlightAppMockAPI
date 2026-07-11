@@ -5,51 +5,51 @@
     "name": "SAS Scandinavian Airlines",
     "logo": "https://images.kiwi.com/airlines/128/SK.png"
   },
-  "flightNumber": "SK 1671",
+  "flightNumber": "SK 1580",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "CPH",
     "city": "Copenhagen",
     "country": "Denmark",
     "airportName": "Copenhagen Airport"
   },
+  "destination": {
+    "iata": "WAW",
+    "city": "Warsaw",
+    "country": "Poland",
+    "airportName": "Warsaw Chopin Airport"
+  },
   "departureDateTime": "2026-08-12T12:15:00+02:00",
-  "arrivalDateTime": "2026-08-12T14:20:00+02:00",
-  "durationMinutes": 125,
+  "arrivalDateTime": "2026-08-12T13:45:00+02:00",
+  "durationMinutes": 90,
   "stops": 0,
-  "price": 101.39,
+  "price": 102,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1014-S1",
-      "flightNumber": "SK 1671",
+      "flightNumber": "SK 1580",
       "airline": {
         "code": "SK",
         "name": "SAS Scandinavian Airlines"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "CPH",
         "city": "Copenhagen",
         "country": "Denmark",
         "airportName": "Copenhagen Airport"
       },
+      "destination": {
+        "iata": "WAW",
+        "city": "Warsaw",
+        "country": "Poland",
+        "airportName": "Warsaw Chopin Airport"
+      },
       "departureDateTime": "2026-08-12T12:15:00+02:00",
-      "arrivalDateTime": "2026-08-12T14:20:00+02:00",
-      "durationMinutes": 125,
-      "aircraft": "Airbus A320neo",
-      "terminalDeparture": "2",
-      "gateDeparture": "D18"
+      "arrivalDateTime": "2026-08-12T13:45:00+02:00",
+      "durationMinutes": 90,
+      "aircraft": "Airbus A320",
+      "terminalDeparture": "1",
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1014-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 101.39,
+    "price": 102,
     "currency": "EUR",
-    "seatsAvailable": 20,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,9 +86,9 @@
       "id": "FL1014-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 131.81,
+      "price": 133,
       "currency": "EUR",
-      "seatsAvailable": 27,
+      "seatsAvailable": 12,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1014-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 172.36,
+      "price": 173,
       "currency": "EUR",
-      "seatsAvailable": 6,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,

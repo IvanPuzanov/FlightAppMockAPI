@@ -5,51 +5,51 @@
     "name": "ITA Airways",
     "logo": "https://images.kiwi.com/airlines/128/AZ.png"
   },
-  "flightNumber": "AZ 432",
+  "flightNumber": "AZ 720",
   "origin": {
-    "iata": "VIE",
-    "city": "Vienna",
-    "country": "Austria",
-    "airportName": "Vienna International Airport"
-  },
-  "destination": {
     "iata": "FCO",
     "city": "Rome",
     "country": "Italy",
     "airportName": "Leonardo da Vinci-Fiumicino Airport"
   },
+  "destination": {
+    "iata": "ATH",
+    "city": "Athens",
+    "country": "Greece",
+    "airportName": "Athens International Airport"
+  },
   "departureDateTime": "2026-08-12T07:50:00+02:00",
-  "arrivalDateTime": "2026-08-12T09:25:00+02:00",
-  "durationMinutes": 95,
+  "arrivalDateTime": "2026-08-12T11:15:00+03:00",
+  "durationMinutes": 145,
   "stops": 0,
-  "price": 115.95,
+  "price": 116,
   "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1013-S1",
-      "flightNumber": "AZ 432",
+      "flightNumber": "AZ 720",
       "airline": {
         "code": "AZ",
         "name": "ITA Airways"
       },
       "origin": {
-        "iata": "VIE",
-        "city": "Vienna",
-        "country": "Austria",
-        "airportName": "Vienna International Airport"
-      },
-      "destination": {
         "iata": "FCO",
         "city": "Rome",
         "country": "Italy",
         "airportName": "Leonardo da Vinci-Fiumicino Airport"
       },
+      "destination": {
+        "iata": "ATH",
+        "city": "Athens",
+        "country": "Greece",
+        "airportName": "Athens International Airport"
+      },
       "departureDateTime": "2026-08-12T07:50:00+02:00",
-      "arrivalDateTime": "2026-08-12T09:25:00+02:00",
-      "durationMinutes": 95,
-      "aircraft": "Airbus A320",
+      "arrivalDateTime": "2026-08-12T11:15:00+03:00",
+      "durationMinutes": 145,
+      "aircraft": "Airbus A321",
       "terminalDeparture": "1",
-      "gateDeparture": "F21"
+      "gateDeparture": "A2"
     }
   ],
   "layovers": [],
@@ -57,9 +57,9 @@
     "id": "FL1013-LIGHT",
     "name": "Economy Light",
     "cabinClass": "economy",
-    "price": 115.95,
+    "price": 116,
     "currency": "EUR",
-    "seatsAvailable": 3,
+    "seatsAvailable": 9,
     "baggage": {
       "personalItemIncluded": true,
       "cabinBaggageKg": 8,
@@ -86,7 +86,7 @@
       "id": "FL1013-CLASSIC",
       "name": "Economy Classic",
       "cabinClass": "economy",
-      "price": 150.74,
+      "price": 151,
       "currency": "EUR",
       "seatsAvailable": 12,
       "baggage": {
@@ -98,11 +98,11 @@
       },
       "cancellation": {
         "policy": "refundable_with_fee",
-        "fee": 75.0
+        "fee": 75
       },
       "changes": {
         "policy": "changeable_with_fee",
-        "fee": 45.0
+        "fee": 45
       },
       "amenities": {
         "mealIncluded": false,
@@ -114,9 +114,9 @@
       "id": "FL1013-FLEX",
       "name": "Economy Flex",
       "cabinClass": "economy",
-      "price": 197.12,
+      "price": 197,
       "currency": "EUR",
-      "seatsAvailable": 1,
+      "seatsAvailable": 3,
       "baggage": {
         "personalItemIncluded": true,
         "cabinBaggageKg": 8,
@@ -126,11 +126,11 @@
       },
       "cancellation": {
         "policy": "fully_refundable",
-        "fee": 0.0
+        "fee": 0
       },
       "changes": {
         "policy": "free_changes",
-        "fee": 0.0
+        "fee": 0
       },
       "amenities": {
         "mealIncluded": true,
