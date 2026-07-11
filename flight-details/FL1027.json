@@ -80,14 +80,18 @@
   ],
   "layovers": [
     {
-      "iata": "IST",
-      "city": "Istanbul",
-      "country": "Turkey",
+      "airport": {
+        "iata": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
       "airline": {
         "code": "TK",
-        "name": "Turkish Airlines"
+        "name": "Turkish Airlines",
+        "logo": "https://images.kiwi.com/airlines/128/TK.png"
       },
-      "durationMinutes": 190
+      "durationMinutes": 190,
+      "departureDateTime": "2026-08-12T16:05:00+03:00"
     }
   ],
   "fare": {

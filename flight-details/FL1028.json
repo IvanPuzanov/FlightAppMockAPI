@@ -80,14 +80,18 @@
   ],
   "layovers": [
     {
-      "iata": "DXB",
-      "city": "Dubai",
-      "country": "United Arab Emirates",
+      "airport": {
+        "iata": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
       "airline": {
         "code": "EK",
-        "name": "Emirates"
+        "name": "Emirates",
+        "logo": "https://images.kiwi.com/airlines/128/EK.png"
       },
-      "durationMinutes": 135
+      "durationMinutes": 135,
+      "departureDateTime": "2026-08-13T05:00:00+04:00"
     }
   ],
   "fare": {

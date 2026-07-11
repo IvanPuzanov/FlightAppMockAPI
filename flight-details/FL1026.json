@@ -80,14 +80,18 @@
   ],
   "layovers": [
     {
-      "iata": "FRA",
-      "city": "Frankfurt",
-      "country": "Germany",
+      "airport": {
+        "iata": "FRA",
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
       "airline": {
         "code": "LH",
-        "name": "Lufthansa"
+        "name": "Lufthansa",
+        "logo": "https://images.kiwi.com/airlines/128/LH.png"
       },
-      "durationMinutes": 115
+      "durationMinutes": 115,
+      "departureDateTime": "2026-08-12T12:35:00+02:00"
     }
   ],
   "fare": {

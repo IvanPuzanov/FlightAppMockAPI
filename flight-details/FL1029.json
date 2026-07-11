@@ -80,14 +80,18 @@
   ],
   "layovers": [
     {
-      "iata": "DOH",
-      "city": "Doha",
-      "country": "Qatar",
+      "airport": {
+        "iata": "DOH",
+        "city": "Doha",
+        "country": "Qatar"
+      },
       "airline": {
         "code": "QR",
-        "name": "Qatar Airways"
+        "name": "Qatar Airways",
+        "logo": "https://images.kiwi.com/airlines/128/QR.png"
       },
-      "durationMinutes": 265
+      "durationMinutes": 265,
+      "departureDateTime": "2026-08-12T23:55:00+03:00"
     }
   ],
   "fare": {

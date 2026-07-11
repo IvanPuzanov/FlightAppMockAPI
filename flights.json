@@ -632,14 +632,18 @@
     "stops": 1,
     "layovers": [
       {
-        "iata": "FRA",
-        "city": "Frankfurt",
-        "country": "Germany",
+        "airport": {
+          "iata": "FRA",
+          "city": "Frankfurt",
+          "country": "Germany"
+        },
         "airline": {
           "code": "LH",
-          "name": "Lufthansa"
+          "name": "Lufthansa",
+          "logo": "https://images.kiwi.com/airlines/128/LH.png"
         },
-        "durationMinutes": 115
+        "durationMinutes": 115,
+        "departureDateTime": "2026-08-12T12:35:00+02:00"
       }
     ]
   },
@@ -667,14 +671,18 @@
     "stops": 1,
     "layovers": [
       {
-        "iata": "IST",
-        "city": "Istanbul",
-        "country": "Turkey",
+        "airport": {
+          "iata": "IST",
+          "city": "Istanbul",
+          "country": "Turkey"
+        },
         "airline": {
           "code": "TK",
-          "name": "Turkish Airlines"
+          "name": "Turkish Airlines",
+          "logo": "https://images.kiwi.com/airlines/128/TK.png"
         },
-        "durationMinutes": 190
+        "durationMinutes": 190,
+        "departureDateTime": "2026-08-12T16:05:00+03:00"
       }
     ],
     "status": "recommended"
@@ -703,14 +711,18 @@
     "stops": 1,
     "layovers": [
       {
-        "iata": "DXB",
-        "city": "Dubai",
-        "country": "United Arab Emirates",
+        "airport": {
+          "iata": "DXB",
+          "city": "Dubai",
+          "country": "United Arab Emirates"
+        },
         "airline": {
           "code": "EK",
-          "name": "Emirates"
+          "name": "Emirates",
+          "logo": "https://images.kiwi.com/airlines/128/EK.png"
         },
-        "durationMinutes": 135
+        "durationMinutes": 135,
+        "departureDateTime": "2026-08-13T05:00:00+04:00"
       }
     ],
     "status": "recommended"
@@ -739,14 +751,18 @@
     "stops": 1,
     "layovers": [
       {
-        "iata": "DOH",
-        "city": "Doha",
-        "country": "Qatar",
+        "airport": {
+          "iata": "DOH",
+          "city": "Doha",
+          "country": "Qatar"
+        },
         "airline": {
           "code": "QR",
-          "name": "Qatar Airways"
+          "name": "Qatar Airways",
+          "logo": "https://images.kiwi.com/airlines/128/QR.png"
         },
-        "durationMinutes": 265
+        "durationMinutes": 265,
+        "departureDateTime": "2026-08-12T23:55:00+03:00"
       }
     ],
     "status": "best_price"
