@@ -6,42 +6,50 @@
     "logo": "https://images.kiwi.com/airlines/128/QR.png"
   },
   "flightNumber": "QR 184 / QR 940",
-  "status": "scheduled",
   "origin": {
-    "code": "VIE",
+    "iata": "VIE",
     "city": "Vienna",
     "country": "Austria",
     "airportName": "Vienna International Airport"
   },
   "destination": {
-    "code": "BKK",
+    "iata": "BKK",
     "city": "Bangkok",
     "country": "Thailand",
     "airportName": "Suvarnabhumi Airport"
   },
-  "departureDateTime": "2026-08-12T14:40:00+02:00",
-  "arrivalDateTime": "2026-08-13T06:10:00+07:00",
+  "departureDate": "2026-08-12",
+  "departureTime": "14:40",
+  "arrivalDate": "2026-08-13",
+  "arrivalTime": "06:10",
   "durationMinutes": 930,
   "stops": 1,
+  "price": 550.65,
+  "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1029-S1",
       "flightNumber": "QR 184",
-      "airlineCode": "QR",
+      "airline": {
+        "code": "QR",
+        "name": "Qatar Airways"
+      },
       "origin": {
-        "code": "VIE",
+        "iata": "VIE",
         "city": "Vienna",
         "country": "Austria",
         "airportName": "Vienna International Airport"
       },
       "destination": {
-        "code": "DOH",
+        "iata": "DOH",
         "city": "Doha",
         "country": "Qatar",
         "airportName": "Hamad International Airport"
       },
-      "departureDateTime": "2026-08-12T14:40:00+02:00",
-      "arrivalDateTime": "2026-08-12T19:30:00+03:00",
+      "departureDate": "2026-08-12",
+      "departureTime": "14:40",
+      "arrivalDate": "2026-08-12",
+      "arrivalTime": "19:30",
       "durationMinutes": 290,
       "aircraft": "Airbus A350",
       "terminalDeparture": "1",
@@ -50,21 +58,26 @@
     {
       "segmentId": "FL1029-S2",
       "flightNumber": "QR 940",
-      "airlineCode": "QR",
+      "airline": {
+        "code": "QR",
+        "name": "Qatar Airways"
+      },
       "origin": {
-        "code": "DOH",
+        "iata": "DOH",
         "city": "Doha",
         "country": "Qatar",
         "airportName": "Hamad International Airport"
       },
       "destination": {
-        "code": "BKK",
+        "iata": "BKK",
         "city": "Bangkok",
         "country": "Thailand",
         "airportName": "Suvarnabhumi Airport"
       },
-      "departureDateTime": "2026-08-12T23:55:00+03:00",
-      "arrivalDateTime": "2026-08-13T06:10:00+07:00",
+      "departureDate": "2026-08-12",
+      "departureTime": "23:55",
+      "arrivalDate": "2026-08-13",
+      "arrivalTime": "06:10",
       "durationMinutes": 375,
       "aircraft": "Airbus A350",
       "terminalDeparture": "1",
@@ -73,48 +86,101 @@
   ],
   "layovers": [
     {
-      "airportCode": "DOH",
+      "iata": "DOH",
       "city": "Doha",
       "country": "Qatar",
+      "airline": {
+        "code": "QR",
+        "name": "Qatar Airways"
+      },
       "durationMinutes": 265
     }
   ],
-  "fares": [
-    {
-      "fareId": "FL1029-LIGHT",
-      "name": "Economy Light",
-      "price": 550.65,
-      "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": false,
-      "changeable": false,
-      "checkedBaggageKg": 0,
+  "status": "best_price",
+  "fare": {
+    "id": "FL1029-LIGHT",
+    "name": "Economy Light",
+    "cabinClass": "economy",
+    "price": 550.65,
+    "currency": "EUR",
+    "seatsAvailable": 3,
+    "baggage": {
+      "personalItemIncluded": true,
       "cabinBaggageKg": 8,
-      "seatsAvailable": 3
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
     },
+    "cancellation": {
+      "policy": "non_refundable",
+      "fee": null
+    },
+    "changes": {
+      "policy": "non_changeable",
+      "fee": null
+    },
+    "amenities": {
+      "mealIncluded": false,
+      "seatSelectionIncluded": false,
+      "priorityBoarding": false
+    }
+  },
+  "fareOptions": [
     {
-      "fareId": "FL1029-CLASSIC",
+      "id": "FL1029-CLASSIC",
       "name": "Economy Classic",
+      "cabinClass": "economy",
       "price": 715.85,
       "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": false,
-      "changeable": true,
-      "checkedBaggageKg": 23,
-      "cabinBaggageKg": 8,
-      "seatsAvailable": 15
+      "seatsAvailable": 15,
+      "baggage": {
+        "personalItemIncluded": true,
+        "cabinBaggageKg": 8,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "refundable_with_fee",
+        "fee": 75.0
+      },
+      "changes": {
+        "policy": "changeable_with_fee",
+        "fee": 45.0
+      },
+      "amenities": {
+        "mealIncluded": true,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
     },
     {
-      "fareId": "FL1029-FLEX",
+      "id": "FL1029-FLEX",
       "name": "Economy Flex",
+      "cabinClass": "economy",
       "price": 936.1,
       "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": true,
-      "changeable": true,
-      "checkedBaggageKg": 23,
-      "cabinBaggageKg": 8,
-      "seatsAvailable": 2
+      "seatsAvailable": 2,
+      "baggage": {
+        "personalItemIncluded": true,
+        "cabinBaggageKg": 8,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "fully_refundable",
+        "fee": 0.0
+      },
+      "changes": {
+        "policy": "free_changes",
+        "fee": 0.0
+      },
+      "amenities": {
+        "mealIncluded": true,
+        "seatSelectionIncluded": true,
+        "priorityBoarding": true
+      }
     }
   ]
 }

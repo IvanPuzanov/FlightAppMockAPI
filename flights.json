@@ -1,879 +1,804 @@
 [
   {
     "id": "FL1001",
-    "flightNumber": "OS 101",
-    "airline": "Austrian Airlines",
-    "airlineCode": "OS",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/OS.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "FRA",
-    "destinationCity": "Frankfurt",
-    "destinationCountry": "Germany",
+    "airline": {
+      "code": "OS",
+      "name": "Austrian Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/OS.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "06:35",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "08:00",
-    "durationMinutes": 85,
-    "distanceKm": 621,
-    "stops": 0,
     "price": 106.4,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "landed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "recommended"
   },
   {
     "id": "FL1002",
-    "flightNumber": "LH 1104",
-    "airline": "Lufthansa",
-    "airlineCode": "LH",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/LH.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "FRA",
-    "destinationCity": "Frankfurt",
-    "destinationCountry": "Germany",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "09:15",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "10:40",
-    "durationMinutes": 85,
-    "distanceKm": 621,
-    "stops": 0,
     "price": 80.22,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "best_price"
   },
   {
     "id": "FL1003",
-    "flightNumber": "U2 3241",
-    "airline": "easyJet",
-    "airlineCode": "U2",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/U2.png",
-    "aircraft": "Airbus A319",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "LHR",
-    "destinationCity": "London",
-    "destinationCountry": "United Kingdom",
+    "airline": {
+      "code": "U2",
+      "name": "easyJet",
+      "logo": "https://images.kiwi.com/airlines/128/U2.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "07:20",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "09:55",
-    "durationMinutes": 155,
-    "distanceKm": 1275,
-    "stops": 0,
     "price": 135.45,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "recommended"
   },
   {
     "id": "FL1004",
-    "flightNumber": "BA 699",
-    "airline": "British Airways",
-    "airlineCode": "BA",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/BA.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "LHR",
-    "destinationCity": "London",
-    "destinationCountry": "United Kingdom",
+    "airline": {
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "https://images.kiwi.com/airlines/128/BA.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "13:10",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "15:45",
-    "durationMinutes": 155,
-    "distanceKm": 1275,
-    "stops": 0,
     "price": 132.02,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "boarding",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "best_price"
   },
   {
     "id": "FL1005",
-    "flightNumber": "FR 8821",
-    "airline": "Ryanair",
-    "airlineCode": "FR",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/FR.png",
-    "aircraft": "Boeing 737-800",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "BCN",
-    "destinationCity": "Barcelona",
-    "destinationCountry": "Spain",
+    "airline": {
+      "code": "FR",
+      "name": "Ryanair",
+      "logo": "https://images.kiwi.com/airlines/128/FR.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "05:55",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "08:20",
-    "durationMinutes": 145,
-    "distanceKm": 1369,
-    "stops": 0,
     "price": 123.35,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "boarding",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1006",
-    "flightNumber": "W6 2411",
-    "airline": "Wizz Air",
-    "airlineCode": "W6",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/W6.png",
-    "aircraft": "Airbus A321neo",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "BUD",
-    "destinationCity": "Budapest",
-    "destinationCountry": "Hungary",
+    "airline": {
+      "code": "W6",
+      "name": "Wizz Air",
+      "logo": "https://images.kiwi.com/airlines/128/W6.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "BUD",
+      "city": "Budapest",
+      "country": "Hungary"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "18:30",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "19:20",
-    "durationMinutes": 50,
-    "distanceKm": 215,
-    "stops": 0,
     "price": 61.36,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.59,
-    "currentPosition": {
-      "lat": 47.7088,
-      "lon": 18.1576
-    },
-    "altitudeFt": 33000,
-    "speedKmh": 800
+    "stops": 0,
+    "layovers": [],
+    "status": "best_price"
   },
   {
     "id": "FL1007",
-    "flightNumber": "TK 1052",
-    "airline": "Turkish Airlines",
-    "airlineCode": "TK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/TK.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "IST",
-    "destinationCity": "Istanbul",
-    "destinationCountry": "Turkey",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "10:05",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "12:55",
-    "durationMinutes": 170,
-    "distanceKm": 1224,
-    "stops": 0,
     "price": 144.94,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.67,
-    "currentPosition": {
-      "lat": 43.5309,
-      "lon": 24.7318
-    },
-    "altitudeFt": 37000,
-    "speedKmh": 820
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1008",
-    "flightNumber": "EK 128",
-    "airline": "Emirates",
-    "airlineCode": "EK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/EK.png",
-    "aircraft": "Boeing 777-300ER",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "DXB",
-    "destinationCity": "Dubai",
-    "destinationCountry": "United Arab Emirates",
+    "airline": {
+      "code": "EK",
+      "name": "Emirates",
+      "logo": "https://images.kiwi.com/airlines/128/EK.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "21:15",
     "arrivalDate": "2026-08-13",
     "arrivalTime": "02:45",
-    "durationMinutes": 330,
-    "distanceKm": 4223,
-    "stops": 0,
     "price": 395.06,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "recommended"
   },
   {
     "id": "FL1009",
-    "flightNumber": "QR 184",
-    "airline": "Qatar Airways",
-    "airlineCode": "QR",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/QR.png",
-    "aircraft": "Airbus A350",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "DOH",
-    "destinationCity": "Doha",
-    "destinationCountry": "Qatar",
+    "airline": {
+      "code": "QR",
+      "name": "Qatar Airways",
+      "logo": "https://images.kiwi.com/airlines/128/QR.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "DOH",
+      "city": "Doha",
+      "country": "Qatar"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "14:40",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "19:30",
-    "durationMinutes": 290,
-    "distanceKm": 3969,
-    "stops": 0,
     "price": 345.5,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1010",
-    "flightNumber": "LX 552",
-    "airline": "Swiss International Air Lines",
-    "airlineCode": "LX",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/LX.png",
-    "aircraft": "Airbus A220",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "ZRH",
-    "destinationCity": "Zurich",
-    "destinationCountry": "Switzerland",
+    "airline": {
+      "code": "LX",
+      "name": "Swiss International Air Lines",
+      "logo": "https://images.kiwi.com/airlines/128/LX.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "ZRH",
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "08:00",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "09:20",
-    "durationMinutes": 80,
-    "distanceKm": 603,
-    "stops": 0,
     "price": 92.13,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1011",
-    "flightNumber": "KL 1358",
-    "airline": "KLM Royal Dutch Airlines",
-    "airlineCode": "KL",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/KL.png",
-    "aircraft": "Boeing 737-800",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "AMS",
-    "destinationCity": "Amsterdam",
-    "destinationCountry": "Netherlands",
+    "airline": {
+      "code": "KL",
+      "name": "KLM Royal Dutch Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/KL.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "11:45",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "13:40",
-    "durationMinutes": 115,
-    "distanceKm": 959,
-    "stops": 0,
     "price": 121.31,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.27,
-    "currentPosition": {
-      "lat": 49.2444,
-      "lon": 13.3833
-    },
-    "altitudeFt": 37000,
-    "speedKmh": 780
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1012",
-    "flightNumber": "AF 1148",
-    "airline": "Air France",
-    "airlineCode": "AF",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/AF.png",
-    "aircraft": "Airbus A319",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "CDG",
-    "destinationCity": "Paris",
-    "destinationCountry": "France",
+    "airline": {
+      "code": "AF",
+      "name": "Air France",
+      "logo": "https://images.kiwi.com/airlines/128/AF.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "16:20",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "18:35",
-    "durationMinutes": 135,
-    "distanceKm": 1035,
-    "stops": 0,
     "price": 110.78,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "cancelled",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1013",
-    "flightNumber": "AZ 432",
-    "airline": "ITA Airways",
-    "airlineCode": "AZ",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/AZ.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "FCO",
-    "destinationCity": "Rome",
-    "destinationCountry": "Italy",
+    "airline": {
+      "code": "AZ",
+      "name": "ITA Airways",
+      "logo": "https://images.kiwi.com/airlines/128/AZ.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "07:50",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "09:25",
-    "durationMinutes": 95,
-    "distanceKm": 780,
-    "stops": 0,
     "price": 115.95,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "landed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1014",
-    "flightNumber": "SK 1671",
-    "airline": "SAS Scandinavian Airlines",
-    "airlineCode": "SK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/SK.png",
-    "aircraft": "Airbus A320neo",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "CPH",
-    "destinationCity": "Copenhagen",
-    "destinationCountry": "Denmark",
+    "airline": {
+      "code": "SK",
+      "name": "SAS Scandinavian Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/SK.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "12:15",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "14:20",
-    "durationMinutes": 125,
-    "distanceKm": 877,
-    "stops": 0,
     "price": 101.39,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "boarding",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1015",
-    "flightNumber": "IB 3241",
-    "airline": "Iberia",
-    "airlineCode": "IB",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/IB.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "MAD",
-    "destinationCity": "Madrid",
-    "destinationCountry": "Spain",
+    "airline": {
+      "code": "IB",
+      "name": "Iberia",
+      "logo": "https://images.kiwi.com/airlines/128/IB.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "MAD",
+      "city": "Madrid",
+      "country": "Spain"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "09:40",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "12:20",
-    "durationMinutes": 160,
-    "distanceKm": 1805,
-    "stops": 0,
     "price": 133.82,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "landed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1016",
-    "flightNumber": "LO 235",
-    "airline": "LOT Polish Airlines",
-    "airlineCode": "LO",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/LO.png",
-    "aircraft": "Embraer E195",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "WAW",
-    "destinationCity": "Warsaw",
-    "destinationCountry": "Poland",
+    "airline": {
+      "code": "LO",
+      "name": "LOT Polish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/LO.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "19:05",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "20:45",
-    "durationMinutes": 100,
-    "distanceKm": 549,
-    "stops": 0,
     "price": 106.55,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.15,
-    "currentPosition": {
-      "lat": 48.7186,
-      "lon": 17.2293
-    },
-    "altitudeFt": 18000,
-    "speedKmh": 580
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1017",
-    "flightNumber": "A3 848",
-    "airline": "Aegean Airlines",
-    "airlineCode": "A3",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/A3.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "ATH",
-    "destinationCity": "Athens",
-    "destinationCountry": "Greece",
+    "airline": {
+      "code": "A3",
+      "name": "Aegean Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/A3.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "15:30",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "17:10",
-    "durationMinutes": 100,
-    "distanceKm": 1279,
-    "stops": 0,
     "price": 124.88,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.22,
-    "currentPosition": {
-      "lat": 45.872,
-      "lon": 18.1922
-    },
-    "altitudeFt": 33000,
-    "speedKmh": 820
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1018",
-    "flightNumber": "SU 2116",
-    "airline": "Aeroflot",
-    "airlineCode": "SU",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/SU.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "SVO",
-    "destinationCity": "Moscow",
-    "destinationCountry": "Russia",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot",
+      "logo": "https://images.kiwi.com/airlines/128/SU.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "SVO",
+      "city": "Moscow",
+      "country": "Russia"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "13:50",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "16:35",
-    "durationMinutes": 165,
-    "distanceKm": 1662,
-    "stops": 0,
     "price": 126.85,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "delayed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1019",
-    "flightNumber": "OS 205",
-    "airline": "Austrian Airlines",
-    "airlineCode": "OS",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/OS.png",
-    "aircraft": "Airbus A320",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "MUC",
-    "destinationCity": "Munich",
-    "destinationCountry": "Germany",
+    "airline": {
+      "code": "OS",
+      "name": "Austrian Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/OS.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "06:10",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "07:15",
-    "durationMinutes": 65,
-    "distanceKm": 355,
-    "stops": 0,
     "price": 81.0,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.79,
-    "currentPosition": {
-      "lat": 48.3027,
-      "lon": 12.7907
-    },
-    "altitudeFt": 41000,
-    "speedKmh": 820
+    "stops": 0,
+    "layovers": [],
+    "status": "best_price"
   },
   {
     "id": "FL1020",
-    "flightNumber": "LH 3346",
-    "airline": "Lufthansa",
-    "airlineCode": "LH",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/LH.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "MUC",
-    "destinationCity": "Munich",
-    "destinationCountry": "Germany",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "17:45",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "18:50",
-    "durationMinutes": 65,
-    "distanceKm": 355,
-    "stops": 0,
     "price": 93.01,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "landed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": [],
+    "status": "recommended"
   },
   {
     "id": "FL1021",
-    "flightNumber": "FR 3312",
-    "airline": "Ryanair",
-    "airlineCode": "FR",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/FR.png",
-    "aircraft": "Boeing 737-800",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "MXP",
-    "destinationCity": "Milan",
-    "destinationCountry": "Italy",
+    "airline": {
+      "code": "FR",
+      "name": "Ryanair",
+      "logo": "https://images.kiwi.com/airlines/128/FR.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "MXP",
+      "city": "Milan",
+      "country": "Italy"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "20:15",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "21:35",
-    "durationMinutes": 80,
-    "distanceKm": 656,
-    "stops": 0,
     "price": 85.73,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.05,
-    "currentPosition": {
-      "lat": 47.9863,
-      "lon": 16.1776
-    },
-    "altitudeFt": 12000,
-    "speedKmh": 580
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1022",
-    "flightNumber": "W6 3007",
-    "airline": "Wizz Air",
-    "airlineCode": "W6",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/W6.png",
-    "aircraft": "Airbus A321neo",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "PRG",
-    "destinationCity": "Prague",
-    "destinationCountry": "Czech Republic",
+    "airline": {
+      "code": "W6",
+      "name": "Wizz Air",
+      "logo": "https://images.kiwi.com/airlines/128/W6.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "PRG",
+      "city": "Prague",
+      "country": "Czech Republic"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "08:35",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "09:15",
-    "durationMinutes": 40,
-    "distanceKm": 278,
-    "stops": 0,
     "price": 90.87,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.76,
-    "currentPosition": {
-      "lat": 49.6231,
-      "lon": 14.8168
-    },
-    "altitudeFt": 39000,
-    "speedKmh": 870
+    "stops": 0,
+    "layovers": [],
+    "status": "fastest"
   },
   {
     "id": "FL1023",
-    "flightNumber": "EK 129",
-    "airline": "Emirates",
-    "airlineCode": "EK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/EK.png",
-    "aircraft": "Boeing 777-300ER",
-    "originIata": "DXB",
-    "originCity": "Dubai",
-    "originCountry": "United Arab Emirates",
-    "destinationIata": "VIE",
-    "destinationCity": "Vienna",
-    "destinationCountry": "Austria",
+    "airline": {
+      "code": "EK",
+      "name": "Emirates",
+      "logo": "https://images.kiwi.com/airlines/128/EK.png"
+    },
+    "origin": {
+      "iata": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    "destination": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
     "departureDate": "2026-08-14",
     "departureTime": "09:20",
     "arrivalDate": "2026-08-14",
     "arrivalTime": "14:55",
-    "durationMinutes": 335,
-    "distanceKm": 4223,
-    "stops": 0,
     "price": 381.76,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "cancelled",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1024",
-    "flightNumber": "BA 698",
-    "airline": "British Airways",
-    "airlineCode": "BA",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/BA.png",
-    "aircraft": "Airbus A320",
-    "originIata": "LHR",
-    "originCity": "London",
-    "originCountry": "United Kingdom",
-    "destinationIata": "VIE",
-    "destinationCity": "Vienna",
-    "destinationCountry": "Austria",
+    "airline": {
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "https://images.kiwi.com/airlines/128/BA.png"
+    },
+    "origin": {
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    "destination": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
     "departureDate": "2026-08-15",
     "departureTime": "16:00",
     "arrivalDate": "2026-08-15",
     "arrivalTime": "18:35",
-    "durationMinutes": 155,
-    "distanceKm": 1275,
-    "stops": 0,
     "price": 139.2,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.24,
-    "currentPosition": {
-      "lat": 50.6637,
-      "lon": 3.6315
-    },
-    "altitudeFt": 39000,
-    "speedKmh": 780
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1025",
-    "flightNumber": "TK 1053",
-    "airline": "Turkish Airlines",
-    "airlineCode": "TK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/TK.png",
-    "aircraft": "Airbus A321",
-    "originIata": "IST",
-    "originCity": "Istanbul",
-    "originCountry": "Turkey",
-    "destinationIata": "VIE",
-    "destinationCity": "Vienna",
-    "destinationCountry": "Austria",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    "destination": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
     "departureDate": "2026-08-15",
     "departureTime": "15:20",
     "arrivalDate": "2026-08-15",
     "arrivalTime": "18:05",
-    "durationMinutes": 165,
-    "distanceKm": 1224,
-    "stops": 0,
     "price": 123.06,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.56,
-    "currentPosition": {
-      "lat": 45.1029,
-      "lon": 21.9299
-    },
-    "altitudeFt": 41000,
-    "speedKmh": 820
+    "stops": 0,
+    "layovers": []
   },
   {
     "id": "FL1026",
-    "flightNumber": "LH 1104 / LH 400",
-    "airline": "Lufthansa",
-    "airlineCode": "LH",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/LH.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "JFK",
-    "destinationCity": "New York",
-    "destinationCountry": "United States",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "JFK",
+      "city": "New York",
+      "country": "United States"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "09:15",
     "arrivalDate": "2026-08-12",
     "arrivalTime": "21:40",
-    "durationMinutes": 745,
-    "distanceKm": 6805,
-    "stops": 1,
     "price": 466.13,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "boarding",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 1,
+    "layovers": [
+      {
+        "country": "Germany",
+        "airline": {
+          "code": "LH",
+          "name": "Lufthansa"
+        },
+        "durationMinutes": 115
+      }
+    ]
   },
   {
     "id": "FL1027",
-    "flightNumber": "TK 1052 / TK 64",
-    "airline": "Turkish Airlines",
-    "airlineCode": "TK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/TK.png",
-    "aircraft": "Airbus A321",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "BKK",
-    "destinationCity": "Bangkok",
-    "destinationCountry": "Thailand",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "BKK",
+      "city": "Bangkok",
+      "country": "Thailand"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "10:05",
     "arrivalDate": "2026-08-13",
     "arrivalTime": "01:35",
-    "durationMinutes": 930,
-    "distanceKm": 8451,
-    "stops": 1,
     "price": 570.01,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.58,
-    "currentPosition": {
-      "lat": 28.1465,
-      "lon": 65.3943
-    },
-    "altitudeFt": 33000,
-    "speedKmh": 780
+    "stops": 1,
+    "layovers": [
+      {
+        "country": "Turkey",
+        "airline": {
+          "code": "TK",
+          "name": "Turkish Airlines"
+        },
+        "durationMinutes": 190
+      }
+    ],
+    "status": "recommended"
   },
   {
     "id": "FL1028",
-    "flightNumber": "EK 128 / EK 420",
-    "airline": "Emirates",
-    "airlineCode": "EK",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/EK.png",
-    "aircraft": "Boeing 777-300ER",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "SYD",
-    "destinationCity": "Sydney",
-    "destinationCountry": "Australia",
+    "airline": {
+      "code": "EK",
+      "name": "Emirates",
+      "logo": "https://images.kiwi.com/airlines/128/EK.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "SYD",
+      "city": "Sydney",
+      "country": "Australia"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "21:15",
     "arrivalDate": "2026-08-13",
     "arrivalTime": "19:15",
-    "durationMinutes": 1320,
-    "distanceKm": 15965,
-    "stops": 1,
     "price": 758.55,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "in_air",
-    "progress": 0.65,
-    "currentPosition": {
-      "lat": -5.2223,
-      "lon": 104.0633
-    },
-    "altitudeFt": 37000,
-    "speedKmh": 780
+    "stops": 1,
+    "layovers": [
+      {
+        "country": "United Arab Emirates",
+        "airline": {
+          "code": "EK",
+          "name": "Emirates"
+        },
+        "durationMinutes": 135
+      }
+    ],
+    "status": "recommended"
   },
   {
     "id": "FL1029",
-    "flightNumber": "QR 184 / QR 940",
-    "airline": "Qatar Airways",
-    "airlineCode": "QR",
-    "airlineLogo": "https://images.kiwi.com/airlines/128/QR.png",
-    "aircraft": "Airbus A350",
-    "originIata": "VIE",
-    "originCity": "Vienna",
-    "originCountry": "Austria",
-    "destinationIata": "BKK",
-    "destinationCity": "Bangkok",
-    "destinationCountry": "Thailand",
+    "airline": {
+      "code": "QR",
+      "name": "Qatar Airways",
+      "logo": "https://images.kiwi.com/airlines/128/QR.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "BKK",
+      "city": "Bangkok",
+      "country": "Thailand"
+    },
     "departureDate": "2026-08-12",
     "departureTime": "14:40",
     "arrivalDate": "2026-08-13",
     "arrivalTime": "06:10",
-    "durationMinutes": 930,
-    "distanceKm": 8451,
-    "stops": 1,
     "price": 550.65,
     "currency": "EUR",
-    "cabinClass": "economy",
-    "status": "landed",
-    "progress": null,
-    "currentPosition": null,
-    "altitudeFt": null,
-    "speedKmh": null
+    "stops": 1,
+    "layovers": [
+      {
+        "country": "Qatar",
+        "airline": {
+          "code": "QR",
+          "name": "Qatar Airways"
+        },
+        "durationMinutes": 265
+      }
+    ],
+    "status": "best_price"
   }
 ]

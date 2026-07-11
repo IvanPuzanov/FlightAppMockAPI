@@ -6,42 +6,50 @@
     "logo": "https://images.kiwi.com/airlines/128/OS.png"
   },
   "flightNumber": "OS 101",
-  "status": "scheduled",
   "origin": {
-    "code": "VIE",
+    "iata": "VIE",
     "city": "Vienna",
     "country": "Austria",
     "airportName": "Vienna International Airport"
   },
   "destination": {
-    "code": "FRA",
+    "iata": "FRA",
     "city": "Frankfurt",
     "country": "Germany",
     "airportName": "Frankfurt Airport"
   },
-  "departureDateTime": "2026-08-12T06:35:00+02:00",
-  "arrivalDateTime": "2026-08-12T08:00:00+02:00",
+  "departureDate": "2026-08-12",
+  "departureTime": "06:35",
+  "arrivalDate": "2026-08-12",
+  "arrivalTime": "08:00",
   "durationMinutes": 85,
   "stops": 0,
+  "price": 106.4,
+  "currency": "EUR",
   "segments": [
     {
       "segmentId": "FL1001-S1",
       "flightNumber": "OS 101",
-      "airlineCode": "OS",
+      "airline": {
+        "code": "OS",
+        "name": "Austrian Airlines"
+      },
       "origin": {
-        "code": "VIE",
+        "iata": "VIE",
         "city": "Vienna",
         "country": "Austria",
         "airportName": "Vienna International Airport"
       },
       "destination": {
-        "code": "FRA",
+        "iata": "FRA",
         "city": "Frankfurt",
         "country": "Germany",
         "airportName": "Frankfurt Airport"
       },
-      "departureDateTime": "2026-08-12T06:35:00+02:00",
-      "arrivalDateTime": "2026-08-12T08:00:00+02:00",
+      "departureDate": "2026-08-12",
+      "departureTime": "06:35",
+      "arrivalDate": "2026-08-12",
+      "arrivalTime": "08:00",
       "durationMinutes": 85,
       "aircraft": "Airbus A320",
       "terminalDeparture": "3",
@@ -49,42 +57,91 @@
     }
   ],
   "layovers": [],
-  "fares": [
-    {
-      "fareId": "FL1001-LIGHT",
-      "name": "Economy Light",
-      "price": 106.4,
-      "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": false,
-      "changeable": false,
-      "checkedBaggageKg": 0,
+  "status": "recommended",
+  "fare": {
+    "id": "FL1001-LIGHT",
+    "name": "Economy Light",
+    "cabinClass": "economy",
+    "price": 106.4,
+    "currency": "EUR",
+    "seatsAvailable": 9,
+    "baggage": {
+      "personalItemIncluded": true,
       "cabinBaggageKg": 8,
-      "seatsAvailable": 9
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
     },
+    "cancellation": {
+      "policy": "non_refundable",
+      "fee": null
+    },
+    "changes": {
+      "policy": "non_changeable",
+      "fee": null
+    },
+    "amenities": {
+      "mealIncluded": false,
+      "seatSelectionIncluded": false,
+      "priorityBoarding": false
+    }
+  },
+  "fareOptions": [
     {
-      "fareId": "FL1001-CLASSIC",
+      "id": "FL1001-CLASSIC",
       "name": "Economy Classic",
+      "cabinClass": "economy",
       "price": 138.32,
       "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": false,
-      "changeable": true,
-      "checkedBaggageKg": 23,
-      "cabinBaggageKg": 8,
-      "seatsAvailable": 12
+      "seatsAvailable": 12,
+      "baggage": {
+        "personalItemIncluded": true,
+        "cabinBaggageKg": 8,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "refundable_with_fee",
+        "fee": 75.0
+      },
+      "changes": {
+        "policy": "changeable_with_fee",
+        "fee": 45.0
+      },
+      "amenities": {
+        "mealIncluded": false,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
     },
     {
-      "fareId": "FL1001-FLEX",
+      "id": "FL1001-FLEX",
       "name": "Economy Flex",
+      "cabinClass": "economy",
       "price": 180.88,
       "currency": "EUR",
-      "cabinClass": "economy",
-      "refundable": true,
-      "changeable": true,
-      "checkedBaggageKg": 23,
-      "cabinBaggageKg": 8,
-      "seatsAvailable": 3
+      "seatsAvailable": 3,
+      "baggage": {
+        "personalItemIncluded": true,
+        "cabinBaggageKg": 8,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "fully_refundable",
+        "fee": 0.0
+      },
+      "changes": {
+        "policy": "free_changes",
+        "fee": 0.0
+      },
+      "amenities": {
+        "mealIncluded": true,
+        "seatSelectionIncluded": true,
+        "priorityBoarding": true
+      }
     }
   ]
 }
