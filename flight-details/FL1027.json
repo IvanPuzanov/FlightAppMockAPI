@@ -96,13 +96,12 @@
   ],
   "fare": {
     "id": "FL1027-LIGHT",
-    "name": "Economy Light",
+    "name": "Light",
     "cabinClass": "economy",
     "price": 570,
     "currency": "EUR",
     "seatsAvailable": 9,
     "baggage": {
-      "personalItemIncluded": true,
       "cabinBaggageKg": 8,
       "cabinBaggagePieces": 1,
       "checkedBaggageKg": 0,
@@ -125,13 +124,12 @@
   "fareOptions": [
     {
       "id": "FL1027-CLASSIC",
-      "name": "Economy Classic",
+      "name": "Classic",
       "cabinClass": "economy",
       "price": 741,
       "currency": "EUR",
       "seatsAvailable": 12,
       "baggage": {
-        "personalItemIncluded": true,
         "cabinBaggageKg": 8,
         "cabinBaggagePieces": 1,
         "checkedBaggageKg": 23,
@@ -153,13 +151,12 @@
     },
     {
       "id": "FL1027-FLEX",
-      "name": "Economy Flex",
+      "name": "Flex",
       "cabinClass": "economy",
       "price": 969,
       "currency": "EUR",
       "seatsAvailable": 3,
       "baggage": {
-        "personalItemIncluded": true,
         "cabinBaggageKg": 8,
         "cabinBaggagePieces": 1,
         "checkedBaggageKg": 23,
