@@ -10,14 +10,14 @@ This repository acts as a lightweight stand-in for a backend: the app can load f
 |---|---|
 | [`airports.json`](airports.json) | Airports with `id`, `iata`, name, city, country, `latitude`/`longitude`, timezone, and inbound `flightIds` (only airports that appear as a flight destination) |
 | [`airlines.json`](airlines.json) | Airlines with IATA code, name, and logo URL |
-| [`flights.json`](flights.json) | Flight list items: airline, airports, ISO-8601 schedule, price, included baggage, stops, layovers, optional selling `status` |
-| [`flight-details/`](flight-details) | Per-flight details: route, ISO-8601 schedule, segments, layovers, selected `fare`, `fareOptions`, optional selling `status` |
+| [`flights.json`](flights.json) | Flight list items: airline, airports, ISO-8601 schedule, price, included baggage, optional selling `status` |
+| [`flight-details/`](flight-details) | Per-flight details: airline, ISO-8601 schedule, and available `fares` (baggage, cancellation, changes, amenities) |
 
 ## Dataset
 
 - **18** airports (destinations with inbound flights)
 - **18** airlines
-- **29** flights (`FL1001`–`FL1029`)
+- **29** flights (IDs match airline flight numbers, e.g. `OS101`, `TK64`, `LH400`)
 
 ## Example usage
 
@@ -27,7 +27,7 @@ Raw file URLs (replace `main` with a tag or commit SHA if you need a fixed versi
 https://raw.githubusercontent.com/IvanPuzanov/FlightAppMockAPI/main/airports.json
 https://raw.githubusercontent.com/IvanPuzanov/FlightAppMockAPI/main/flights.json
 https://raw.githubusercontent.com/IvanPuzanov/FlightAppMockAPI/main/airlines.json
-https://raw.githubusercontent.com/IvanPuzanov/FlightAppMockAPI/main/flight-details/FL1001.json
+https://raw.githubusercontent.com/IvanPuzanov/FlightAppMockAPI/main/flight-details/OS101.json
 ```
 
 ## Related

@@ -1,0 +1,93 @@
+{
+  "id": "BA304",
+  "airline": {
+    "code": "BA",
+    "name": "British Airways",
+    "logo": "https://images.kiwi.com/airlines/128/BA.png"
+  },
+  "departureDateTime": "2026-08-12T07:20:00+01:00",
+  "arrivalDateTime": "2026-08-12T09:35:00+02:00",
+  "fares": [
+    {
+      "id": "BA304-LIGHT",
+      "name": "Light",
+      "cabinClass": "economy",
+      "price": 136,
+      "currency": "EUR",
+      "seatsAvailable": 9,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 0,
+        "checkedBaggagePieces": 0
+      },
+      "cancellation": {
+        "policy": "non_refundable",
+        "fee": null
+      },
+      "changes": {
+        "policy": "non_changeable",
+        "fee": null
+      },
+      "amenities": {
+        "mealIncluded": false,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
+    },
+    {
+      "id": "BA304-CLASSIC",
+      "name": "Classic",
+      "cabinClass": "economy",
+      "price": 177,
+      "currency": "EUR",
+      "seatsAvailable": 12,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "refundable_with_fee",
+        "fee": 75
+      },
+      "changes": {
+        "policy": "changeable_with_fee",
+        "fee": 45
+      },
+      "amenities": {
+        "mealIncluded": false,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
+    },
+    {
+      "id": "BA304-FLEX",
+      "name": "Flex",
+      "cabinClass": "economy",
+      "price": 231,
+      "currency": "EUR",
+      "seatsAvailable": 3,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "fully_refundable",
+        "fee": 0
+      },
+      "changes": {
+        "policy": "free_changes",
+        "fee": 0
+      },
+      "amenities": {
+        "mealIncluded": true,
+        "seatSelectionIncluded": true,
+        "priorityBoarding": true
+      }
+    }
+  ]
+}

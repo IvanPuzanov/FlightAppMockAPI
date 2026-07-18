@@ -1,68 +1,118 @@
 [
   {
-    "id": "FL1001",
+    "id": "A3610",
     "airline": {
-      "code": "OS",
-      "name": "Austrian Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/OS.png"
+      "code": "A3",
+      "name": "Aegean Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/A3.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
     },
     "destination": {
-      "iata": "FRA",
-      "city": "Frankfurt",
-      "country": "Germany"
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
     },
-    "departureDateTime": "2026-08-12T06:35:00+02:00",
-    "arrivalDateTime": "2026-08-12T08:00:00+02:00",
-    "price": 106,
+    "departureDateTime": "2026-08-12T15:30:00+03:00",
+    "arrivalDateTime": "2026-08-12T16:55:00+02:00",
+    "price": 125,
     "currency": "EUR",
     "baggage": {
       "cabinBaggageKg": 8,
       "cabinBaggagePieces": 1,
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "recommended"
+    }
   },
   {
-    "id": "FL1002",
+    "id": "AF1204",
     "airline": {
-      "code": "LH",
-      "name": "Lufthansa",
-      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+      "code": "AF",
+      "name": "Air France",
+      "logo": "https://images.kiwi.com/airlines/128/AF.png"
     },
     "origin": {
-      "iata": "VIE",
-      "city": "Vienna",
-      "country": "Austria"
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
     },
     "destination": {
-      "iata": "FRA",
-      "city": "Frankfurt",
-      "country": "Germany"
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
     },
-    "departureDateTime": "2026-08-12T09:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T10:40:00+02:00",
-    "price": 80,
+    "departureDateTime": "2026-08-12T16:20:00+02:00",
+    "arrivalDateTime": "2026-08-12T18:30:00+02:00",
+    "price": 111,
     "currency": "EUR",
     "baggage": {
       "cabinBaggageKg": 8,
       "cabinBaggagePieces": 1,
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "best_price"
+    }
   },
   {
-    "id": "FL1003",
+    "id": "AZ720",
+    "airline": {
+      "code": "AZ",
+      "name": "ITA Airways",
+      "logo": "https://images.kiwi.com/airlines/128/AZ.png"
+    },
+    "origin": {
+      "iata": "FCO",
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "destination": {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
+    },
+    "departureDateTime": "2026-08-12T07:50:00+02:00",
+    "arrivalDateTime": "2026-08-12T11:15:00+03:00",
+    "price": 116,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 10,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "BA117",
+    "airline": {
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "https://images.kiwi.com/airlines/128/BA.png"
+    },
+    "origin": {
+      "iata": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    "destination": {
+      "iata": "JFK",
+      "city": "New York",
+      "country": "United States"
+    },
+    "departureDateTime": "2026-08-15T16:00:00+01:00",
+    "arrivalDateTime": "2026-08-15T19:10:00-04:00",
+    "price": 420,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "BA304",
     "airline": {
       "code": "BA",
       "name": "British Airways",
@@ -83,17 +133,15 @@
     "price": 136,
     "currency": "EUR",
     "baggage": {
-      "cabinBaggageKg": 8,
+      "cabinBaggageKg": 10,
       "cabinBaggagePieces": 1,
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
     },
-    "stops": 0,
-    "layovers": [],
     "status": "recommended"
   },
   {
-    "id": "FL1004",
+    "id": "BA440",
     "airline": {
       "code": "BA",
       "name": "British Airways",
@@ -119,103 +167,38 @@
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
     },
-    "stops": 0,
-    "layovers": [],
     "status": "best_price"
   },
   {
-    "id": "FL1005",
+    "id": "EK121",
     "airline": {
-      "code": "IB",
-      "name": "Iberia",
-      "logo": "https://images.kiwi.com/airlines/128/IB.png"
+      "code": "EK",
+      "name": "Emirates",
+      "logo": "https://images.kiwi.com/airlines/128/EK.png"
     },
     "origin": {
-      "iata": "BCN",
-      "city": "Barcelona",
-      "country": "Spain"
+      "iata": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
     },
     "destination": {
-      "iata": "MAD",
-      "city": "Madrid",
-      "country": "Spain"
-    },
-    "departureDateTime": "2026-08-12T05:55:00+02:00",
-    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
-    "price": 124,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1006",
-    "airline": {
-      "code": "W6",
-      "name": "Wizz Air",
-      "logo": "https://images.kiwi.com/airlines/128/W6.png"
-    },
-    "origin": {
-      "iata": "BUD",
-      "city": "Budapest",
-      "country": "Hungary"
-    },
-    "destination": {
-      "iata": "PRG",
-      "city": "Prague",
-      "country": "Czech Republic"
-    },
-    "departureDateTime": "2026-08-12T18:30:00+02:00",
-    "arrivalDateTime": "2026-08-12T19:40:00+02:00",
-    "price": 62,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "best_price"
-  },
-  {
-    "id": "FL1007",
-    "airline": {
-      "code": "TK",
-      "name": "Turkish Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/TK.png"
-    },
-    "origin": {
       "iata": "IST",
       "city": "Istanbul",
       "country": "Turkey"
     },
-    "destination": {
-      "iata": "ATH",
-      "city": "Athens",
-      "country": "Greece"
-    },
-    "departureDateTime": "2026-08-12T10:05:00+03:00",
-    "arrivalDateTime": "2026-08-12T11:35:00+03:00",
-    "price": 145,
+    "departureDateTime": "2026-08-14T09:20:00+04:00",
+    "arrivalDateTime": "2026-08-14T13:05:00+03:00",
+    "price": 382,
     "currency": "EUR",
     "baggage": {
-      "cabinBaggageKg": 8,
+      "cabinBaggageKg": 10,
       "cabinBaggagePieces": 1,
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
+    }
   },
   {
-    "id": "FL1008",
+    "id": "EK2",
     "airline": {
       "code": "EK",
       "name": "Emirates",
@@ -241,616 +224,10 @@
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
     },
-    "stops": 0,
-    "layovers": [],
     "status": "recommended"
   },
   {
-    "id": "FL1009",
-    "airline": {
-      "code": "QR",
-      "name": "Qatar Airways",
-      "logo": "https://images.kiwi.com/airlines/128/QR.png"
-    },
-    "origin": {
-      "iata": "DOH",
-      "city": "Doha",
-      "country": "Qatar"
-    },
-    "destination": {
-      "iata": "CDG",
-      "city": "Paris",
-      "country": "France"
-    },
-    "departureDateTime": "2026-08-12T14:40:00+03:00",
-    "arrivalDateTime": "2026-08-12T20:40:00+02:00",
-    "price": 346,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1010",
-    "airline": {
-      "code": "LX",
-      "name": "Swiss International Air Lines",
-      "logo": "https://images.kiwi.com/airlines/128/LX.png"
-    },
-    "origin": {
-      "iata": "ZRH",
-      "city": "Zurich",
-      "country": "Switzerland"
-    },
-    "destination": {
-      "iata": "MXP",
-      "city": "Milan",
-      "country": "Italy"
-    },
-    "departureDateTime": "2026-08-12T08:00:00+02:00",
-    "arrivalDateTime": "2026-08-12T08:55:00+02:00",
-    "price": 92,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1011",
-    "airline": {
-      "code": "KL",
-      "name": "KLM Royal Dutch Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/KL.png"
-    },
-    "origin": {
-      "iata": "AMS",
-      "city": "Amsterdam",
-      "country": "Netherlands"
-    },
-    "destination": {
-      "iata": "CPH",
-      "city": "Copenhagen",
-      "country": "Denmark"
-    },
-    "departureDateTime": "2026-08-12T11:45:00+02:00",
-    "arrivalDateTime": "2026-08-12T13:05:00+02:00",
-    "price": 122,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1012",
-    "airline": {
-      "code": "AF",
-      "name": "Air France",
-      "logo": "https://images.kiwi.com/airlines/128/AF.png"
-    },
-    "origin": {
-      "iata": "CDG",
-      "city": "Paris",
-      "country": "France"
-    },
-    "destination": {
-      "iata": "FCO",
-      "city": "Rome",
-      "country": "Italy"
-    },
-    "departureDateTime": "2026-08-12T16:20:00+02:00",
-    "arrivalDateTime": "2026-08-12T18:30:00+02:00",
-    "price": 111,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1013",
-    "airline": {
-      "code": "AZ",
-      "name": "ITA Airways",
-      "logo": "https://images.kiwi.com/airlines/128/AZ.png"
-    },
-    "origin": {
-      "iata": "FCO",
-      "city": "Rome",
-      "country": "Italy"
-    },
-    "destination": {
-      "iata": "ATH",
-      "city": "Athens",
-      "country": "Greece"
-    },
-    "departureDateTime": "2026-08-12T07:50:00+02:00",
-    "arrivalDateTime": "2026-08-12T11:15:00+03:00",
-    "price": 116,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1014",
-    "airline": {
-      "code": "SK",
-      "name": "SAS Scandinavian Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/SK.png"
-    },
-    "origin": {
-      "iata": "CPH",
-      "city": "Copenhagen",
-      "country": "Denmark"
-    },
-    "destination": {
-      "iata": "WAW",
-      "city": "Warsaw",
-      "country": "Poland"
-    },
-    "departureDateTime": "2026-08-12T12:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T13:45:00+02:00",
-    "price": 102,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1015",
-    "airline": {
-      "code": "IB",
-      "name": "Iberia",
-      "logo": "https://images.kiwi.com/airlines/128/IB.png"
-    },
-    "origin": {
-      "iata": "MAD",
-      "city": "Madrid",
-      "country": "Spain"
-    },
-    "destination": {
-      "iata": "BCN",
-      "city": "Barcelona",
-      "country": "Spain"
-    },
-    "departureDateTime": "2026-08-12T09:40:00+02:00",
-    "arrivalDateTime": "2026-08-12T10:55:00+02:00",
-    "price": 134,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1016",
-    "airline": {
-      "code": "LO",
-      "name": "LOT Polish Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/LO.png"
-    },
-    "origin": {
-      "iata": "WAW",
-      "city": "Warsaw",
-      "country": "Poland"
-    },
-    "destination": {
-      "iata": "BUD",
-      "city": "Budapest",
-      "country": "Hungary"
-    },
-    "departureDateTime": "2026-08-12T19:05:00+02:00",
-    "arrivalDateTime": "2026-08-12T20:15:00+02:00",
-    "price": 106,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1017",
-    "airline": {
-      "code": "A3",
-      "name": "Aegean Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/A3.png"
-    },
-    "origin": {
-      "iata": "ATH",
-      "city": "Athens",
-      "country": "Greece"
-    },
-    "destination": {
-      "iata": "FCO",
-      "city": "Rome",
-      "country": "Italy"
-    },
-    "departureDateTime": "2026-08-12T15:30:00+03:00",
-    "arrivalDateTime": "2026-08-12T16:55:00+02:00",
-    "price": 125,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1018",
-    "airline": {
-      "code": "SU",
-      "name": "Aeroflot",
-      "logo": "https://images.kiwi.com/airlines/128/SU.png"
-    },
-    "origin": {
-      "iata": "SVO",
-      "city": "Moscow",
-      "country": "Russia"
-    },
-    "destination": {
-      "iata": "IST",
-      "city": "Istanbul",
-      "country": "Turkey"
-    },
-    "departureDateTime": "2026-08-12T13:50:00+03:00",
-    "arrivalDateTime": "2026-08-12T17:20:00+03:00",
-    "price": 127,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1019",
-    "airline": {
-      "code": "LH",
-      "name": "Lufthansa",
-      "logo": "https://images.kiwi.com/airlines/128/LH.png"
-    },
-    "origin": {
-      "iata": "MUC",
-      "city": "Munich",
-      "country": "Germany"
-    },
-    "destination": {
-      "iata": "FRA",
-      "city": "Frankfurt",
-      "country": "Germany"
-    },
-    "departureDateTime": "2026-08-12T06:10:00+02:00",
-    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
-    "price": 81,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "best_price"
-  },
-  {
-    "id": "FL1020",
-    "airline": {
-      "code": "LH",
-      "name": "Lufthansa",
-      "logo": "https://images.kiwi.com/airlines/128/LH.png"
-    },
-    "origin": {
-      "iata": "MUC",
-      "city": "Munich",
-      "country": "Germany"
-    },
-    "destination": {
-      "iata": "ZRH",
-      "city": "Zurich",
-      "country": "Switzerland"
-    },
-    "departureDateTime": "2026-08-12T17:45:00+02:00",
-    "arrivalDateTime": "2026-08-12T18:35:00+02:00",
-    "price": 93,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "recommended"
-  },
-  {
-    "id": "FL1021",
-    "airline": {
-      "code": "FR",
-      "name": "Ryanair",
-      "logo": "https://images.kiwi.com/airlines/128/FR.png"
-    },
-    "origin": {
-      "iata": "MXP",
-      "city": "Milan",
-      "country": "Italy"
-    },
-    "destination": {
-      "iata": "BCN",
-      "city": "Barcelona",
-      "country": "Spain"
-    },
-    "departureDateTime": "2026-08-12T20:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T21:45:00+02:00",
-    "price": 86,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1022",
-    "airline": {
-      "code": "W6",
-      "name": "Wizz Air",
-      "logo": "https://images.kiwi.com/airlines/128/W6.png"
-    },
-    "origin": {
-      "iata": "PRG",
-      "city": "Prague",
-      "country": "Czech Republic"
-    },
-    "destination": {
-      "iata": "WAW",
-      "city": "Warsaw",
-      "country": "Poland"
-    },
-    "departureDateTime": "2026-08-12T08:35:00+02:00",
-    "arrivalDateTime": "2026-08-12T09:50:00+02:00",
-    "price": 91,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": [],
-    "status": "fastest"
-  },
-  {
-    "id": "FL1023",
-    "airline": {
-      "code": "EK",
-      "name": "Emirates",
-      "logo": "https://images.kiwi.com/airlines/128/EK.png"
-    },
-    "origin": {
-      "iata": "DXB",
-      "city": "Dubai",
-      "country": "United Arab Emirates"
-    },
-    "destination": {
-      "iata": "IST",
-      "city": "Istanbul",
-      "country": "Turkey"
-    },
-    "departureDateTime": "2026-08-14T09:20:00+04:00",
-    "arrivalDateTime": "2026-08-14T13:05:00+03:00",
-    "price": 382,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1024",
-    "airline": {
-      "code": "BA",
-      "name": "British Airways",
-      "logo": "https://images.kiwi.com/airlines/128/BA.png"
-    },
-    "origin": {
-      "iata": "LHR",
-      "city": "London",
-      "country": "United Kingdom"
-    },
-    "destination": {
-      "iata": "JFK",
-      "city": "New York",
-      "country": "United States"
-    },
-    "departureDateTime": "2026-08-15T16:00:00+01:00",
-    "arrivalDateTime": "2026-08-15T19:10:00-04:00",
-    "price": 420,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1025",
-    "airline": {
-      "code": "TK",
-      "name": "Turkish Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/TK.png"
-    },
-    "origin": {
-      "iata": "IST",
-      "city": "Istanbul",
-      "country": "Turkey"
-    },
-    "destination": {
-      "iata": "AMS",
-      "city": "Amsterdam",
-      "country": "Netherlands"
-    },
-    "departureDateTime": "2026-08-15T15:20:00+03:00",
-    "arrivalDateTime": "2026-08-15T17:45:00+02:00",
-    "price": 123,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 0,
-    "layovers": []
-  },
-  {
-    "id": "FL1026",
-    "airline": {
-      "code": "LH",
-      "name": "Lufthansa",
-      "logo": "https://images.kiwi.com/airlines/128/LH.png"
-    },
-    "origin": {
-      "iata": "MUC",
-      "city": "Munich",
-      "country": "Germany"
-    },
-    "destination": {
-      "iata": "JFK",
-      "city": "New York",
-      "country": "United States"
-    },
-    "departureDateTime": "2026-08-12T09:15:00+02:00",
-    "arrivalDateTime": "2026-08-12T15:40:00-04:00",
-    "price": 466,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 1,
-    "layovers": [
-      {
-        "airport": {
-          "iata": "FRA",
-          "city": "Frankfurt",
-          "country": "Germany"
-        },
-        "airline": {
-          "code": "LH",
-          "name": "Lufthansa",
-          "logo": "https://images.kiwi.com/airlines/128/LH.png"
-        },
-        "durationMinutes": 145,
-        "departureDateTime": "2026-08-12T12:35:00+02:00"
-      }
-    ]
-  },
-  {
-    "id": "FL1027",
-    "airline": {
-      "code": "TK",
-      "name": "Turkish Airlines",
-      "logo": "https://images.kiwi.com/airlines/128/TK.png"
-    },
-    "origin": {
-      "iata": "CDG",
-      "city": "Paris",
-      "country": "France"
-    },
-    "destination": {
-      "iata": "BKK",
-      "city": "Bangkok",
-      "country": "Thailand"
-    },
-    "departureDateTime": "2026-08-12T10:05:00+02:00",
-    "arrivalDateTime": "2026-08-13T05:35:00+07:00",
-    "price": 570,
-    "currency": "EUR",
-    "baggage": {
-      "cabinBaggageKg": 8,
-      "cabinBaggagePieces": 1,
-      "checkedBaggageKg": 0,
-      "checkedBaggagePieces": 0
-    },
-    "stops": 1,
-    "layovers": [
-      {
-        "airport": {
-          "iata": "IST",
-          "city": "Istanbul",
-          "country": "Turkey"
-        },
-        "airline": {
-          "code": "TK",
-          "name": "Turkish Airlines",
-          "logo": "https://images.kiwi.com/airlines/128/TK.png"
-        },
-        "durationMinutes": 110,
-        "departureDateTime": "2026-08-12T16:05:00+03:00"
-      }
-    ],
-    "status": "recommended"
-  },
-  {
-    "id": "FL1028",
+    "id": "EK420",
     "airline": {
       "code": "EK",
       "name": "Emirates",
@@ -876,27 +253,350 @@
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
     },
-    "stops": 1,
-    "layovers": [
-      {
-        "airport": {
-          "iata": "DXB",
-          "city": "Dubai",
-          "country": "United Arab Emirates"
-        },
-        "airline": {
-          "code": "EK",
-          "name": "Emirates",
-          "logo": "https://images.kiwi.com/airlines/128/EK.png"
-        },
-        "durationMinutes": -110,
-        "departureDateTime": "2026-08-13T05:00:00+04:00"
-      }
-    ],
     "status": "recommended"
   },
   {
-    "id": "FL1029",
+    "id": "FR9012",
+    "airline": {
+      "code": "FR",
+      "name": "Ryanair",
+      "logo": "https://images.kiwi.com/airlines/128/FR.png"
+    },
+    "origin": {
+      "iata": "MXP",
+      "city": "Milan",
+      "country": "Italy"
+    },
+    "destination": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
+    "departureDateTime": "2026-08-12T20:15:00+02:00",
+    "arrivalDateTime": "2026-08-12T21:45:00+02:00",
+    "price": 86,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 7,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "IB3165",
+    "airline": {
+      "code": "IB",
+      "name": "Iberia",
+      "logo": "https://images.kiwi.com/airlines/128/IB.png"
+    },
+    "origin": {
+      "iata": "MAD",
+      "city": "Madrid",
+      "country": "Spain"
+    },
+    "destination": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
+    "departureDateTime": "2026-08-12T09:40:00+02:00",
+    "arrivalDateTime": "2026-08-12T10:55:00+02:00",
+    "price": 134,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 12,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "IB3201",
+    "airline": {
+      "code": "IB",
+      "name": "Iberia",
+      "logo": "https://images.kiwi.com/airlines/128/IB.png"
+    },
+    "origin": {
+      "iata": "BCN",
+      "city": "Barcelona",
+      "country": "Spain"
+    },
+    "destination": {
+      "iata": "MAD",
+      "city": "Madrid",
+      "country": "Spain"
+    },
+    "departureDateTime": "2026-08-12T05:55:00+02:00",
+    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
+    "price": 124,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 12,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "KL1128",
+    "airline": {
+      "code": "KL",
+      "name": "KLM Royal Dutch Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/KL.png"
+    },
+    "origin": {
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    },
+    "destination": {
+      "iata": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark"
+    },
+    "departureDateTime": "2026-08-12T11:45:00+02:00",
+    "arrivalDateTime": "2026-08-12T13:05:00+02:00",
+    "price": 122,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 7,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "LH1104",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
+    "departureDateTime": "2026-08-12T09:15:00+02:00",
+    "arrivalDateTime": "2026-08-12T10:40:00+02:00",
+    "price": 80,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "best_price"
+  },
+  {
+    "id": "LH2366",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
+    },
+    "destination": {
+      "iata": "ZRH",
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
+    "departureDateTime": "2026-08-12T17:45:00+02:00",
+    "arrivalDateTime": "2026-08-12T18:35:00+02:00",
+    "price": 93,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 10,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "recommended"
+  },
+  {
+    "id": "LH400",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
+    },
+    "destination": {
+      "iata": "JFK",
+      "city": "New York",
+      "country": "United States"
+    },
+    "departureDateTime": "2026-08-12T09:15:00+02:00",
+    "arrivalDateTime": "2026-08-12T15:40:00-04:00",
+    "price": 466,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "LH96",
+    "airline": {
+      "code": "LH",
+      "name": "Lufthansa",
+      "logo": "https://images.kiwi.com/airlines/128/LH.png"
+    },
+    "origin": {
+      "iata": "MUC",
+      "city": "Munich",
+      "country": "Germany"
+    },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
+    "departureDateTime": "2026-08-12T06:10:00+02:00",
+    "arrivalDateTime": "2026-08-12T07:05:00+02:00",
+    "price": 81,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 7,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "best_price"
+  },
+  {
+    "id": "LO532",
+    "airline": {
+      "code": "LO",
+      "name": "LOT Polish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/LO.png"
+    },
+    "origin": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
+    "destination": {
+      "iata": "BUD",
+      "city": "Budapest",
+      "country": "Hungary"
+    },
+    "departureDateTime": "2026-08-12T19:05:00+02:00",
+    "arrivalDateTime": "2026-08-12T20:15:00+02:00",
+    "price": 106,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "LX1612",
+    "airline": {
+      "code": "LX",
+      "name": "Swiss International Air Lines",
+      "logo": "https://images.kiwi.com/airlines/128/LX.png"
+    },
+    "origin": {
+      "iata": "ZRH",
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
+    "destination": {
+      "iata": "MXP",
+      "city": "Milan",
+      "country": "Italy"
+    },
+    "departureDateTime": "2026-08-12T08:00:00+02:00",
+    "arrivalDateTime": "2026-08-12T08:55:00+02:00",
+    "price": 92,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 10,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "OS101",
+    "airline": {
+      "code": "OS",
+      "name": "Austrian Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/OS.png"
+    },
+    "origin": {
+      "iata": "VIE",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    "destination": {
+      "iata": "FRA",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
+    "departureDateTime": "2026-08-12T06:35:00+02:00",
+    "arrivalDateTime": "2026-08-12T08:00:00+02:00",
+    "price": 106,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 7,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "recommended"
+  },
+  {
+    "id": "QR39",
+    "airline": {
+      "code": "QR",
+      "name": "Qatar Airways",
+      "logo": "https://images.kiwi.com/airlines/128/QR.png"
+    },
+    "origin": {
+      "iata": "DOH",
+      "city": "Doha",
+      "country": "Qatar"
+    },
+    "destination": {
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    "departureDateTime": "2026-08-12T14:40:00+03:00",
+    "arrivalDateTime": "2026-08-12T20:40:00+02:00",
+    "price": 346,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "QR940",
     "airline": {
       "code": "QR",
       "name": "Qatar Airways",
@@ -922,23 +622,205 @@
       "checkedBaggageKg": 0,
       "checkedBaggagePieces": 0
     },
-    "stops": 1,
-    "layovers": [
-      {
-        "airport": {
-          "iata": "DOH",
-          "city": "Doha",
-          "country": "Qatar"
-        },
-        "airline": {
-          "code": "QR",
-          "name": "Qatar Airways",
-          "logo": "https://images.kiwi.com/airlines/128/QR.png"
-        },
-        "durationMinutes": 135,
-        "departureDateTime": "2026-08-12T23:55:00+03:00"
-      }
-    ],
+    "status": "best_price"
+  },
+  {
+    "id": "SK1580",
+    "airline": {
+      "code": "SK",
+      "name": "SAS Scandinavian Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/SK.png"
+    },
+    "origin": {
+      "iata": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark"
+    },
+    "destination": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
+    "departureDateTime": "2026-08-12T12:15:00+02:00",
+    "arrivalDateTime": "2026-08-12T13:45:00+02:00",
+    "price": 102,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "SU2130",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot",
+      "logo": "https://images.kiwi.com/airlines/128/SU.png"
+    },
+    "origin": {
+      "iata": "SVO",
+      "city": "Moscow",
+      "country": "Russia"
+    },
+    "destination": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    "departureDateTime": "2026-08-12T13:50:00+03:00",
+    "arrivalDateTime": "2026-08-12T17:20:00+03:00",
+    "price": 127,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "TK1952",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    "destination": {
+      "iata": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    },
+    "departureDateTime": "2026-08-15T15:20:00+03:00",
+    "arrivalDateTime": "2026-08-15T17:45:00+02:00",
+    "price": 123,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 12,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "TK2180",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    "destination": {
+      "iata": "ATH",
+      "city": "Athens",
+      "country": "Greece"
+    },
+    "departureDateTime": "2026-08-12T10:05:00+03:00",
+    "arrivalDateTime": "2026-08-12T11:35:00+03:00",
+    "price": 145,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    }
+  },
+  {
+    "id": "TK64",
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "https://images.kiwi.com/airlines/128/TK.png"
+    },
+    "origin": {
+      "iata": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    "destination": {
+      "iata": "BKK",
+      "city": "Bangkok",
+      "country": "Thailand"
+    },
+    "departureDateTime": "2026-08-12T10:05:00+02:00",
+    "arrivalDateTime": "2026-08-13T05:35:00+07:00",
+    "price": 570,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "recommended"
+  },
+  {
+    "id": "W61540",
+    "airline": {
+      "code": "W6",
+      "name": "Wizz Air",
+      "logo": "https://images.kiwi.com/airlines/128/W6.png"
+    },
+    "origin": {
+      "iata": "PRG",
+      "city": "Prague",
+      "country": "Czech Republic"
+    },
+    "destination": {
+      "iata": "WAW",
+      "city": "Warsaw",
+      "country": "Poland"
+    },
+    "departureDateTime": "2026-08-12T08:35:00+02:00",
+    "arrivalDateTime": "2026-08-12T09:50:00+02:00",
+    "price": 91,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
+    "status": "fastest"
+  },
+  {
+    "id": "W62201",
+    "airline": {
+      "code": "W6",
+      "name": "Wizz Air",
+      "logo": "https://images.kiwi.com/airlines/128/W6.png"
+    },
+    "origin": {
+      "iata": "BUD",
+      "city": "Budapest",
+      "country": "Hungary"
+    },
+    "destination": {
+      "iata": "PRG",
+      "city": "Prague",
+      "country": "Czech Republic"
+    },
+    "departureDateTime": "2026-08-12T18:30:00+02:00",
+    "arrivalDateTime": "2026-08-12T19:40:00+02:00",
+    "price": 62,
+    "currency": "EUR",
+    "baggage": {
+      "cabinBaggageKg": 8,
+      "cabinBaggagePieces": 1,
+      "checkedBaggageKg": 0,
+      "checkedBaggagePieces": 0
+    },
     "status": "best_price"
   }
 ]

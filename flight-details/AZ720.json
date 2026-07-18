@@ -1,0 +1,93 @@
+{
+  "id": "AZ720",
+  "airline": {
+    "code": "AZ",
+    "name": "ITA Airways",
+    "logo": "https://images.kiwi.com/airlines/128/AZ.png"
+  },
+  "departureDateTime": "2026-08-12T07:50:00+02:00",
+  "arrivalDateTime": "2026-08-12T11:15:00+03:00",
+  "fares": [
+    {
+      "id": "AZ720-LIGHT",
+      "name": "Light",
+      "cabinClass": "economy",
+      "price": 116,
+      "currency": "EUR",
+      "seatsAvailable": 9,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 0,
+        "checkedBaggagePieces": 0
+      },
+      "cancellation": {
+        "policy": "non_refundable",
+        "fee": null
+      },
+      "changes": {
+        "policy": "non_changeable",
+        "fee": null
+      },
+      "amenities": {
+        "mealIncluded": false,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
+    },
+    {
+      "id": "AZ720-CLASSIC",
+      "name": "Classic",
+      "cabinClass": "economy",
+      "price": 151,
+      "currency": "EUR",
+      "seatsAvailable": 12,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "refundable_with_fee",
+        "fee": 75
+      },
+      "changes": {
+        "policy": "changeable_with_fee",
+        "fee": 45
+      },
+      "amenities": {
+        "mealIncluded": false,
+        "seatSelectionIncluded": false,
+        "priorityBoarding": false
+      }
+    },
+    {
+      "id": "AZ720-FLEX",
+      "name": "Flex",
+      "cabinClass": "economy",
+      "price": 197,
+      "currency": "EUR",
+      "seatsAvailable": 3,
+      "baggage": {
+        "cabinBaggageKg": 10,
+        "cabinBaggagePieces": 1,
+        "checkedBaggageKg": 23,
+        "checkedBaggagePieces": 1
+      },
+      "cancellation": {
+        "policy": "fully_refundable",
+        "fee": 0
+      },
+      "changes": {
+        "policy": "free_changes",
+        "fee": 0
+      },
+      "amenities": {
+        "mealIncluded": true,
+        "seatSelectionIncluded": true,
+        "priorityBoarding": true
+      }
+    }
+  ]
+}
